@@ -87,7 +87,7 @@
   ],
 
   "homeCarrierScopes": [
-    { "label": "JAL(JL) 東京発 最安路線 TOP5", "airline": "JL", "top": 5 },
-    { "label": "ANA(NH) 東京発 最安路線 TOP5", "airline": "NH", "top": 5 }
+    { "label": "JAL(JL) 東京発 最安路線 TOP5(国際線)", "airline": "JL", "top": 5, "excludeDomestic": true },
+    { "label": "ANA(NH) 東京発 最安路線 TOP5(国際線)", "airline": "NH", "top": 5, "excludeDomestic": true }
   ]
-}
+
