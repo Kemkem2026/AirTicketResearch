@@ -1,0 +1,35 @@
+name: Fare Check
+
+on:
+  schedule:
+    # 6時間ごとに実行 (UTC基準。JSTは+9時間)
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  check-fares:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run fare check
+        env:
+          TRAVELPAYOUTS_TOKEN: ${{ secrets.TRAVELPAYOUTS_TOKEN }}
+        run: node scripts/check-fares.mjs
+
+      - name: Commit updated results
+        run: |
+          git config user.name "fare-finder-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/results.json
+          git diff --quiet --cached || git commit -m "chore: update fare results"
+          git push
