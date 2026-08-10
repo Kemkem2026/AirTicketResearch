@@ -262,8 +262,12 @@ async function main() {
 
   // ===== 3. homeCarrierScopes: JAL/ANAなど自社の東京発最安路線TOP N =====
   const homeCarrierResults = [];
-  for (const hc of config.homeCarrierScopes || []) {
-    const candidates = enriched.filter((f) => f.airline === hc.airline);
+    for (const hc of config.homeCarrierScopes || []) {
+    let candidates = enriched.filter((f) => f.airline === hc.airline);
+    if (hc.excludeDomestic) {
+      candidates = candidates.filter((f) => f.countryCode !== "JP");
+    }
+
 
     const cheapestByDestination = {};
     for (const f of candidates) {
