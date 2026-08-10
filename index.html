@@ -323,6 +323,179 @@
     }, 4000);
   }
 
-  function clearToken() {
+    function clearToken() {
     localStorage.removeItem(TOKEN_KEY);
-    document.getElementById("update
+    document.getElementById("updateStatus").textContent = "保存済みトークンを削除しました。";
+  }
+
+  async function load() {
+    const mainEl = document.getElementById("main");
+    const updatedEl = document.getElementById("updated");
+
+    try {
+      const res = await fetch("./data/results.json", { cache: "no-store" });
+      const data = await res.json();
+
+      const hasAny =
+        (data.scopes && data.scopes.length > 0) ||
+        (data.carrierScopes && data.carrierScopes.length > 0) ||
+        (data.homeCarrierScopes && data.homeCarrierScopes.length > 0);
+
+      if (!data.generatedAt || !hasAny) {
+        updatedEl.textContent = "まだチェックが実行されていません";
+        mainEl.innerHTML = `<div class="scope"><div class="empty">
+          config.jsonでscope等を設定し、GitHub Actionsを一度実行すると<br>ここに結果が表示されます。
+        </div></div>`;
+        return;
+      }
+
+      const tripType = data.oneWay === false ? "往復" : "片道";
+      updatedEl.textContent =
+        "最終更新: " + new Date(data.generatedAt).toLocaleString("ja-JP") +
+        " / 出発地: " + data.origins.join(", ") +
+        " / " + tripType;
+
+      // ===== JAL/ANA 自社セクション =====
+      if (data.homeCarrierScopes && data.homeCarrierScopes.length > 0) {
+        mainEl.insertAdjacentHTML("beforeend", `<div class="section-title">JAL / ANA:東京発 最安路線</div>`);
+
+        for (const hc of data.homeCarrierScopes) {
+          let rowsHtml = `
+            <div class="row head">
+              <div>行き先</div><div>最安値</div><div>航空会社</div><div>日程</div>
+            </div>`;
+
+          if (!hc.results || hc.results.length === 0) {
+            rowsHtml += `<div class="empty">データが見つかりませんでした</div>`;
+          } else {
+            hc.results.forEach((r, i) => {
+              rowsHtml += `
+                <div class="row">
+                  <div><span class="rank">${String(i + 1).padStart(2, "0")}</span><span class="dest">${r.cityName || r.destination}${r.countryName ? " / " + r.countryName : ""}</span><span class="dest-code">${r.origin} → ${r.destination}</span></div>
+                  <div class="price">${fmtPrice(r.price, data.currency)}</div>
+                  <div><span class="badge home">${hc.airline}</span></div>
+                  <div>${fmtDateRange(r.departureAt, r.returnAt)}</div>
+                </div>`;
+            });
+          }
+
+          mainEl.insertAdjacentHTML("beforeend", `
+            <section class="scope">
+              <div class="scope-head">
+                <div class="scope-title">${hc.label}</div>
+              </div>
+              ${rowsHtml}
+            </section>
+          `);
+        }
+      }
+
+      // ===== 地域 × 航空連合 =====
+      if (data.scopes && data.scopes.length > 0) {
+        mainEl.insertAdjacentHTML("beforeend", `<div class="section-title">地域 × 航空連合</div>`);
+      }
+
+      for (const scope of data.scopes || []) {
+        const badges = scope.alliances
+          .map((a) => `<span class="badge ${a}">${allianceLabel[a] || a}</span>`)
+          .join("");
+
+        let rowsHtml = `
+          <div class="row head">
+            <div>行き先</div><div>最安値</div><div>航空会社/連合</div><div>日程</div>
+          </div>`;
+
+        if (scope.results.length === 0) {
+          rowsHtml += `<div class="empty">条件に合う結果が見つかりませんでした</div>`;
+        } else {
+          scope.results.forEach((r, i) => {
+            rowsHtml += `
+              <div class="row">
+                <div><span class="rank">${String(i + 1).padStart(2, "0")}</span><span class="dest">${r.cityName || r.destination}${r.countryName ? " / " + r.countryName : ""}</span><span class="dest-code">${r.origin} → ${r.destination}</span></div>
+                <div class="price">${fmtPrice(r.price, data.currency)}</div>
+                <div><span class="badge ${r.alliance}">${r.airline} · ${allianceLabel[r.alliance] || r.alliance}</span></div>
+                <div>${fmtDateRange(r.departureAt, r.returnAt)}</div>
+              </div>`;
+          });
+        }
+
+        mainEl.insertAdjacentHTML("beforeend", `
+          <section class="scope">
+            <div class="scope-head">
+              <div class="scope-title">${scope.label}</div>
+              <div class="scope-alliances">${badges}</div>
+            </div>
+            ${rowsHtml}
+          </section>
+        `);
+      }
+
+      // ===== 航空会社別(連合単位 or 個別指定) =====
+      if (data.carrierScopes && data.carrierScopes.length > 0) {
+        mainEl.insertAdjacentHTML("beforeend", `<div class="section-title">航空会社別:本拠地乗り継ぎでどの地域が安いか</div>`);
+      }
+
+      for (const cs of data.carrierScopes || []) {
+        if (!cs.airlines || cs.airlines.length === 0) {
+          mainEl.insertAdjacentHTML("beforeend", `
+            <section class="scope">
+              <div class="scope-head"><div class="scope-title">${cs.label}</div></div>
+              <div class="empty">該当データが見つかりませんでした</div>
+            </section>`);
+          continue;
+        }
+
+        const sortedAirlines = [...cs.airlines].sort(
+          (a, b) => a.groupResults[0].price - b.groupResults[0].price
+        );
+
+        const airlinesHtml = sortedAirlines
+          .map((a) => {
+            const top = a.groupResults[0];
+            const nameLabel = a.airlineName ? `<span class="airline-name">(${a.airlineName})</span> ` : "";
+            const bodyRows = a.groupResults
+              .map(
+                (g) => `
+                <div class="carrier-row">
+                  <span class="group-name">${g.group} — ${g.cityName}${g.countryName ? " / " + g.countryName : ""} <span style="opacity:0.6">(${fmtDateRange(g.departureAt, g.returnAt)})</span></span>
+                  <span class="group-price">${fmtPrice(g.price, data.currency)}</span>
+                </div>`
+              )
+              .join("");
+            return `
+              <details class="carrier">
+                <summary>
+                  <span class="airline-code">${a.airline}</span>
+                  <span class="cheapest-line">${nameLabel}最安地域: ${top.group}(${top.cityName}${top.countryName ? " / " + top.countryName : ""}・${fmtDateRange(top.departureAt, top.returnAt)})</span>
+                  <span class="cheapest-price">${fmtPrice(top.price, data.currency)}</span>
+                </summary>
+                <div class="carrier-body">${bodyRows}</div>
+              </details>`;
+          })
+          .join("");
+
+        const badgeHtml = cs.mode === "alliance"
+          ? `<span class="badge ${cs.alliance}">${allianceLabel[cs.alliance] || cs.alliance}</span>`
+          : `<span class="badge other">個別指定</span>`;
+
+        mainEl.insertAdjacentHTML("beforeend", `
+          <section class="scope">
+            <div class="scope-head">
+              <div class="scope-title">${cs.label}</div>
+              ${badgeHtml}
+            </div>
+            ${airlinesHtml}
+          </section>
+        `);
+      }
+    } catch (e) {
+      updatedEl.textContent = "読み込みに失敗しました";
+      console.error(e);
+    }
+  }
+
+  load();
+</script>
+
+</body>
+</html>
