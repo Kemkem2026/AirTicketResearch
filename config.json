@@ -1,8 +1,12 @@
 {
   "currency": "jpy",
   "origins": ["TYO"],
-  "period": { "type": "month", "beginningOfPeriod": "2026-11-01" },
-  "oneWay": true,
+  "oneWay": false,
+  "period": {
+    "type": "month",
+    "beginningOfPeriod": "2026-11-01",
+    "returnMonth": "2026-11-08"
+  },
   "resultsPerScope": 8,
 
   "customGroups": {
@@ -41,10 +45,49 @@
 
   "carrierScopes": [
     {
-      "label": "oneworld加盟の海外航空会社:本拠地乗り継ぎでどの地域が安いか",
+      "label": "oneworld加盟の海外航空会社(往復・本拠地乗り継ぎでどの地域が安いか)",
+      "mode": "alliance",
       "alliance": "oneworld",
       "excludeAirlines": ["JL"],
       "groupBy": "subregion"
+    },
+    {
+      "label": "SkyTeam加盟の海外航空会社(往復)",
+      "mode": "alliance",
+      "alliance": "skyteam",
+      "excludeAirlines": [],
+      "groupBy": "subregion"
+    },
+    {
+      "label": "Star Alliance加盟の海外航空会社(往復)",
+      "mode": "alliance",
+      "alliance": "staralliance",
+      "excludeAirlines": ["NH"],
+      "groupBy": "subregion"
+    },
+    {
+      "label": "独立系・LCC等(エミレーツ/中国系/AirAsia系/スクート)",
+      "mode": "airlines",
+      "airlines": {
+        "EK": "エミレーツ航空",
+        "HU": "海南航空",
+        "JD": "首都航空",
+        "3U": "四川航空",
+        "JX": "スターラックス航空",
+        "AK": "エアアジア(マレーシア)",
+        "FD": "タイ・エアアジア",
+        "QZ": "インドネシア・エアアジア",
+        "Z2": "エアアジア(フィリピン)",
+        "D7": "エアアジアX",
+        "XJ": "タイ・エアアジアX",
+        "TR": "スクート"
+      },
+      "groupBy": "subregion"
     }
+  ],
+
+  "homeCarrierScopes": [
+    { "label": "JAL(JL) 東京発 最安路線 TOP5", "airline": "JL", "top": 5 },
+    { "label": "ANA(NH) 東京発 最安路線 TOP5", "airline": "NH", "top": 5 }
   ]
 }
