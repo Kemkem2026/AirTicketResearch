@@ -1,12 +1,14 @@
 {
-  "generatedAt": "2026-08-10T15:04:28.628Z",
+  "generatedAt": "2026-08-10T15:29:48.775Z",
   "currency": "jpy",
   "origins": [
     "TYO"
   ],
+  "oneWay": false,
   "period": {
     "type": "month",
-    "beginningOfPeriod": "2026-11-01"
+    "beginningOfPeriod": "2026-11-01",
+    "returnMonth": "2026-11-08"
   },
   "scopes": [
     {
@@ -121,22 +123,22 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 79471,
-          "airline": "MU",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-18T10:55:00+09:00",
-          "returnAt": "2026-12-04T20:50:00+06:00"
+          "price": 86437,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-24T15:25:00+09:00",
+          "returnAt": "2026-11-29T21:30:00+06:00"
         },
         {
           "destination": "TAS",
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 85273,
+          "price": 87711,
           "airline": "CA",
           "alliance": "staralliance",
-          "departureAt": "2026-11-26T08:30:00+09:00",
-          "returnAt": "2026-12-15T21:10:00+05:00"
+          "departureAt": "2026-11-13T14:20:00+09:00",
+          "returnAt": "2026-11-21T21:10:00+05:00"
         },
         {
           "destination": "BAK",
@@ -154,12 +156,14 @@
   ],
   "carrierScopes": [
     {
-      "label": "oneworld加盟の海外航空会社:本拠地乗り継ぎでどの地域が安いか",
+      "label": "oneworld加盟の海外航空会社(往復・本拠地乗り継ぎでどの地域が安いか)",
+      "mode": "alliance",
       "alliance": "oneworld",
       "groupBy": "subregion",
       "airlines": [
         {
           "airline": "CX",
+          "airlineName": null,
           "groupResults": [
             {
               "group": "Melanesia",
@@ -170,21 +174,12 @@
               "price": 144550,
               "departureAt": "2026-11-06T10:10:00+09:00",
               "returnAt": "2026-11-13T23:55:00+13:00"
-            },
-            {
-              "group": "South America",
-              "destination": "BUE",
-              "cityName": "Buenos Aires",
-              "countryName": "Argentina",
-              "origin": "TYO",
-              "price": 264593,
-              "departureAt": "2026-11-25T09:00:00+09:00",
-              "returnAt": "2026-12-03T21:10:00-03:00"
             }
           ]
         },
         {
           "airline": "QR",
+          "airlineName": null,
           "groupResults": [
             {
               "group": "Eastern Europe",
@@ -230,6 +225,7 @@
         },
         {
           "airline": "AS",
+          "airlineName": null,
           "groupResults": [
             {
               "group": "North America",
@@ -242,6 +238,335 @@
               "returnAt": "2026-11-17T22:40:00-08:00"
             }
           ]
+        }
+      ]
+    },
+    {
+      "label": "SkyTeam加盟の海外航空会社(往復)",
+      "mode": "alliance",
+      "alliance": "skyteam",
+      "groupBy": "subregion",
+      "airlines": [
+        {
+          "airline": "MU",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Western Asia",
+              "destination": "AUH",
+              "cityName": "Abu Dhabi",
+              "countryName": "United Arab Emirates",
+              "origin": "TYO",
+              "price": 84087,
+              "departureAt": "2026-11-05T13:50:00+09:00",
+              "returnAt": "2026-11-11T23:30:00+04:00"
+            },
+            {
+              "group": "Australia and New Zealand",
+              "destination": "BNE",
+              "cityName": "Brisbane",
+              "countryName": "Australia",
+              "origin": "TYO",
+              "price": 125815,
+              "departureAt": "2026-11-05T16:55:00+09:00",
+              "returnAt": "2026-11-07T11:10:00+10:00"
+            },
+            {
+              "group": "Polynesia",
+              "destination": "BOB",
+              "cityName": "Bora Bora",
+              "countryName": "French Polynesia",
+              "origin": "TYO",
+              "price": 386482,
+              "departureAt": "2026-11-15T16:55:00+09:00",
+              "returnAt": "2026-11-23T18:30:00-10:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Star Alliance加盟の海外航空会社(往復)",
+      "mode": "alliance",
+      "alliance": "staralliance",
+      "groupBy": "subregion",
+      "airlines": [
+        {
+          "airline": "UA",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "ONT",
+              "cityName": "Ontario",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 222572,
+              "departureAt": "2026-11-05T16:50:00+09:00",
+              "returnAt": "2026-11-17T21:35:00-08:00"
+            }
+          ]
+        },
+        {
+          "airline": "ZH",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "HAN",
+              "cityName": "Hanoi",
+              "countryName": "Vietnam",
+              "origin": "TYO",
+              "price": 61268,
+              "departureAt": "2026-11-23T19:00:00+09:00",
+              "returnAt": "2026-11-29T02:10:00+07:00"
+            }
+          ]
+        },
+        {
+          "airline": "AC",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "ANC",
+              "cityName": "Anchorage",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 194301,
+              "departureAt": "2026-11-10T18:15:00+09:00",
+              "returnAt": "2026-11-24T23:59:00-09:00"
+            }
+          ]
+        },
+        {
+          "airline": "CA",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "BKK",
+              "cityName": "Bangkok",
+              "countryName": "Thailand",
+              "origin": "TYO",
+              "price": 61947,
+              "departureAt": "2026-11-23T15:00:00+09:00",
+              "returnAt": "2026-11-25T01:30:00+07:00"
+            },
+            {
+              "group": "Southern Asia",
+              "destination": "DAC",
+              "cityName": "Dhaka",
+              "countryName": "Bangladesh",
+              "origin": "TYO",
+              "price": 79620,
+              "departureAt": "2026-11-08T08:30:00+09:00",
+              "returnAt": "2026-11-28T22:10:00+06:00"
+            },
+            {
+              "group": "Central Asia",
+              "destination": "ALA",
+              "cityName": "Almaty",
+              "countryName": "Kazakhstan",
+              "origin": "TYO",
+              "price": 86437,
+              "departureAt": "2026-11-24T15:25:00+09:00",
+              "returnAt": "2026-11-29T21:30:00+06:00"
+            },
+            {
+              "group": "Eastern Europe",
+              "destination": "VVO",
+              "cityName": "Vladivostok",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 120358,
+              "departureAt": "2026-11-01T15:25:00+09:00",
+              "returnAt": "2026-11-14T18:20:00+10:00"
+            },
+            {
+              "group": "Northern Africa",
+              "destination": "CAI",
+              "cityName": "Cairo",
+              "countryName": "Egypt",
+              "origin": "TYO",
+              "price": 123693,
+              "departureAt": "2026-11-26T14:20:00+09:00",
+              "returnAt": "2026-11-30T13:00:00+02:00"
+            },
+            {
+              "group": "Southern Europe",
+              "destination": "ROM",
+              "cityName": "Rome",
+              "countryName": "Italy",
+              "origin": "TYO",
+              "price": 144555,
+              "departureAt": "2026-11-11T14:20:00+09:00",
+              "returnAt": "2026-11-18T19:50:00+01:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "独立系・LCC等(エミレーツ/中国系/AirAsia系/スクート)",
+      "mode": "airlines",
+      "alliance": null,
+      "groupBy": "subregion",
+      "airlines": [
+        {
+          "airline": "3U",
+          "airlineName": "四川航空",
+          "groupResults": [
+            {
+              "group": "Eastern Europe",
+              "destination": "LED",
+              "cityName": "Saint Petersburg",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 134878,
+              "departureAt": "2026-11-05T16:40:00+09:00",
+              "returnAt": "2026-11-10T22:20:00+03:00"
+            },
+            {
+              "group": "Southern Europe",
+              "destination": "MAD",
+              "cityName": "Madrid",
+              "countryName": "Spain",
+              "origin": "TYO",
+              "price": 137800,
+              "departureAt": "2026-11-01T16:40:00+09:00",
+              "returnAt": "2026-11-30T11:05:00+01:00"
+            },
+            {
+              "group": "Western Europe",
+              "destination": "DUS",
+              "cityName": "Dusseldorf",
+              "countryName": "Germany",
+              "origin": "TYO",
+              "price": 192551,
+              "departureAt": "2026-11-01T16:40:00+09:00",
+              "returnAt": "2026-11-07T19:00:00+01:00"
+            }
+          ]
+        },
+        {
+          "airline": "FD",
+          "airlineName": "タイ・エアアジア",
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "KHH",
+              "cityName": "Kaohsiung",
+              "countryName": "Taiwan",
+              "origin": "TYO",
+              "price": 66321,
+              "departureAt": "2026-11-19T13:30:00+09:00",
+              "returnAt": "2026-11-23T10:10:00+08:00"
+            }
+          ]
+        },
+        {
+          "airline": "TR",
+          "airlineName": "スクート",
+          "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "KLO",
+              "cityName": "Kalibo",
+              "countryName": "Philippines",
+              "origin": "TYO",
+              "price": 75189,
+              "departureAt": "2026-11-04T19:55:00+09:00",
+              "returnAt": "2026-11-08T21:25:00+08:00"
+            },
+            {
+              "group": "Australia and New Zealand",
+              "destination": "SYD",
+              "cityName": "Sydney",
+              "countryName": "Australia",
+              "origin": "TYO",
+              "price": 114069,
+              "departureAt": "2026-11-18T19:55:00+09:00",
+              "returnAt": "2026-11-25T13:25:00+11:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "homeCarrierScopes": [
+    {
+      "label": "JAL(JL) 東京発 最安路線 TOP5",
+      "airline": "JL",
+      "results": [
+        {
+          "destination": "NGO",
+          "cityName": "Nagoya",
+          "countryName": "Japan",
+          "origin": "TYO",
+          "price": 19474,
+          "departureAt": "2026-11-07T19:55:00+09:00",
+          "returnAt": "2026-11-09T08:20:00+09:00"
+        },
+        {
+          "destination": "KKJ",
+          "cityName": "Kitakyushu",
+          "countryName": "Japan",
+          "origin": "TYO",
+          "price": 28744,
+          "departureAt": "2026-11-22T07:50:00+09:00",
+          "returnAt": "2026-11-24T10:25:00+09:00"
+        },
+        {
+          "destination": "ASJ",
+          "cityName": "Amami",
+          "countryName": "Japan",
+          "origin": "TYO",
+          "price": 42309,
+          "departureAt": "2026-11-18T11:15:00+09:00",
+          "returnAt": "2026-11-25T14:30:00+09:00"
+        },
+        {
+          "destination": "DAR",
+          "cityName": "Dar Es Salaam",
+          "countryName": "Tanzania",
+          "origin": "TYO",
+          "price": 225175,
+          "departureAt": "2026-11-04T08:10:00+09:00",
+          "returnAt": "2026-11-11T05:30:00+03:00"
+        }
+      ]
+    },
+    {
+      "label": "ANA(NH) 東京発 最安路線 TOP5",
+      "airline": "NH",
+      "results": [
+        {
+          "destination": "HIJ",
+          "cityName": "Hiroshima",
+          "countryName": "Japan",
+          "origin": "TYO",
+          "price": 25137,
+          "departureAt": "2026-11-24T07:00:00+09:00",
+          "returnAt": "2026-11-27T10:25:00+09:00"
+        },
+        {
+          "destination": "BJS",
+          "cityName": "Beijing",
+          "countryName": "China",
+          "origin": "TYO",
+          "price": 61342,
+          "departureAt": "2026-11-05T17:25:00+09:00",
+          "returnAt": "2026-11-08T08:25:00+08:00"
+        },
+        {
+          "destination": "HNL",
+          "cityName": "Honolulu",
+          "countryName": "United States",
+          "origin": "TYO",
+          "price": 132485,
+          "departureAt": "2026-11-04T20:10:00+09:00",
+          "returnAt": "2026-11-11T12:40:00-10:00"
         }
       ]
     }
