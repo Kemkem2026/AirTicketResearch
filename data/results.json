@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T14:46:48.312Z",
+  "generatedAt": "2026-08-10T15:04:28.628Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -25,7 +25,30 @@
       "alliances": [
         "oneworld"
       ],
-      "results": []
+      "results": [
+        {
+          "destination": "MOW",
+          "cityName": "Moscow",
+          "countryName": "Russia",
+          "origin": "TYO",
+          "price": 111964,
+          "airline": "QR",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-11T16:55:00+09:00",
+          "returnAt": "2026-11-25T16:50:00+03:00"
+        },
+        {
+          "destination": "BER",
+          "cityName": "Berlin",
+          "countryName": "Germany",
+          "origin": "TYO",
+          "price": 148846,
+          "airline": "QR",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-05T16:55:00+09:00",
+          "returnAt": "2026-11-26T15:15:00+01:00"
+        }
+      ]
     },
     {
       "label": "西アジア(中東)x 全連合",
@@ -41,7 +64,30 @@
         "staralliance",
         "other"
       ],
-      "results": []
+      "results": [
+        {
+          "destination": "AUH",
+          "cityName": "Abu Dhabi",
+          "countryName": "United Arab Emirates",
+          "origin": "TYO",
+          "price": 84087,
+          "airline": "MU",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-05T13:50:00+09:00",
+          "returnAt": "2026-11-11T23:30:00+04:00"
+        },
+        {
+          "destination": "BAK",
+          "cityName": "Baku",
+          "countryName": "Azerbaijan",
+          "origin": "TYO",
+          "price": 177280,
+          "airline": "QR",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-01T21:55:00+09:00",
+          "returnAt": "2026-11-09T14:35:00+04:00"
+        }
+      ]
     },
     {
       "label": "東南アジア x oneworld/SkyTeam",
@@ -69,7 +115,41 @@
         "staralliance",
         "other"
       ],
-      "results": []
+      "results": [
+        {
+          "destination": "ALA",
+          "cityName": "Almaty",
+          "countryName": "Kazakhstan",
+          "origin": "TYO",
+          "price": 79471,
+          "airline": "MU",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-18T10:55:00+09:00",
+          "returnAt": "2026-12-04T20:50:00+06:00"
+        },
+        {
+          "destination": "TAS",
+          "cityName": "Tashkent",
+          "countryName": "Uzbekistan",
+          "origin": "TYO",
+          "price": 85273,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-26T08:30:00+09:00",
+          "returnAt": "2026-12-15T21:10:00+05:00"
+        },
+        {
+          "destination": "BAK",
+          "cityName": "Baku",
+          "countryName": "Azerbaijan",
+          "origin": "TYO",
+          "price": 177280,
+          "airline": "QR",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-01T21:55:00+09:00",
+          "returnAt": "2026-11-09T14:35:00+04:00"
+        }
+      ]
     }
   ],
   "carrierScopes": [
