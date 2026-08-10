@@ -1,8 +1,169 @@
 {
-  "generatedAt": null,
+  "generatedAt": "2026-08-10T14:46:48.312Z",
   "currency": "jpy",
-  "origins": [],
-  "period": null,
-  "scopes": [],
-  "carrierScopes": []
+  "origins": [
+    "TYO"
+  ],
+  "period": {
+    "type": "month",
+    "beginningOfPeriod": "2026-11-01"
+  },
+  "scopes": [
+    {
+      "label": "ヨーロッパ x oneworld",
+      "region": {
+        "type": "subregion",
+        "value": [
+          "Southern Europe",
+          "Western Europe",
+          "Northern Europe",
+          "Eastern Europe",
+          "Central Europe",
+          "Southeast Europe"
+        ]
+      },
+      "alliances": [
+        "oneworld"
+      ],
+      "results": []
+    },
+    {
+      "label": "西アジア(中東)x 全連合",
+      "region": {
+        "type": "subregion",
+        "value": [
+          "Western Asia"
+        ]
+      },
+      "alliances": [
+        "oneworld",
+        "skyteam",
+        "staralliance",
+        "other"
+      ],
+      "results": []
+    },
+    {
+      "label": "東南アジア x oneworld/SkyTeam",
+      "region": {
+        "type": "subregion",
+        "value": [
+          "South-Eastern Asia"
+        ]
+      },
+      "alliances": [
+        "oneworld",
+        "skyteam"
+      ],
+      "results": []
+    },
+    {
+      "label": "独自グループ:シルクロード方面 x 全連合",
+      "region": {
+        "type": "customGroup",
+        "value": "silk_road"
+      },
+      "alliances": [
+        "oneworld",
+        "skyteam",
+        "staralliance",
+        "other"
+      ],
+      "results": []
+    }
+  ],
+  "carrierScopes": [
+    {
+      "label": "oneworld加盟の海外航空会社:本拠地乗り継ぎでどの地域が安いか",
+      "alliance": "oneworld",
+      "groupBy": "subregion",
+      "airlines": [
+        {
+          "airline": "CX",
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 144550,
+              "departureAt": "2026-11-06T10:10:00+09:00",
+              "returnAt": "2026-11-13T23:55:00+13:00"
+            },
+            {
+              "group": "South America",
+              "destination": "BUE",
+              "cityName": "Buenos Aires",
+              "countryName": "Argentina",
+              "origin": "TYO",
+              "price": 264593,
+              "departureAt": "2026-11-25T09:00:00+09:00",
+              "returnAt": "2026-12-03T21:10:00-03:00"
+            }
+          ]
+        },
+        {
+          "airline": "QR",
+          "groupResults": [
+            {
+              "group": "Eastern Europe",
+              "destination": "MOW",
+              "cityName": "Moscow",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 111964,
+              "departureAt": "2026-11-11T16:55:00+09:00",
+              "returnAt": "2026-11-25T16:50:00+03:00"
+            },
+            {
+              "group": "Western Europe",
+              "destination": "BER",
+              "cityName": "Berlin",
+              "countryName": "Germany",
+              "origin": "TYO",
+              "price": 148846,
+              "departureAt": "2026-11-05T16:55:00+09:00",
+              "returnAt": "2026-11-26T15:15:00+01:00"
+            },
+            {
+              "group": "Western Asia",
+              "destination": "BAK",
+              "cityName": "Baku",
+              "countryName": "Azerbaijan",
+              "origin": "TYO",
+              "price": 177280,
+              "departureAt": "2026-11-01T21:55:00+09:00",
+              "returnAt": "2026-11-09T14:35:00+04:00"
+            },
+            {
+              "group": "Eastern Africa",
+              "destination": "ZNZ",
+              "cityName": "Zanzibar",
+              "countryName": "Tanzania",
+              "origin": "TYO",
+              "price": 224360,
+              "departureAt": "2026-11-11T16:55:00+09:00",
+              "returnAt": "2026-11-18T18:40:00+03:00"
+            }
+          ]
+        },
+        {
+          "airline": "AS",
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "LGB",
+              "cityName": "Long Beach",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 212918,
+              "departureAt": "2026-11-05T21:20:00+09:00",
+              "returnAt": "2026-11-17T22:40:00-08:00"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
