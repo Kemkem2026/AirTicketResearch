@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T16:21:35.589Z",
+  "generatedAt": "2026-08-10T19:05:50.602Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -49,6 +49,17 @@
           "alliance": "oneworld",
           "departureAt": "2026-11-05T16:55:00+09:00",
           "returnAt": "2026-11-26T15:15:00+01:00"
+        },
+        {
+          "destination": "CEK",
+          "cityName": "Chelyabinsk",
+          "countryName": "Russia",
+          "origin": "TYO",
+          "price": 176847,
+          "airline": "QR",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-11T21:55:00+09:00",
+          "returnAt": "2026-11-17T05:30:00+05:00"
         }
       ]
     },
@@ -389,7 +400,7 @@
               "cityName": "Cairo",
               "countryName": "Egypt",
               "origin": "TYO",
-              "price": 123749,
+              "price": 123767,
               "departureAt": "2026-11-26T14:20:00+09:00",
               "returnAt": "2026-11-30T13:00:00+02:00"
             },
