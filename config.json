@@ -19,7 +19,7 @@
   "scopes": [
     {
       "label": "ヨーロッパ x oneworld",
-      "region": { "type": "subregion", "value": ["Southern Europe", "Western Europe", "Northern Europe", "Eastern Europe"] },
+      "region": { "type": "subregion", "value": ["Southern Europe", "Western Europe", "Northern Europe", "Eastern Europe", "Central Europe", "Southeast Europe"] },
       "alliances": ["oneworld"]
     },
     {
