@@ -162,12 +162,20 @@ async function main() {
   });
 
   // ===== 1. scopes: 地域 x 連合 =====
-  const cheapestPerDestination = enriched.filter((f) => f.rank === 0);
-
+  // 条件(地域・連合)に合う候補を全ランクから探し、行き先ごとに最安の1件を採用する
   const scopeResults = (config.scopes || []).map((scope) => {
-    const filtered = cheapestPerDestination
+    const matched = enriched
       .filter((f) => matchesRegion(f.countryCode, scope.region, geo, config.customGroups))
-      .filter((f) => scope.alliances.includes(f.alliance))
+      .filter((f) => scope.alliances.includes(f.alliance));
+
+    const cheapestByDestination = {};
+    for (const f of matched) {
+      if (!cheapestByDestination[f.destination] || f.price < cheapestByDestination[f.destination].price) {
+        cheapestByDestination[f.destination] = f;
+      }
+    }
+
+    const filtered = Object.values(cheapestByDestination)
       .sort((a, b) => a.price - b.price)
       .slice(0, config.resultsPerScope ?? 8);
 
