@@ -1,16 +1,21 @@
-// 2種類の探索を行うスクリプト:
+// 3種類の探索を行うスクリプト:
 //
 // 1. scopes: 「地域」×「航空連合」の範囲内で最安値の行き先を発見
-// 2. carrierScopes: 特定の航空連合に属する海外の航空会社ごとに、
-//    その航空会社の便を使った場合、地域別(サブリージョン等)にどこが一番安いかを発見
-//    (「本拠地で乗り継ぎしてどの地域へ行くのが一番安いか」に相当)
+// 2. carrierScopes: 指定した航空会社群(連合単位 or 個別指定)ごとに、
+//    地域別(サブリージョン等)にどこが一番安いかを発見
+// 3. homeCarrierScopes: JAL/ANAなど自社について、東京発の最安路線TOP Nを発見
+//
+// 往復検索: config.oneWay=false の場合、period.beginningOfPeriod(往路月)と
+// period.returnMonth(復路目安月)の両方をAPIに渡し、往復の組み合わせ最安値を取得する。
 //
 // データソース: Travelpayouts Data API
-//   - v1/prices/cheap (destination="-" で出発地から全方面への最安値一覧を取得。
-//     各行き先ごとに複数候補(0,1,2...)が返るため、全候補を保持して航空会社別フィルタに使う)
+//   - v1/prices/cheap (destination="-" で出発地から全方面への最安値一覧を取得)
 //   - data/en/alliances.json (航空会社→アライアンス対応。Travelpayouts側のデータなので自動的に最新に追従)
 //   - data/en/cities.json (都市IATAコード→国コード)
 // 地域(大陸/サブリージョン)は data/geo.json を使用(npmのworld-countriesから生成した静的データ)
+//
+// 制約: このAPIは経由地/乗り継ぎ空港の情報を返さないため、
+// 「航空会社がどのハブ経由か」は判別できない。航空会社(マーケティングキャリア)単位が最小粒度。
 
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import path from "node:path";
@@ -44,9 +49,7 @@ function normalizeAllianceName(name) {
 }
 
 async function loadAllianceData() {
-  const json = await fetchJson(
-    "https://api.travelpayouts.com/data/en/alliances.json"
-  );
+  const json = await fetchJson("https://api.travelpayouts.com/data/en/alliances.json");
   const rawByAlliance = {};
   const airlineToAlliance = {};
   for (const entry of json) {
@@ -85,6 +88,9 @@ async function fetchAllCandidatesFromOrigin(origin, config) {
   });
   if (config.period?.beginningOfPeriod) {
     params.set("depart_date", config.period.beginningOfPeriod.slice(0, 7));
+  }
+  if (config.oneWay === false && config.period?.returnMonth) {
+    params.set("return_date", config.period.returnMonth.slice(0, 7));
   }
 
   const url = `https://api.travelpayouts.com/v1/prices/cheap?${params.toString()}`;
@@ -128,9 +134,7 @@ function matchesRegion(countryCode, region, geo, customGroups) {
 }
 
 async function main() {
-  const config = JSON.parse(
-    await readFile(path.join(ROOT, "config.json"), "utf-8")
-  );
+  const config = JSON.parse(await readFile(path.join(ROOT, "config.json"), "utf-8"));
 
   console.log("参照データを取得中...");
   const [allianceData, cityData, geo] = await Promise.all([
@@ -162,7 +166,6 @@ async function main() {
   });
 
   // ===== 1. scopes: 地域 x 連合 =====
-  // 条件(地域・連合)に合う候補を全ランクから探し、行き先ごとに最安の1件を採用する
   const scopeResults = (config.scopes || []).map((scope) => {
     const matched = enriched
       .filter((f) => matchesRegion(f.countryCode, scope.region, geo, config.customGroups))
@@ -197,15 +200,23 @@ async function main() {
     };
   });
 
-  // ===== 2. carrierScopes: 航空会社別 x 地域別最安値 =====
+  // ===== 2. carrierScopes: 航空会社群 x 地域別最安値 =====
   const carrierScopeResults = [];
   for (const cs of config.carrierScopes || []) {
-    const memberAirlines = (allianceData.rawByAlliance[cs.alliance] || []).filter(
-      (code) => !(cs.excludeAirlines || []).includes(code)
-    );
+    let targetAirlines = [];
+    let airlineLabels = {};
+
+    if (cs.mode === "airlines") {
+      targetAirlines = Object.keys(cs.airlines || {});
+      airlineLabels = cs.airlines || {};
+    } else {
+      targetAirlines = (allianceData.rawByAlliance[cs.alliance] || []).filter(
+        (code) => !(cs.excludeAirlines || []).includes(code)
+      );
+    }
 
     const perAirline = [];
-    for (const airline of memberAirlines) {
+    for (const airline of targetAirlines) {
       const airlineCandidates = enriched.filter((f) => f.airline === airline);
       if (airlineCandidates.length === 0) continue;
 
@@ -232,15 +243,51 @@ async function main() {
         .sort((a, b) => a.price - b.price);
 
       if (groupResults.length > 0) {
-        perAirline.push({ airline, groupResults });
+        perAirline.push({
+          airline,
+          airlineName: airlineLabels[airline] || null,
+          groupResults,
+        });
       }
     }
 
     carrierScopeResults.push({
       label: cs.label,
-      alliance: cs.alliance,
+      mode: cs.mode || "alliance",
+      alliance: cs.alliance || null,
       groupBy: cs.groupBy,
       airlines: perAirline,
+    });
+  }
+
+  // ===== 3. homeCarrierScopes: JAL/ANAなど自社の東京発最安路線TOP N =====
+  const homeCarrierResults = [];
+  for (const hc of config.homeCarrierScopes || []) {
+    const candidates = enriched.filter((f) => f.airline === hc.airline);
+
+    const cheapestByDestination = {};
+    for (const f of candidates) {
+      if (!cheapestByDestination[f.destination] || f.price < cheapestByDestination[f.destination].price) {
+        cheapestByDestination[f.destination] = f;
+      }
+    }
+
+    const top = Object.values(cheapestByDestination)
+      .sort((a, b) => a.price - b.price)
+      .slice(0, hc.top ?? 5);
+
+    homeCarrierResults.push({
+      label: hc.label,
+      airline: hc.airline,
+      results: top.map((f) => ({
+        destination: f.destination,
+        cityName: f.cityName,
+        countryName: f.countryName,
+        origin: f.origin,
+        price: f.price,
+        departureAt: f.departureAt,
+        returnAt: f.returnAt,
+      })),
     });
   }
 
@@ -248,16 +295,15 @@ async function main() {
     generatedAt: new Date().toISOString(),
     currency: config.currency,
     origins: config.origins,
+    oneWay: config.oneWay,
     period: config.period,
     scopes: scopeResults,
     carrierScopes: carrierScopeResults,
+    homeCarrierScopes: homeCarrierResults,
   };
 
   await mkdir(path.join(ROOT, "data"), { recursive: true });
-  await writeFile(
-    path.join(ROOT, "data", "results.json"),
-    JSON.stringify(output, null, 2)
-  );
+  await writeFile(path.join(ROOT, "data", "results.json"), JSON.stringify(output, null, 2));
 
   console.log("完了: data/results.json を更新しました");
 }
