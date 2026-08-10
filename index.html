@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>FARE BOARD | どこが安い?探索ダッシュボード</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0f1c;
+    --panel:#10182b;
+    --panel-2:#0d1424;
+    --border:#1f2b44;
+    --amber:#f5a623;
+    --amber-dim:#c9861a;
+    --text:#e7ecf5;
+    --muted:#7c8ca6;
+    --ow:#f5a623;
+    --sa:#4f8ff7;
+    --st:#e0574f;
+    --other:#6b7688;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:radial-gradient(1200px 600px at 50% -10%, #16223c 0%, var(--bg) 55%);
+    color:var(--text);
+    font-family:'Inter', sans-serif;
+    min-height:100vh;
+    padding:0 0 64px;
+  }
+  header{
+    padding:48px 24px 32px;
+    text-align:center;
+    border-bottom:1px solid var(--border);
+  }
+  .eyebrow{
+    font-family:'Space Mono', monospace;
+    letter-spacing:0.3em;
+    font-size:12px;
+    color:var(--amber-dim);
+    text-transform:uppercase;
+  }
+  h1{
+    font-family:'Space Mono', monospace;
+    font-size:clamp(28px, 5.5vw, 48px);
+    letter-spacing:0.06em;
+    margin:12px 0 8px;
+  }
+  h1 span{ display:inline-block; animation:flipIn 0.6s ease backwards; }
+  @keyframes flipIn{ from{ transform:rotateX(90deg); opacity:0; } to{ transform:rotateX(0deg); opacity:1; } }
+  .sub{ color:var(--muted); font-size:14px; max-width:600px; margin:0 auto; line-height:1.7; }
+  .updated{ font-family:'Space Mono', monospace; font-size:12px; color:var(--amber); margin-top:16px; }
+
+  main{ max-width:960px; margin:0 auto; padding:32px 20px 0; display:flex; flex-direction:column; gap:32px; }
+
+  .scope{ background:var(--panel); border:1px solid var(--border); border-radius:4px; overflow:hidden; }
+  .scope-head{
+    padding:16px 20px;
+    background:var(--panel-2);
+    border-bottom:1px solid var(--border);
+    display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;
+  }
+  .scope-title{ font-weight:700; font-size:15px; }
+  .scope-alliances{ display:flex; gap:6px; flex-wrap:wrap; }
+  .badge{
+    font-family:'Space Mono', monospace;
+    font-size:10px;
+    letter-spacing:0.06em;
+    padding:3px 8px;
+    border-radius:999px;
+    border:1px solid;
+    text-transform:uppercase;
+  }
+  .badge.oneworld{ color:var(--ow); border-color:rgba(245,166,35,0.4); background:rgba(245,166,35,0.08); }
+  .badge.staralliance{ color:var(--sa); border-color:rgba(79,143,247,0.4); background:rgba(79,143,247,0.08); }
+  .badge.skyteam{ color:var(--st); border-color:rgba(224,87,79,0.4); background:rgba(224,87,79,0.08); }
+  .badge.other{ color:var(--other); border-color:rgba(107,118,136,0.4); background:rgba(107,118,136,0.08); }
+
+  .row{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr 0.9fr;
+    gap:12px;
+    padding:14px 20px;
+    border-bottom:1px solid var(--border);
+    align-items:center;
+    font-size:13px;
+  }
+  .row:last-child{ border-bottom:none; }
+  .row.head{
+    font-family:'Space Mono', monospace;
+    font-size:10px;
+    letter-spacing:0.1em;
+    color:var(--muted);
+    text-transform:uppercase;
+    padding-top:10px;
+    padding-bottom:10px;
+  }
+  .rank{ font-family:'Space Mono', monospace; color:var(--amber-dim); margin-right:8px; }
+  .dest{ font-weight:600; }
+  .dest-code{ font-family:'Space Mono', monospace; color:var(--muted); font-size:11px; margin-left:6px; }
+  .price{ font-family:'Space Mono', monospace; font-size:16px; font-weight:700; color:#33c481; }
+  .empty{ padding:40px 20px; text-align:center; color:var(--muted); font-family:'Space Mono', monospace; font-size:13px; line-height:1.8; }
+  footer{ max-width:960px; margin:32px auto 0; padding:0 20px; color:var(--muted); font-size:12px; line-height:1.7; }
+
+  .section-title{
+    font-family:'Space Mono', monospace;
+    font-size:13px;
+    letter-spacing:0.1em;
+    color:var(--amber-dim);
+    text-transform:uppercase;
+    margin:8px 0 -8px;
+  }
+
+  details.carrier{
+    border-bottom:1px solid var(--border);
+  }
+  details.carrier:last-child{ border-bottom:none; }
+  details.carrier summary{
+    padding:14px 20px;
+    cursor:pointer;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    list-style:none;
+  }
+  details.carrier summary::-webkit-details-marker{ display:none; }
+  details.carrier summary .airline-code{
+    font-family:'Space Mono', monospace;
+    font-weight:700;
+    font-size:14px;
+    color:var(--ow);
+    min-width:32px;
+  }
+  details.carrier summary .cheapest-line{
+    flex:1;
+    font-size:13px;
+    color:var(--text);
+  }
+  details.carrier summary .cheapest-price{
+    font-family:'Space Mono', monospace;
+    font-weight:700;
+    color:#33c481;
+    font-size:14px;
+  }
+  details.carrier[open] summary{ background:var(--panel-2); }
+  .carrier-body{ padding:0 20px 14px 20px; }
+  .carrier-row{
+    display:flex;
+    justify-content:space-between;
+    font-size:12px;
+    padding:6px 0;
+    border-bottom:1px dashed var(--border);
+    color:var(--muted);
+  }
+  .carrier-row:last-child{ border-bottom:none; }
+  .carrier-row .group-name{ color:var(--text); }
+  .carrier-row .group-price{ font-family:'Space Mono', monospace; }
+
+  @media (max-width:640px){
+    .row{ grid-template-columns:1fr; gap:4px; }
+    .row.head{ display:none; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="eyebrow">Explore by region &amp; alliance</div>
+  <h1 id="title"></h1>
+  <p class="sub">行き先を決めず、「地域」×「航空連合」の範囲内でいま一番安い行き先を自動で発見します。</p>
+  <div class="updated" id="updated">読み込み中...</div>
+</header>
+
+<main id="main"></main>
+
+<footer>
+  <p>※ 価格はTravelpayouts Data APIのキャッシュデータに基づく参考値です。実際の空席・予約クラス・最終価格は航空会社サイトで確認してください。</p>
+  <p>条件(地域・航空連合・出発地)の変更は <code>config.json</code> を編集してください。</p>
+</footer>
+
+<script>
+  const title = "FARE BOARD";
+  document.getElementById("title").innerHTML = title
+    .split("")
+    .map((c, i) => `<span style="animation-delay:${i * 0.03}s">${c === " " ? "&nbsp;" : c}</span>`)
+    .join("");
+
+  function fmtPrice(price, currency) {
+    if (price == null) return "—";
+    const symbol = { jpy: "¥", usd: "$", eur: "€" }[currency] || "";
+    return symbol + Math.round(price).toLocaleString("ja-JP");
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return "—";
+    const d = new Date(iso);
+    if (isNaN(d)) return iso;
+    return d.toLocaleDateString("ja-JP", { month: "short", day: "numeric" });
+  }
+
+  const allianceLabel = { oneworld: "oneworld", staralliance: "Star Alliance", skyteam: "SkyTeam", other: "その他" };
+
+  async function load() {
+    const mainEl = document.getElementById("main");
+    const updatedEl = document.getElementById("updated");
+
+    try {
+      const res = await fetch("./data/results.json", { cache: "no-store" });
+      const data = await res.json();
+
+      if (!data.generatedAt || (!data.scopes?.length && !data.carrierScopes?.length)) {
+        updatedEl.textContent = "まだチェックが実行されていません";
+        mainEl.innerHTML = `<div class="scope"><div class="empty">
+          config.jsonでscope/carrierScopeを設定し、GitHub Actionsを一度実行すると<br>ここに結果が表示されます。
+        </div></div>`;
+        return;
+      }
+
+      updatedEl.textContent =
+        "最終更新: " + new Date(data.generatedAt).toLocaleString("ja-JP") +
+        " / 出発地: " + data.origins.join(", ");
+
+      if (data.scopes && data.scopes.length > 0) {
+        mainEl.insertAdjacentHTML("beforeend", `<div class="section-title">地域 × 航空連合</div>`);
+      }
+
+      for (const scope of data.scopes || []) {
+        const badges = scope.alliances
+          .map((a) => `<span class="badge ${a}">${allianceLabel[a] || a}</span>`)
+          .join("");
+
+        let rowsHtml = `
+          <div class="row head">
+            <div>行き先</div><div>最安値</div><div>航空会社/連合</div><div>出発日</div>
+          </div>`;
+
+        if (scope.results.length === 0) {
+          rowsHtml += `<div class="empty">条件に合う結果が見つかりませんでした</div>`;
+        } else {
+          scope.results.forEach((r, i) => {
+            rowsHtml += `
+              <div class="row">
+                <div><span class="rank">${String(i + 1).padStart(2, "0")}</span><span class="dest">${r.cityName || r.destination}${r.countryName ? " / " + r.countryName : ""}</span><span class="dest-code">${r.origin} → ${r.destination}</span></div>
+                <div class="price">${fmtPrice(r.price, data.currency)}</div>
+                <div><span class="badge ${r.alliance}">${r.airline} · ${allianceLabel[r.alliance] || r.alliance}</span></div>
+                <div>${fmtDate(r.departureAt)}</div>
+              </div>`;
+          });
+        }
+
+        mainEl.insertAdjacentHTML("beforeend", `
+          <section class="scope">
+            <div class="scope-head">
+              <div class="scope-title">${scope.label}</div>
+              <div class="scope-alliances">${badges}</div>
+            </div>
+            ${rowsHtml}
+          </section>
+        `);
+      }
+
+      if (data.carrierScopes && data.carrierScopes.length > 0) {
+        mainEl.insertAdjacentHTML("beforeend", `<div class="section-title">航空会社別:本拠地乗り継ぎでどの地域が安いか</div>`);
+      }
+
+      for (const cs of data.carrierScopes || []) {
+        if (!cs.airlines || cs.airlines.length === 0) {
+          mainEl.insertAdjacentHTML("beforeend", `
+            <section class="scope">
+              <div class="scope-head"><div class="scope-title">${cs.label}</div></div>
+              <div class="empty">該当データが見つかりませんでした</div>
+            </section>`);
+          continue;
+        }
+
+        const sortedAirlines = [...cs.airlines].sort(
+          (a, b) => a.groupResults[0].price - b.groupResults[0].price
+        );
+
+        const airlinesHtml = sortedAirlines
+          .map((a) => {
+            const top = a.groupResults[0];
+            const bodyRows = a.groupResults
+              .map(
+                (g) => `
+                <div class="carrier-row">
+                  <span class="group-name">${g.group} — ${g.cityName}${g.countryName ? " / " + g.countryName : ""}</span>
+                  <span class="group-price">${fmtPrice(g.price, data.currency)}</span>
+                </div>`
+              )
+              .join("");
+            return `
+              <details class="carrier">
+                <summary>
+                  <span class="airline-code">${a.airline}</span>
+                  <span class="cheapest-line">最安地域: ${top.group}(${top.cityName}${top.countryName ? " / " + top.countryName : ""})</span>
+                  <span class="cheapest-price">${fmtPrice(top.price, data.currency)}</span>
+                </summary>
+                <div class="carrier-body">${bodyRows}</div>
+              </details>`;
+          })
+          .join("");
+
+        mainEl.insertAdjacentHTML("beforeend", `
+          <section class="scope">
+            <div class="scope-head">
+              <div class="scope-title">${cs.label}</div>
+              <span class="badge ${cs.alliance}">${allianceLabel[cs.alliance] || cs.alliance}</span>
+            </div>
+            ${airlinesHtml}
+          </section>
+        `);
+      }
+    } catch (e) {
+      updatedEl.textContent = "読み込みに失敗しました";
+      console.error(e);
+    }
+  }
+
+  load();
+</script>
+
+</body>
+</html>
