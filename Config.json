@@ -1,0 +1,50 @@
+{
+  "currency": "jpy",
+  "origins": ["TYO"],
+  "period": { "type": "month", "beginningOfPeriod": "2026-11-01" },
+  "oneWay": true,
+  "resultsPerScope": 8,
+
+  "customGroups": {
+    "silk_road": {
+      "label": "シルクロード方面(独自グループ)",
+      "countries": ["TR", "GE", "AM", "AZ", "UZ", "KZ", "KG"]
+    },
+    "gulf": {
+      "label": "湾岸諸国(独自グループ)",
+      "countries": ["QA", "AE", "OM", "BH", "KW", "SA"]
+    }
+  },
+
+  "scopes": [
+    {
+      "label": "ヨーロッパ x oneworld",
+      "region": { "type": "subregion", "value": ["Southern Europe", "Western Europe", "Northern Europe", "Eastern Europe"] },
+      "alliances": ["oneworld"]
+    },
+    {
+      "label": "西アジア(中東)x 全連合",
+      "region": { "type": "subregion", "value": ["Western Asia"] },
+      "alliances": ["oneworld", "skyteam", "staralliance", "other"]
+    },
+    {
+      "label": "東南アジア x oneworld/SkyTeam",
+      "region": { "type": "subregion", "value": ["South-Eastern Asia"] },
+      "alliances": ["oneworld", "skyteam"]
+    },
+    {
+      "label": "独自グループ:シルクロード方面 x 全連合",
+      "region": { "type": "customGroup", "value": "silk_road" },
+      "alliances": ["oneworld", "skyteam", "staralliance", "other"]
+    }
+  ],
+
+  "carrierScopes": [
+    {
+      "label": "oneworld加盟の海外航空会社:本拠地乗り継ぎでどの地域が安いか",
+      "alliance": "oneworld",
+      "excludeAirlines": ["JL"],
+      "groupBy": "subregion"
+    }
+  ]
+}
