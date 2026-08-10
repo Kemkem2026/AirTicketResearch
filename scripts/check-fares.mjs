@@ -8,7 +8,7 @@
 // データソース: Travelpayouts Data API
 //   - v1/prices/cheap (destination="-" で出発地から全方面への最安値一覧を取得。
 //     各行き先ごとに複数候補(0,1,2...)が返るため、全候補を保持して航空会社別フィルタに使う)
-//   - data/en/airlines_alliances.json (航空会社→アライアンス対応。Travelpayouts側のデータなので自動的に最新に追従)
+//   - data/en/alliances.json (航空会社→アライアンス対応。Travelpayouts側のデータなので自動的に最新に追従)
 //   - data/en/cities.json (都市IATAコード→国コード)
 // 地域(大陸/サブリージョン)は data/geo.json を使用(npmのworld-countriesから生成した静的データ)
 
@@ -45,7 +45,7 @@ function normalizeAllianceName(name) {
 
 async function loadAllianceData() {
   const json = await fetchJson(
-    "https://api.travelpayouts.com/data/en/airlines_alliances.json"
+    "https://api.travelpayouts.com/data/en/alliances.json"
   );
   const rawByAlliance = {};
   const airlineToAlliance = {};
