@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T16:16:22.744Z",
+  "generatedAt": "2026-08-10T16:21:01.777Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -496,36 +496,9 @@
   ],
   "homeCarrierScopes": [
     {
-      "label": "JAL(JL) 東京発 最安路線 TOP5",
+      "label": "JAL(JL) 東京発 最安路線 TOP5(国際線)",
       "airline": "JL",
       "results": [
-        {
-          "destination": "NGO",
-          "cityName": "Nagoya",
-          "countryName": "Japan",
-          "origin": "TYO",
-          "price": 19474,
-          "departureAt": "2026-11-07T19:55:00+09:00",
-          "returnAt": "2026-11-09T08:20:00+09:00"
-        },
-        {
-          "destination": "KKJ",
-          "cityName": "Kitakyushu",
-          "countryName": "Japan",
-          "origin": "TYO",
-          "price": 28744,
-          "departureAt": "2026-11-22T07:50:00+09:00",
-          "returnAt": "2026-11-24T10:25:00+09:00"
-        },
-        {
-          "destination": "ASJ",
-          "cityName": "Amami",
-          "countryName": "Japan",
-          "origin": "TYO",
-          "price": 42309,
-          "departureAt": "2026-11-18T11:15:00+09:00",
-          "returnAt": "2026-11-25T14:30:00+09:00"
-        },
         {
           "destination": "DAR",
           "cityName": "Dar Es Salaam",
@@ -538,18 +511,9 @@
       ]
     },
     {
-      "label": "ANA(NH) 東京発 最安路線 TOP5",
+      "label": "ANA(NH) 東京発 最安路線 TOP5(国際線)",
       "airline": "NH",
       "results": [
-        {
-          "destination": "HIJ",
-          "cityName": "Hiroshima",
-          "countryName": "Japan",
-          "origin": "TYO",
-          "price": 25137,
-          "departureAt": "2026-11-24T07:00:00+09:00",
-          "returnAt": "2026-11-27T10:25:00+09:00"
-        },
         {
           "destination": "BJS",
           "cityName": "Beijing",
