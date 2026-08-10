@@ -288,7 +288,7 @@
               .map(
                 (g) => `
                 <div class="carrier-row">
-                  <span class="group-name">${g.group} — ${g.cityName}${g.countryName ? " / " + g.countryName : ""}</span>
+                  <span class="group-name">${g.group} — ${g.cityName}${g.countryName ? " / " + g.countryName : ""} <span style="opacity:0.6">(${fmtDate(g.departureAt)}出発)</span></span>
                   <span class="group-price">${fmtPrice(g.price, data.currency)}</span>
                 </div>`
               )
@@ -297,7 +297,7 @@
               <details class="carrier">
                 <summary>
                   <span class="airline-code">${a.airline}</span>
-                  <span class="cheapest-line">最安地域: ${top.group}(${top.cityName}${top.countryName ? " / " + top.countryName : ""})</span>
+                  <span class="cheapest-line">最安地域: ${top.group}(${top.cityName}${top.countryName ? " / " + top.countryName : ""}・${fmtDate(top.departureAt)}出発)</span>
                   <span class="cheapest-price">${fmtPrice(top.price, data.currency)}</span>
                 </summary>
                 <div class="carrier-body">${bodyRows}</div>
