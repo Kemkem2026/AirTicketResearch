@@ -21,6 +21,7 @@
     --sa:#4f8ff7;
     --st:#e0574f;
     --other:#6b7688;
+    --home:#33c481;
   }
   *{box-sizing:border-box;}
   body{
@@ -32,7 +33,7 @@
     padding:0 0 64px;
   }
   header{
-    padding:48px 24px 32px;
+    padding:48px 24px 24px;
     text-align:center;
     border-bottom:1px solid var(--border);
   }
@@ -54,6 +55,40 @@
   .sub{ color:var(--muted); font-size:14px; max-width:600px; margin:0 auto; line-height:1.7; }
   .updated{ font-family:'Space Mono', monospace; font-size:12px; color:var(--amber); margin-top:16px; }
 
+  .update-bar{
+    display:flex; align-items:center; justify-content:center; gap:12px;
+    margin-top:20px; flex-wrap:wrap;
+  }
+  .update-btn{
+    font-family:'Space Mono', monospace;
+    font-size:12px;
+    letter-spacing:0.05em;
+    background:var(--panel);
+    border:1px solid var(--amber-dim);
+    color:var(--amber);
+    padding:8px 16px;
+    border-radius:999px;
+    cursor:pointer;
+  }
+  .update-btn:disabled{ opacity:0.5; cursor:default; }
+  .update-btn:hover:not(:disabled){ background:var(--panel-2); }
+  .token-clear{
+    font-family:'Space Mono', monospace;
+    font-size:11px;
+    color:var(--muted);
+    text-decoration:underline;
+    cursor:pointer;
+    background:none; border:none;
+  }
+  .update-status{
+    font-family:'Space Mono', monospace;
+    font-size:11px;
+    color:var(--muted);
+    max-width:520px;
+    margin:8px auto 0;
+    line-height:1.6;
+  }
+
   main{ max-width:960px; margin:0 auto; padding:32px 20px 0; display:flex; flex-direction:column; gap:32px; }
 
   .scope{ background:var(--panel); border:1px solid var(--border); border-radius:4px; overflow:hidden; }
@@ -73,15 +108,17 @@
     border-radius:999px;
     border:1px solid;
     text-transform:uppercase;
+    white-space:nowrap;
   }
   .badge.oneworld{ color:var(--ow); border-color:rgba(245,166,35,0.4); background:rgba(245,166,35,0.08); }
   .badge.staralliance{ color:var(--sa); border-color:rgba(79,143,247,0.4); background:rgba(79,143,247,0.08); }
   .badge.skyteam{ color:var(--st); border-color:rgba(224,87,79,0.4); background:rgba(224,87,79,0.08); }
   .badge.other{ color:var(--other); border-color:rgba(107,118,136,0.4); background:rgba(107,118,136,0.08); }
+  .badge.home{ color:var(--home); border-color:rgba(51,196,129,0.4); background:rgba(51,196,129,0.08); }
 
   .row{
     display:grid;
-    grid-template-columns:2fr 1fr 1fr 0.9fr;
+    grid-template-columns:2fr 1fr 1fr 1.1fr;
     gap:12px;
     padding:14px 20px;
     border-bottom:1px solid var(--border);
@@ -140,6 +177,10 @@
     font-size:13px;
     color:var(--text);
   }
+  details.carrier summary .cheapest-line .airline-name{
+    color:var(--muted);
+    font-size:11px;
+  }
   details.carrier summary .cheapest-price{
     font-family:'Space Mono', monospace;
     font-weight:700;
@@ -155,10 +196,11 @@
     padding:6px 0;
     border-bottom:1px dashed var(--border);
     color:var(--muted);
+    gap:12px;
   }
   .carrier-row:last-child{ border-bottom:none; }
   .carrier-row .group-name{ color:var(--text); }
-  .carrier-row .group-price{ font-family:'Space Mono', monospace; }
+  .carrier-row .group-price{ font-family:'Space Mono', monospace; white-space:nowrap; }
 
   @media (max-width:640px){
     .row{ grid-template-columns:1fr; gap:4px; }
@@ -173,16 +215,30 @@
   <h1 id="title"></h1>
   <p class="sub">行き先を決めず、「地域」×「航空連合」の範囲内でいま一番安い行き先を自動で発見します。</p>
   <div class="updated" id="updated">読み込み中...</div>
+
+  <div class="update-bar">
+    <button class="update-btn" id="updateBtn" onclick="triggerUpdate()">今すぐ更新</button>
+    <button class="token-clear" onclick="clearToken()">保存済みトークンを削除</button>
+  </div>
+  <div class="update-status" id="updateStatus">
+    更新には、このリポジトリへの Actions 実行権限を持つ GitHub Personal Access Token が必要です(初回のみ入力、ブラウザにのみ保存されます)。
+  </div>
 </header>
 
 <main id="main"></main>
 
 <footer>
   <p>※ 価格はTravelpayouts Data APIのキャッシュデータに基づく参考値です。実際の空席・予約クラス・最終価格は航空会社サイトで確認してください。</p>
-  <p>条件(地域・航空連合・出発地)の変更は <code>config.json</code> を編集してください。</p>
+  <p>※ このAPIは経由地/乗り継ぎ空港の情報を返さないため、航空会社(マーケティングキャリア)単位が最小粒度です(ハブ別の分割は非対応)。</p>
+  <p>条件(地域・航空連合・出発地・往復期間)の変更は <code>config.json</code> を編集してください。</p>
 </footer>
 
 <script>
+  const REPO_OWNER = "Kemkem2026";
+  const REPO_NAME = "AirTicketResearch";
+  const WORKFLOW_FILE = "fare-check.yml";
+  const TOKEN_KEY = "fareboard_gh_pat";
+
   const title = "FARE BOARD";
   document.getElementById("title").innerHTML = title
     .split("")
@@ -202,127 +258,71 @@
     return d.toLocaleDateString("ja-JP", { month: "short", day: "numeric" });
   }
 
-  const allianceLabel = { oneworld: "oneworld", staralliance: "Star Alliance", skyteam: "SkyTeam", other: "その他" };
-
-  async function load() {
-    const mainEl = document.getElementById("main");
-    const updatedEl = document.getElementById("updated");
-
-    try {
-      const res = await fetch("./data/results.json", { cache: "no-store" });
-      const data = await res.json();
-
-      if (!data.generatedAt || (!data.scopes?.length && !data.carrierScopes?.length)) {
-        updatedEl.textContent = "まだチェックが実行されていません";
-        mainEl.innerHTML = `<div class="scope"><div class="empty">
-          config.jsonでscope/carrierScopeを設定し、GitHub Actionsを一度実行すると<br>ここに結果が表示されます。
-        </div></div>`;
-        return;
-      }
-
-      updatedEl.textContent =
-        "最終更新: " + new Date(data.generatedAt).toLocaleString("ja-JP") +
-        " / 出発地: " + data.origins.join(", ");
-
-      if (data.scopes && data.scopes.length > 0) {
-        mainEl.insertAdjacentHTML("beforeend", `<div class="section-title">地域 × 航空連合</div>`);
-      }
-
-      for (const scope of data.scopes || []) {
-        const badges = scope.alliances
-          .map((a) => `<span class="badge ${a}">${allianceLabel[a] || a}</span>`)
-          .join("");
-
-        let rowsHtml = `
-          <div class="row head">
-            <div>行き先</div><div>最安値</div><div>航空会社/連合</div><div>出発日</div>
-          </div>`;
-
-        if (scope.results.length === 0) {
-          rowsHtml += `<div class="empty">条件に合う結果が見つかりませんでした</div>`;
-        } else {
-          scope.results.forEach((r, i) => {
-            rowsHtml += `
-              <div class="row">
-                <div><span class="rank">${String(i + 1).padStart(2, "0")}</span><span class="dest">${r.cityName || r.destination}${r.countryName ? " / " + r.countryName : ""}</span><span class="dest-code">${r.origin} → ${r.destination}</span></div>
-                <div class="price">${fmtPrice(r.price, data.currency)}</div>
-                <div><span class="badge ${r.alliance}">${r.airline} · ${allianceLabel[r.alliance] || r.alliance}</span></div>
-                <div>${fmtDate(r.departureAt)}</div>
-              </div>`;
-          });
-        }
-
-        mainEl.insertAdjacentHTML("beforeend", `
-          <section class="scope">
-            <div class="scope-head">
-              <div class="scope-title">${scope.label}</div>
-              <div class="scope-alliances">${badges}</div>
-            </div>
-            ${rowsHtml}
-          </section>
-        `);
-      }
-
-      if (data.carrierScopes && data.carrierScopes.length > 0) {
-        mainEl.insertAdjacentHTML("beforeend", `<div class="section-title">航空会社別:本拠地乗り継ぎでどの地域が安いか</div>`);
-      }
-
-      for (const cs of data.carrierScopes || []) {
-        if (!cs.airlines || cs.airlines.length === 0) {
-          mainEl.insertAdjacentHTML("beforeend", `
-            <section class="scope">
-              <div class="scope-head"><div class="scope-title">${cs.label}</div></div>
-              <div class="empty">該当データが見つかりませんでした</div>
-            </section>`);
-          continue;
-        }
-
-        const sortedAirlines = [...cs.airlines].sort(
-          (a, b) => a.groupResults[0].price - b.groupResults[0].price
-        );
-
-        const airlinesHtml = sortedAirlines
-          .map((a) => {
-            const top = a.groupResults[0];
-            const bodyRows = a.groupResults
-              .map(
-                (g) => `
-                <div class="carrier-row">
-                  <span class="group-name">${g.group} — ${g.cityName}${g.countryName ? " / " + g.countryName : ""} <span style="opacity:0.6">(${fmtDate(g.departureAt)}出発)</span></span>
-                  <span class="group-price">${fmtPrice(g.price, data.currency)}</span>
-                </div>`
-              )
-              .join("");
-            return `
-              <details class="carrier">
-                <summary>
-                  <span class="airline-code">${a.airline}</span>
-                  <span class="cheapest-line">最安地域: ${top.group}(${top.cityName}${top.countryName ? " / " + top.countryName : ""}・${fmtDate(top.departureAt)}出発)</span>
-                  <span class="cheapest-price">${fmtPrice(top.price, data.currency)}</span>
-                </summary>
-                <div class="carrier-body">${bodyRows}</div>
-              </details>`;
-          })
-          .join("");
-
-        mainEl.insertAdjacentHTML("beforeend", `
-          <section class="scope">
-            <div class="scope-head">
-              <div class="scope-title">${cs.label}</div>
-              <span class="badge ${cs.alliance}">${allianceLabel[cs.alliance] || cs.alliance}</span>
-            </div>
-            ${airlinesHtml}
-          </section>
-        `);
-      }
-    } catch (e) {
-      updatedEl.textContent = "読み込みに失敗しました";
-      console.error(e);
-    }
+  function fmtDateRange(depIso, retIso) {
+    const dep = fmtDate(depIso);
+    if (!retIso) return dep + "発";
+    const ret = fmtDate(retIso);
+    return dep + " → " + ret;
   }
 
-  load();
-</script>
+  const allianceLabel = { oneworld: "oneworld", staralliance: "Star Alliance", skyteam: "SkyTeam", other: "その他" };
 
-</body>
-</html>
+  // --- サイト上からの更新ボタン ---
+  async function triggerUpdate() {
+    const btn = document.getElementById("updateBtn");
+    const statusEl = document.getElementById("updateStatus");
+
+    let token = localStorage.getItem(TOKEN_KEY);
+    if (!token) {
+      token = prompt(
+        "GitHub Personal Access Token を入力してください。\n" +
+        "(Fine-grained PAT、このリポジトリに対して Actions: Read and write 権限が必要です)\n" +
+        "ブラウザのlocalStorageにのみ保存され、他には送信されません。"
+      );
+      if (!token) return;
+      localStorage.setItem(TOKEN_KEY, token);
+    }
+
+    btn.disabled = true;
+    btn.textContent = "更新をリクエスト中...";
+    statusEl.textContent = "";
+
+    try {
+      const res = await fetch(
+        `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/actions/workflows/${WORKFLOW_FILE}/dispatches`,
+        {
+          method: "POST",
+          headers: {
+            Authorization: "Bearer " + token,
+            Accept: "application/vnd.github+json",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ ref: "main" }),
+        }
+      );
+
+      if (res.status === 204) {
+        btn.textContent = "リクエスト完了";
+        statusEl.textContent = "更新を開始しました。1分ほど待ってからページを再読み込みしてください。";
+      } else if (res.status === 401 || res.status === 403) {
+        localStorage.removeItem(TOKEN_KEY);
+        btn.textContent = "今すぐ更新";
+        statusEl.textContent = "トークンが無効か権限不足です。保存済みトークンを削除しましたので、もう一度お試しください。";
+      } else {
+        btn.textContent = "今すぐ更新";
+        statusEl.textContent = `失敗しました(status ${res.status})。トークンの権限(Actions: Read and write)を確認してください。`;
+      }
+    } catch (e) {
+      btn.textContent = "今すぐ更新";
+      statusEl.textContent = "通信エラーが発生しました。ネットワーク環境をご確認ください。";
+      console.error(e);
+    }
+
+    setTimeout(() => {
+      btn.disabled = false;
+    }, 4000);
+  }
+
+  function clearToken() {
+    localStorage.removeItem(TOKEN_KEY);
+    document.getElementById("update
