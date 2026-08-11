@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T04:50:48.385Z",
+  "generatedAt": "2026-08-11T07:18:22.429Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -33,11 +33,11 @@
           "cityName": "Moscow",
           "countryName": "Russia",
           "origin": "TYO",
-          "price": 111964,
+          "price": 112652,
           "airline": "QR",
           "alliance": "oneworld",
-          "departureAt": "2026-11-11T16:55:00+09:00",
-          "returnAt": "2026-11-25T16:50:00+03:00"
+          "departureAt": "2026-11-04T21:55:00+09:00",
+          "returnAt": "2026-11-17T16:50:00+03:00"
         },
         {
           "destination": "BER",
@@ -189,6 +189,22 @@
           ]
         },
         {
+          "airline": "AS",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "LGB",
+              "cityName": "Long Beach",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 212918,
+              "departureAt": "2026-11-05T21:20:00+09:00",
+              "returnAt": "2026-11-17T22:40:00-08:00"
+            }
+          ]
+        },
+        {
           "airline": "QR",
           "airlineName": null,
           "groupResults": [
@@ -198,9 +214,9 @@
               "cityName": "Moscow",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 111964,
-              "departureAt": "2026-11-11T16:55:00+09:00",
-              "returnAt": "2026-11-25T16:50:00+03:00"
+              "price": 112652,
+              "departureAt": "2026-11-04T21:55:00+09:00",
+              "returnAt": "2026-11-17T16:50:00+03:00"
             },
             {
               "group": "Western Europe",
@@ -231,22 +247,6 @@
               "price": 224360,
               "departureAt": "2026-11-11T16:55:00+09:00",
               "returnAt": "2026-11-18T18:40:00+03:00"
-            }
-          ]
-        },
-        {
-          "airline": "AS",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "LGB",
-              "cityName": "Long Beach",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 212918,
-              "departureAt": "2026-11-05T21:20:00+09:00",
-              "returnAt": "2026-11-17T22:40:00-08:00"
             }
           ]
         }
@@ -319,22 +319,6 @@
           ]
         },
         {
-          "airline": "ZH",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "South-Eastern Asia",
-              "destination": "HAN",
-              "cityName": "Hanoi",
-              "countryName": "Vietnam",
-              "origin": "TYO",
-              "price": 61519,
-              "departureAt": "2026-11-23T19:00:00+09:00",
-              "returnAt": "2026-11-29T18:40:00+07:00"
-            }
-          ]
-        },
-        {
           "airline": "AC",
           "airlineName": null,
           "groupResults": [
@@ -347,6 +331,22 @@
               "price": 194301,
               "departureAt": "2026-11-10T18:15:00+09:00",
               "returnAt": "2026-11-24T23:59:00-09:00"
+            }
+          ]
+        },
+        {
+          "airline": "ZH",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "HAN",
+              "cityName": "Hanoi",
+              "countryName": "Vietnam",
+              "origin": "TYO",
+              "price": 61526,
+              "departureAt": "2026-11-23T19:00:00+09:00",
+              "returnAt": "2026-11-29T18:40:00+07:00"
             }
           ]
         },
