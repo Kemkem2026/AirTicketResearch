@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T07:42:31.468Z",
+  "generatedAt": "2026-08-12T13:24:55.937Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -216,6 +216,16 @@
               "price": 177280,
               "departureAt": "2026-11-01T21:55:00+09:00",
               "returnAt": "2026-11-09T14:35:00+04:00"
+            },
+            {
+              "group": "Northern Africa",
+              "destination": "CMN",
+              "cityName": "Casablanca",
+              "countryName": "Morocco",
+              "origin": "TYO",
+              "price": 185792,
+              "departureAt": "2026-11-03T16:55:00+09:00",
+              "returnAt": "2026-11-11T14:30:00+01:00"
             },
             {
               "group": "Eastern Africa",
@@ -481,9 +491,9 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 134878,
-              "departureAt": "2026-11-05T16:40:00+09:00",
-              "returnAt": "2026-11-10T22:20:00+03:00"
+              "price": 134319,
+              "departureAt": "2026-11-06T16:40:00+09:00",
+              "returnAt": "2026-11-20T22:20:00+03:00"
             },
             {
               "group": "Southern Europe",
