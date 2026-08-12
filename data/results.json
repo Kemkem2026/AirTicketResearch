@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T13:24:55.937Z",
+  "generatedAt": "2026-08-12T19:11:06.447Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -44,11 +44,11 @@
           "cityName": "Berlin",
           "countryName": "Germany",
           "origin": "TYO",
-          "price": 148846,
+          "price": 149685,
           "airline": "QR",
           "alliance": "oneworld",
-          "departureAt": "2026-11-05T16:55:00+09:00",
-          "returnAt": "2026-11-26T15:15:00+01:00"
+          "departureAt": "2026-11-03T16:55:00+09:00",
+          "returnAt": "2026-11-29T21:40:00+01:00"
         },
         {
           "destination": "KZN",
@@ -163,6 +163,17 @@
           "returnAt": "2026-11-12T19:30:00+05:00"
         },
         {
+          "destination": "NQZ",
+          "cityName": "Astana",
+          "countryName": "Kazakhstan",
+          "origin": "TYO",
+          "price": 153303,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-07T08:30:00+09:00",
+          "returnAt": "2026-11-22T16:45:00+06:00"
+        },
+        {
           "destination": "BAK",
           "cityName": "Baku",
           "countryName": "Azerbaijan",
@@ -203,9 +214,9 @@
               "cityName": "Berlin",
               "countryName": "Germany",
               "origin": "TYO",
-              "price": 148846,
-              "departureAt": "2026-11-05T16:55:00+09:00",
-              "returnAt": "2026-11-26T15:15:00+01:00"
+              "price": 149685,
+              "departureAt": "2026-11-03T16:55:00+09:00",
+              "returnAt": "2026-11-29T21:40:00+01:00"
             },
             {
               "group": "Western Asia",
@@ -223,7 +234,7 @@
               "cityName": "Casablanca",
               "countryName": "Morocco",
               "origin": "TYO",
-              "price": 185792,
+              "price": 186029,
               "departureAt": "2026-11-03T16:55:00+09:00",
               "returnAt": "2026-11-11T14:30:00+01:00"
             },
@@ -279,6 +290,22 @@
       "alliance": "skyteam",
       "groupBy": "subregion",
       "airlines": [
+        {
+          "airline": "VN",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Southern Asia",
+              "destination": "GOI",
+              "cityName": "Goa",
+              "countryName": "India",
+              "origin": "TYO",
+              "price": 143285,
+              "departureAt": "2026-11-28T09:30:00+09:00",
+              "returnAt": "2026-11-30T22:30:00+05:30"
+            }
+          ]
+        },
         {
           "airline": "MF",
           "airlineName": null,
@@ -355,13 +382,13 @@
           "groupResults": [
             {
               "group": "North America",
-              "destination": "ANC",
-              "cityName": "Anchorage",
+              "destination": "NYC",
+              "cityName": "New York",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 194301,
-              "departureAt": "2026-11-10T18:15:00+09:00",
-              "returnAt": "2026-11-24T23:59:00-09:00"
+              "price": 193170,
+              "departureAt": "2026-11-11T18:45:00+09:00",
+              "returnAt": "2026-11-14T19:45:00-05:00"
             }
           ]
         },
@@ -371,13 +398,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "KUL",
-              "cityName": "Kuala Lumpur",
-              "countryName": "Malaysia",
+              "destination": "HKT",
+              "cityName": "Phuket",
+              "countryName": "Thailand",
               "origin": "TYO",
-              "price": 62433,
-              "departureAt": "2026-11-28T15:25:00+09:00",
-              "returnAt": "2026-11-30T17:25:00+08:00"
+              "price": 62759,
+              "departureAt": "2026-11-12T14:20:00+09:00",
+              "returnAt": "2026-11-19T17:00:00+07:00"
             },
             {
               "group": "Eastern Asia",
@@ -491,7 +518,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 134319,
+              "price": 134490,
               "departureAt": "2026-11-06T16:40:00+09:00",
               "returnAt": "2026-11-20T22:20:00+03:00"
             },
