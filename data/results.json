@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T02:29:52.712Z",
+  "generatedAt": "2026-08-12T07:42:31.468Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -184,38 +184,6 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "CX",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Melanesia",
-              "destination": "NAN",
-              "cityName": "Nadi",
-              "countryName": "Fiji",
-              "origin": "TYO",
-              "price": 144550,
-              "departureAt": "2026-11-06T10:10:00+09:00",
-              "returnAt": "2026-11-13T23:55:00+13:00"
-            }
-          ]
-        },
-        {
-          "airline": "AS",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "LGB",
-              "cityName": "Long Beach",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 212918,
-              "departureAt": "2026-11-05T21:20:00+09:00",
-              "returnAt": "2026-11-17T22:40:00-08:00"
-            }
-          ]
-        },
-        {
           "airline": "QR",
           "airlineName": null,
           "groupResults": [
@@ -260,6 +228,38 @@
               "returnAt": "2026-11-18T18:40:00+03:00"
             }
           ]
+        },
+        {
+          "airline": "AS",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "LGB",
+              "cityName": "Long Beach",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 212918,
+              "departureAt": "2026-11-05T21:20:00+09:00",
+              "returnAt": "2026-11-17T22:40:00-08:00"
+            }
+          ]
+        },
+        {
+          "airline": "CX",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 144550,
+              "departureAt": "2026-11-06T10:10:00+09:00",
+              "returnAt": "2026-11-13T23:55:00+13:00"
+            }
+          ]
         }
       ]
     },
@@ -269,6 +269,22 @@
       "alliance": "skyteam",
       "groupBy": "subregion",
       "airlines": [
+        {
+          "airline": "MF",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "TAO",
+              "cityName": "Qingdao",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 66094,
+              "departureAt": "2026-11-01T15:30:00+09:00",
+              "returnAt": "2026-11-04T18:00:00+08:00"
+            }
+          ]
+        },
         {
           "airline": "MU",
           "airlineName": null,
@@ -314,22 +330,6 @@
               "returnAt": "2026-11-23T18:30:00-10:00"
             }
           ]
-        },
-        {
-          "airline": "MF",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "TAO",
-              "cityName": "Qingdao",
-              "countryName": "China",
-              "origin": "TYO",
-              "price": 66094,
-              "departureAt": "2026-11-01T15:30:00+09:00",
-              "returnAt": "2026-11-04T18:00:00+08:00"
-            }
-          ]
         }
       ]
     },
@@ -339,22 +339,6 @@
       "alliance": "staralliance",
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "UA",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "ONT",
-              "cityName": "Ontario",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 222572,
-              "departureAt": "2026-11-05T16:50:00+09:00",
-              "returnAt": "2026-11-17T21:35:00-08:00"
-            }
-          ]
-        },
         {
           "airline": "AC",
           "airlineName": null,
@@ -368,22 +352,6 @@
               "price": 194301,
               "departureAt": "2026-11-10T18:15:00+09:00",
               "returnAt": "2026-11-24T23:59:00-09:00"
-            }
-          ]
-        },
-        {
-          "airline": "ZH",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "South-Eastern Asia",
-              "destination": "HAN",
-              "cityName": "Hanoi",
-              "countryName": "Vietnam",
-              "origin": "TYO",
-              "price": 60310,
-              "departureAt": "2026-11-05T19:00:00+09:00",
-              "returnAt": "2026-11-08T18:40:00+07:00"
             }
           ]
         },
@@ -460,6 +428,38 @@
               "price": 177235,
               "departureAt": "2026-11-10T15:25:00+09:00",
               "returnAt": "2026-11-13T15:50:00+01:00"
+            }
+          ]
+        },
+        {
+          "airline": "UA",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "ONT",
+              "cityName": "Ontario",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 222572,
+              "departureAt": "2026-11-05T16:50:00+09:00",
+              "returnAt": "2026-11-17T21:35:00-08:00"
+            }
+          ]
+        },
+        {
+          "airline": "ZH",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "HAN",
+              "cityName": "Hanoi",
+              "countryName": "Vietnam",
+              "origin": "TYO",
+              "price": 60310,
+              "departureAt": "2026-11-05T19:00:00+09:00",
+              "returnAt": "2026-11-08T18:40:00+07:00"
             }
           ]
         }
