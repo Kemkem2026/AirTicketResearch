@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T19:11:28.066Z",
+  "generatedAt": "2026-08-12T02:29:52.712Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -55,7 +55,7 @@
           "cityName": "Kazan",
           "countryName": "Russia",
           "origin": "TYO",
-          "price": 159616,
+          "price": 159639,
           "airline": "QR",
           "alliance": "oneworld",
           "departureAt": "2026-11-16T16:55:00+09:00",
@@ -145,7 +145,7 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 80083,
+          "price": 80095,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-15T15:25:00+09:00",
@@ -156,7 +156,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 104828,
+          "price": 104843,
           "airline": "MU",
           "alliance": "skyteam",
           "departureAt": "2026-11-01T16:55:00+09:00",
@@ -289,7 +289,7 @@
               "cityName": "Tashkent",
               "countryName": "Uzbekistan",
               "origin": "TYO",
-              "price": 104828,
+              "price": 104843,
               "departureAt": "2026-11-01T16:55:00+09:00",
               "returnAt": "2026-11-12T19:30:00+05:00"
             },
@@ -325,7 +325,7 @@
               "cityName": "Qingdao",
               "countryName": "China",
               "origin": "TYO",
-              "price": 66084,
+              "price": 66094,
               "departureAt": "2026-11-01T15:30:00+09:00",
               "returnAt": "2026-11-04T18:00:00+08:00"
             }
@@ -381,7 +381,7 @@
               "cityName": "Hanoi",
               "countryName": "Vietnam",
               "origin": "TYO",
-              "price": 60301,
+              "price": 60310,
               "departureAt": "2026-11-05T19:00:00+09:00",
               "returnAt": "2026-11-08T18:40:00+07:00"
             }
@@ -427,7 +427,7 @@
               "cityName": "Almaty",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 80083,
+              "price": 80095,
               "departureAt": "2026-11-15T15:25:00+09:00",
               "returnAt": "2026-11-22T21:30:00+06:00"
             },
