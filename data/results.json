@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T07:44:34.950Z",
+  "generatedAt": "2026-08-13T13:26:49.346Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -386,7 +386,7 @@
               "cityName": "Bangkok",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 60586,
+              "price": 60621,
               "departureAt": "2026-11-12T15:00:00+09:00",
               "returnAt": "2026-11-16T01:30:00+07:00"
             },
@@ -426,7 +426,7 @@
               "cityName": "Irkutsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 122201,
+              "price": 122272,
               "departureAt": "2026-11-16T14:20:00+09:00",
               "returnAt": "2026-11-27T18:00:00+08:00"
             },
@@ -550,13 +550,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "KLO",
-              "cityName": "Kalibo",
-              "countryName": "Philippines",
+              "destination": "USM",
+              "cityName": "Koh Samui",
+              "countryName": "Thailand",
               "origin": "TYO",
-              "price": 75189,
-              "departureAt": "2026-11-04T19:55:00+09:00",
-              "returnAt": "2026-11-08T21:25:00+08:00"
+              "price": 99549,
+              "departureAt": "2026-11-22T19:55:00+09:00",
+              "returnAt": "2026-11-25T12:00:00+07:00"
             },
             {
               "group": "Australia and New Zealand",
