@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T02:31:23.513Z",
+  "generatedAt": "2026-08-13T07:44:34.950Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -195,6 +195,38 @@
       "groupBy": "subregion",
       "airlines": [
         {
+          "airline": "CX",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 144550,
+              "departureAt": "2026-11-06T10:10:00+09:00",
+              "returnAt": "2026-11-13T23:55:00+13:00"
+            }
+          ]
+        },
+        {
+          "airline": "AS",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "LGB",
+              "cityName": "Long Beach",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 212918,
+              "departureAt": "2026-11-05T21:20:00+09:00",
+              "returnAt": "2026-11-17T22:40:00-08:00"
+            }
+          ]
+        },
+        {
           "airline": "QR",
           "airlineName": null,
           "groupResults": [
@@ -249,38 +281,6 @@
               "returnAt": "2026-11-18T18:40:00+03:00"
             }
           ]
-        },
-        {
-          "airline": "AS",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "LGB",
-              "cityName": "Long Beach",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 212918,
-              "departureAt": "2026-11-05T21:20:00+09:00",
-              "returnAt": "2026-11-17T22:40:00-08:00"
-            }
-          ]
-        },
-        {
-          "airline": "CX",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Melanesia",
-              "destination": "NAN",
-              "cityName": "Nadi",
-              "countryName": "Fiji",
-              "origin": "TYO",
-              "price": 144550,
-              "departureAt": "2026-11-06T10:10:00+09:00",
-              "returnAt": "2026-11-13T23:55:00+13:00"
-            }
-          ]
         }
       ]
     },
@@ -290,22 +290,6 @@
       "alliance": "skyteam",
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "VN",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Southern Asia",
-              "destination": "GOI",
-              "cityName": "Goa",
-              "countryName": "India",
-              "origin": "TYO",
-              "price": 143333,
-              "departureAt": "2026-11-28T09:30:00+09:00",
-              "returnAt": "2026-11-30T22:30:00+05:30"
-            }
-          ]
-        },
         {
           "airline": "MF",
           "airlineName": null,
@@ -367,6 +351,22 @@
               "returnAt": "2026-11-23T18:30:00-10:00"
             }
           ]
+        },
+        {
+          "airline": "VN",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Southern Asia",
+              "destination": "GOI",
+              "cityName": "Goa",
+              "countryName": "India",
+              "origin": "TYO",
+              "price": 143333,
+              "departureAt": "2026-11-28T09:30:00+09:00",
+              "returnAt": "2026-11-30T22:30:00+05:30"
+            }
+          ]
         }
       ]
     },
@@ -377,34 +377,18 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "AC",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "NYC",
-              "cityName": "New York",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 193170,
-              "departureAt": "2026-11-11T18:45:00+09:00",
-              "returnAt": "2026-11-14T19:45:00-05:00"
-            }
-          ]
-        },
-        {
           "airline": "CA",
           "airlineName": null,
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "HKT",
-              "cityName": "Phuket",
+              "destination": "BKK",
+              "cityName": "Bangkok",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 62759,
-              "departureAt": "2026-11-12T14:20:00+09:00",
-              "returnAt": "2026-11-19T17:00:00+07:00"
+              "price": 60586,
+              "departureAt": "2026-11-12T15:00:00+09:00",
+              "returnAt": "2026-11-16T01:30:00+07:00"
             },
             {
               "group": "Eastern Asia",
@@ -442,7 +426,7 @@
               "cityName": "Irkutsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 122263,
+              "price": 122201,
               "departureAt": "2026-11-16T14:20:00+09:00",
               "returnAt": "2026-11-27T18:00:00+08:00"
             },
@@ -497,6 +481,22 @@
               "price": 60310,
               "departureAt": "2026-11-05T19:00:00+09:00",
               "returnAt": "2026-11-08T18:40:00+07:00"
+            }
+          ]
+        },
+        {
+          "airline": "AC",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "NYC",
+              "cityName": "New York",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 193170,
+              "departureAt": "2026-11-11T18:45:00+09:00",
+              "returnAt": "2026-11-14T19:45:00-05:00"
             }
           ]
         }
