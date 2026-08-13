@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T13:26:49.346Z",
+  "generatedAt": "2026-08-13T19:11:48.040Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -261,16 +261,6 @@
               "returnAt": "2026-11-09T14:35:00+04:00"
             },
             {
-              "group": "Northern Africa",
-              "destination": "CMN",
-              "cityName": "Casablanca",
-              "countryName": "Morocco",
-              "origin": "TYO",
-              "price": 186092,
-              "departureAt": "2026-11-03T16:55:00+09:00",
-              "returnAt": "2026-11-11T14:30:00+01:00"
-            },
-            {
               "group": "Eastern Africa",
               "destination": "ZNZ",
               "cityName": "Zanzibar",
@@ -279,6 +269,16 @@
               "price": 224360,
               "departureAt": "2026-11-11T16:55:00+09:00",
               "returnAt": "2026-11-18T18:40:00+03:00"
+            },
+            {
+              "group": "South America",
+              "destination": "BUE",
+              "cityName": "Buenos Aires",
+              "countryName": "Argentina",
+              "origin": "TYO",
+              "price": 311070,
+              "departureAt": "2026-11-10T21:55:00+09:00",
+              "returnAt": "2026-11-28T17:00:00-03:00"
             }
           ]
         }
@@ -341,14 +341,14 @@
               "returnAt": "2026-11-07T11:10:00+10:00"
             },
             {
-              "group": "Polynesia",
-              "destination": "BOB",
-              "cityName": "Bora Bora",
-              "countryName": "French Polynesia",
+              "group": "Northern Africa",
+              "destination": "CMN",
+              "cityName": "Casablanca",
+              "countryName": "Morocco",
               "origin": "TYO",
-              "price": 386482,
-              "departureAt": "2026-11-15T16:55:00+09:00",
-              "returnAt": "2026-11-23T18:30:00-10:00"
+              "price": 146500,
+              "departureAt": "2026-11-07T16:55:00+09:00",
+              "returnAt": "2026-11-17T17:10:00+01:00"
             }
           ]
         },
@@ -386,7 +386,7 @@
               "cityName": "Bangkok",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 60621,
+              "price": 60674,
               "departureAt": "2026-11-12T15:00:00+09:00",
               "returnAt": "2026-11-16T01:30:00+07:00"
             },
@@ -426,7 +426,7 @@
               "cityName": "Irkutsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 122272,
+              "price": 122379,
               "departureAt": "2026-11-16T14:20:00+09:00",
               "returnAt": "2026-11-27T18:00:00+08:00"
             },
