@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T07:42:00.828Z",
+  "generatedAt": "2026-08-14T13:21:20.773Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -156,7 +156,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 103214,
+          "price": 103102,
           "airline": "MU",
           "alliance": "skyteam",
           "departureAt": "2026-11-01T16:55:00+09:00",
@@ -326,7 +326,7 @@
               "cityName": "Tashkent",
               "countryName": "Uzbekistan",
               "origin": "TYO",
-              "price": 103214,
+              "price": 103102,
               "departureAt": "2026-11-01T16:55:00+09:00",
               "returnAt": "2026-11-12T19:30:00+05:00"
             },
@@ -381,6 +381,16 @@
               "price": 66094,
               "departureAt": "2026-11-01T15:30:00+09:00",
               "returnAt": "2026-11-04T18:00:00+08:00"
+            },
+            {
+              "group": "Western Europe",
+              "destination": "PAR",
+              "cityName": "Paris",
+              "countryName": "France",
+              "origin": "TYO",
+              "price": 156419,
+              "departureAt": "2026-11-22T14:55:00+09:00",
+              "returnAt": "2026-11-28T11:30:00+01:00"
             }
           ]
         }
@@ -474,7 +484,7 @@
               "cityName": "Irkutsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 122552,
+              "price": 122418,
               "departureAt": "2026-11-16T14:20:00+09:00",
               "returnAt": "2026-11-27T18:00:00+08:00"
             },
@@ -487,6 +497,16 @@
               "price": 123979,
               "departureAt": "2026-11-26T14:20:00+09:00",
               "returnAt": "2026-11-30T13:00:00+02:00"
+            },
+            {
+              "group": "Southern Europe",
+              "destination": "ROM",
+              "cityName": "Rome",
+              "countryName": "Italy",
+              "origin": "TYO",
+              "price": 145990,
+              "departureAt": "2026-11-24T14:20:00+09:00",
+              "returnAt": "2026-11-29T19:50:00+01:00"
             },
             {
               "group": "Western Europe",
@@ -570,7 +590,7 @@
               "cityName": "Kaohsiung",
               "countryName": "Taiwan",
               "origin": "TYO",
-              "price": 67398,
+              "price": 67324,
               "departureAt": "2026-11-19T13:30:00+09:00",
               "returnAt": "2026-11-23T10:10:00+08:00"
             }
