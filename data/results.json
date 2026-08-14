@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:11:48.040Z",
+  "generatedAt": "2026-08-14T02:29:44.589Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -211,6 +211,22 @@
           ]
         },
         {
+          "airline": "NU",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "ISG",
+              "cityName": "Ishigaki",
+              "countryName": "Japan",
+              "origin": "TYO",
+              "price": 36896,
+              "departureAt": "2026-11-11T14:35:00+09:00",
+              "returnAt": "2026-11-14T10:40:00+09:00"
+            }
+          ]
+        },
+        {
           "airline": "AS",
           "airlineName": null,
           "groupResults": [
@@ -276,7 +292,7 @@
               "cityName": "Buenos Aires",
               "countryName": "Argentina",
               "origin": "TYO",
-              "price": 311070,
+              "price": 311103,
               "departureAt": "2026-11-10T21:55:00+09:00",
               "returnAt": "2026-11-28T17:00:00-03:00"
             }
@@ -346,7 +362,7 @@
               "cityName": "Casablanca",
               "countryName": "Morocco",
               "origin": "TYO",
-              "price": 146500,
+              "price": 146516,
               "departureAt": "2026-11-07T16:55:00+09:00",
               "returnAt": "2026-11-17T17:10:00+01:00"
             }
@@ -386,7 +402,7 @@
               "cityName": "Bangkok",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 60674,
+              "price": 60681,
               "departureAt": "2026-11-12T15:00:00+09:00",
               "returnAt": "2026-11-16T01:30:00+07:00"
             },
@@ -426,7 +442,7 @@
               "cityName": "Irkutsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 122379,
+              "price": 122614,
               "departureAt": "2026-11-16T14:20:00+09:00",
               "returnAt": "2026-11-27T18:00:00+08:00"
             },
@@ -490,13 +506,13 @@
           "groupResults": [
             {
               "group": "North America",
-              "destination": "NYC",
-              "cityName": "New York",
+              "destination": "ANC",
+              "cityName": "Anchorage",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 193170,
-              "departureAt": "2026-11-11T18:45:00+09:00",
-              "returnAt": "2026-11-14T19:45:00-05:00"
+              "price": 194301,
+              "departureAt": "2026-11-10T18:15:00+09:00",
+              "returnAt": "2026-11-24T23:59:00-09:00"
             }
           ]
         }
@@ -541,6 +557,22 @@
               "price": 192551,
               "departureAt": "2026-11-01T16:40:00+09:00",
               "returnAt": "2026-11-07T19:00:00+01:00"
+            }
+          ]
+        },
+        {
+          "airline": "FD",
+          "airlineName": "タイ・エアアジア",
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "KHH",
+              "cityName": "Kaohsiung",
+              "countryName": "Taiwan",
+              "origin": "TYO",
+              "price": 67432,
+              "departureAt": "2026-11-19T13:30:00+09:00",
+              "returnAt": "2026-11-23T10:10:00+08:00"
             }
           ]
         },
