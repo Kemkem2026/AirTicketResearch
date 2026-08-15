@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T12:50:42.028Z",
+  "generatedAt": "2026-08-15T18:38:45.127Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -646,15 +646,6 @@
           "price": 65838,
           "departureAt": "2026-11-01T17:25:00+09:00",
           "returnAt": "2026-11-11T08:25:00+08:00"
-        },
-        {
-          "destination": "HNL",
-          "cityName": "Honolulu",
-          "countryName": "United States",
-          "origin": "TYO",
-          "price": 132485,
-          "departureAt": "2026-11-04T20:10:00+09:00",
-          "returnAt": "2026-11-11T12:40:00-10:00"
         }
       ]
     }
