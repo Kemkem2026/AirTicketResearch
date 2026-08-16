@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T06:51:12.179Z",
+  "generatedAt": "2026-08-16T12:52:14.999Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -385,6 +385,22 @@
       "groupBy": "subregion",
       "airlines": [
         {
+          "airline": "OZ",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Southern Europe",
+              "destination": "MIL",
+              "cityName": "Milan",
+              "countryName": "Italy",
+              "origin": "TYO",
+              "price": 194368,
+              "departureAt": "2026-11-24T01:30:00+09:00",
+              "returnAt": "2026-11-24T20:05:00+01:00"
+            }
+          ]
+        },
+        {
           "airline": "UA",
           "airlineName": null,
           "groupResults": [
@@ -590,17 +606,7 @@
     {
       "label": "ANA(NH) 東京発 最安路線 TOP5(国際線)",
       "airline": "NH",
-      "results": [
-        {
-          "destination": "BJS",
-          "cityName": "Beijing",
-          "countryName": "China",
-          "origin": "TYO",
-          "price": 66521,
-          "departureAt": "2026-11-21T17:25:00+09:00",
-          "returnAt": "2026-11-25T08:25:00+08:00"
-        }
-      ]
+      "results": []
     }
   ]
 }
