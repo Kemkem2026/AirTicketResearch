@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T01:47:00.359Z",
+  "generatedAt": "2026-08-16T06:51:12.179Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -89,17 +89,6 @@
         "other"
       ],
       "results": [
-        {
-          "destination": "AUH",
-          "cityName": "Abu Dhabi",
-          "countryName": "United Arab Emirates",
-          "origin": "TYO",
-          "price": 84087,
-          "airline": "MU",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-05T13:50:00+09:00",
-          "returnAt": "2026-11-11T23:30:00+04:00"
-        },
         {
           "destination": "IST",
           "cityName": "Istanbul",
@@ -228,38 +217,6 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "AS",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "LGB",
-              "cityName": "Long Beach",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 212918,
-              "departureAt": "2026-11-05T21:20:00+09:00",
-              "returnAt": "2026-11-17T22:40:00-08:00"
-            }
-          ]
-        },
-        {
-          "airline": "CX",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Melanesia",
-              "destination": "NAN",
-              "cityName": "Nadi",
-              "countryName": "Fiji",
-              "origin": "TYO",
-              "price": 144550,
-              "departureAt": "2026-11-06T10:10:00+09:00",
-              "returnAt": "2026-11-13T23:55:00+13:00"
-            }
-          ]
-        },
-        {
           "airline": "NU",
           "airlineName": null,
           "groupResults": [
@@ -272,6 +229,22 @@
               "price": 36896,
               "departureAt": "2026-11-11T14:35:00+09:00",
               "returnAt": "2026-11-14T10:40:00+09:00"
+            }
+          ]
+        },
+        {
+          "airline": "AS",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "LGB",
+              "cityName": "Long Beach",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 212918,
+              "departureAt": "2026-11-05T21:20:00+09:00",
+              "returnAt": "2026-11-17T22:40:00-08:00"
             }
           ]
         },
@@ -310,6 +283,22 @@
               "returnAt": "2026-11-28T17:00:00-03:00"
             }
           ]
+        },
+        {
+          "airline": "CX",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 160158,
+              "departureAt": "2026-11-07T21:30:00+09:00",
+              "returnAt": "2026-11-10T23:55:00+13:00"
+            }
+          ]
         }
       ]
     },
@@ -319,6 +308,32 @@
       "alliance": "skyteam",
       "groupBy": "subregion",
       "airlines": [
+        {
+          "airline": "MU",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Central Asia",
+              "destination": "TAS",
+              "cityName": "Tashkent",
+              "countryName": "Uzbekistan",
+              "origin": "TYO",
+              "price": 103179,
+              "departureAt": "2026-11-01T16:55:00+09:00",
+              "returnAt": "2026-11-12T19:30:00+05:00"
+            },
+            {
+              "group": "Northern Africa",
+              "destination": "CMN",
+              "cityName": "Casablanca",
+              "countryName": "Morocco",
+              "origin": "TYO",
+              "price": 146516,
+              "departureAt": "2026-11-07T16:55:00+09:00",
+              "returnAt": "2026-11-17T17:10:00+01:00"
+            }
+          ]
+        },
         {
           "airline": "VN",
           "airlineName": null,
@@ -332,52 +347,6 @@
               "price": 143333,
               "departureAt": "2026-11-28T09:30:00+09:00",
               "returnAt": "2026-11-30T22:30:00+05:30"
-            }
-          ]
-        },
-        {
-          "airline": "MU",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Western Asia",
-              "destination": "AUH",
-              "cityName": "Abu Dhabi",
-              "countryName": "United Arab Emirates",
-              "origin": "TYO",
-              "price": 84087,
-              "departureAt": "2026-11-05T13:50:00+09:00",
-              "returnAt": "2026-11-11T23:30:00+04:00"
-            },
-            {
-              "group": "Central Asia",
-              "destination": "TAS",
-              "cityName": "Tashkent",
-              "countryName": "Uzbekistan",
-              "origin": "TYO",
-              "price": 103179,
-              "departureAt": "2026-11-01T16:55:00+09:00",
-              "returnAt": "2026-11-12T19:30:00+05:00"
-            },
-            {
-              "group": "Australia and New Zealand",
-              "destination": "BNE",
-              "cityName": "Brisbane",
-              "countryName": "Australia",
-              "origin": "TYO",
-              "price": 125815,
-              "departureAt": "2026-11-05T16:55:00+09:00",
-              "returnAt": "2026-11-07T11:10:00+10:00"
-            },
-            {
-              "group": "Northern Africa",
-              "destination": "CMN",
-              "cityName": "Casablanca",
-              "countryName": "Morocco",
-              "origin": "TYO",
-              "price": 146516,
-              "departureAt": "2026-11-07T16:55:00+09:00",
-              "returnAt": "2026-11-17T17:10:00+01:00"
             }
           ]
         },
@@ -415,22 +384,6 @@
       "alliance": "staralliance",
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "ZH",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "South-Eastern Asia",
-              "destination": "HAN",
-              "cityName": "Hanoi",
-              "countryName": "Vietnam",
-              "origin": "TYO",
-              "price": 60310,
-              "departureAt": "2026-11-05T19:00:00+09:00",
-              "returnAt": "2026-11-08T18:40:00+07:00"
-            }
-          ]
-        },
         {
           "airline": "UA",
           "airlineName": null,
@@ -520,6 +473,22 @@
               "price": 177235,
               "departureAt": "2026-11-10T15:25:00+09:00",
               "returnAt": "2026-11-13T15:50:00+01:00"
+            }
+          ]
+        },
+        {
+          "airline": "ZH",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "HAN",
+              "cityName": "Hanoi",
+              "countryName": "Vietnam",
+              "origin": "TYO",
+              "price": 60310,
+              "departureAt": "2026-11-05T19:00:00+09:00",
+              "returnAt": "2026-11-08T18:40:00+07:00"
             }
           ]
         }
