@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T18:37:37.150Z",
+  "generatedAt": "2026-08-17T01:44:22.829Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -322,7 +322,7 @@
               "cityName": "Bora Bora",
               "countryName": "French Polynesia",
               "origin": "TYO",
-              "price": 382003,
+              "price": 382032,
               "departureAt": "2026-11-22T13:50:00+09:00",
               "returnAt": "2026-11-28T12:20:00-10:00"
             }
@@ -360,13 +360,13 @@
             },
             {
               "group": "Western Europe",
-              "destination": "PAR",
-              "cityName": "Paris",
-              "countryName": "France",
+              "destination": "AMS",
+              "cityName": "Amsterdam",
+              "countryName": "Netherlands",
               "origin": "TYO",
-              "price": 156535,
-              "departureAt": "2026-11-22T14:55:00+09:00",
-              "returnAt": "2026-11-28T11:30:00+01:00"
+              "price": 140881,
+              "departureAt": "2026-11-02T14:55:00+09:00",
+              "returnAt": "2026-11-08T20:30:00+01:00"
             }
           ]
         }
@@ -388,7 +388,7 @@
               "cityName": "Milan",
               "countryName": "Italy",
               "origin": "TYO",
-              "price": 194368,
+              "price": 194383,
               "departureAt": "2026-11-24T01:30:00+09:00",
               "returnAt": "2026-11-24T20:05:00+01:00"
             }
@@ -434,9 +434,9 @@
               "cityName": "Irkutsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 122509,
-              "departureAt": "2026-11-16T14:20:00+09:00",
-              "returnAt": "2026-11-27T18:00:00+08:00"
+              "price": 118976,
+              "departureAt": "2026-11-17T14:20:00+09:00",
+              "returnAt": "2026-11-26T17:05:00+08:00"
             },
             {
               "group": "Northern Africa",
@@ -507,16 +507,6 @@
               "price": 134535,
               "departureAt": "2026-11-06T16:40:00+09:00",
               "returnAt": "2026-11-20T22:20:00+03:00"
-            },
-            {
-              "group": "Southern Europe",
-              "destination": "MAD",
-              "cityName": "Madrid",
-              "countryName": "Spain",
-              "origin": "TYO",
-              "price": 137800,
-              "departureAt": "2026-11-01T16:40:00+09:00",
-              "returnAt": "2026-11-30T11:05:00+01:00"
             }
           ]
         },
@@ -542,13 +532,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "USM",
-              "cityName": "Koh Samui",
-              "countryName": "Thailand",
+              "destination": "JKT",
+              "cityName": "Jakarta",
+              "countryName": "Indonesia",
               "origin": "TYO",
-              "price": 99549,
-              "departureAt": "2026-11-22T19:55:00+09:00",
-              "returnAt": "2026-11-25T12:00:00+07:00"
+              "price": 68203,
+              "departureAt": "2026-11-04T19:55:00+09:00",
+              "returnAt": "2026-11-08T11:20:00+07:00"
             },
             {
               "group": "Southern Europe",
