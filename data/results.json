@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-17T01:44:22.829Z",
+  "generatedAt": "2026-08-17T07:07:36.882Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -71,6 +71,17 @@
           "alliance": "oneworld",
           "departureAt": "2026-11-11T21:55:00+09:00",
           "returnAt": "2026-11-17T05:30:00+05:00"
+        },
+        {
+          "destination": "KGD",
+          "cityName": "Kaliningrad",
+          "countryName": "Russia",
+          "origin": "TYO",
+          "price": 184107,
+          "airline": "QR",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-09T21:55:00+09:00",
+          "returnAt": "2026-11-23T18:30:00+02:00"
         }
       ]
     },
@@ -167,11 +178,11 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 103179,
+          "price": 101652,
           "airline": "MU",
           "alliance": "skyteam",
-          "departureAt": "2026-11-01T16:55:00+09:00",
-          "returnAt": "2026-11-12T19:30:00+05:00"
+          "departureAt": "2026-11-09T16:55:00+09:00",
+          "returnAt": "2026-11-30T19:30:00+05:00"
         },
         {
           "destination": "IST",
@@ -216,6 +227,22 @@
       "alliance": "oneworld",
       "groupBy": "subregion",
       "airlines": [
+        {
+          "airline": "CX",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 160158,
+              "departureAt": "2026-11-07T21:30:00+09:00",
+              "returnAt": "2026-11-10T23:55:00+13:00"
+            }
+          ]
+        },
         {
           "airline": "NU",
           "airlineName": null,
@@ -267,22 +294,6 @@
               "returnAt": "2026-11-28T17:00:00-03:00"
             }
           ]
-        },
-        {
-          "airline": "CX",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Melanesia",
-              "destination": "NAN",
-              "cityName": "Nadi",
-              "countryName": "Fiji",
-              "origin": "TYO",
-              "price": 160158,
-              "departureAt": "2026-11-07T21:30:00+09:00",
-              "returnAt": "2026-11-10T23:55:00+13:00"
-            }
-          ]
         }
       ]
     },
@@ -293,6 +304,22 @@
       "groupBy": "subregion",
       "airlines": [
         {
+          "airline": "VN",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Southern Asia",
+              "destination": "GOI",
+              "cityName": "Goa",
+              "countryName": "India",
+              "origin": "TYO",
+              "price": 143333,
+              "departureAt": "2026-11-28T09:30:00+09:00",
+              "returnAt": "2026-11-30T22:30:00+05:30"
+            }
+          ]
+        },
+        {
           "airline": "MU",
           "airlineName": null,
           "groupResults": [
@@ -302,9 +329,9 @@
               "cityName": "Tashkent",
               "countryName": "Uzbekistan",
               "origin": "TYO",
-              "price": 103179,
-              "departureAt": "2026-11-01T16:55:00+09:00",
-              "returnAt": "2026-11-12T19:30:00+05:00"
+              "price": 101652,
+              "departureAt": "2026-11-09T16:55:00+09:00",
+              "returnAt": "2026-11-30T19:30:00+05:00"
             },
             {
               "group": "Northern Africa",
@@ -325,22 +352,6 @@
               "price": 382032,
               "departureAt": "2026-11-22T13:50:00+09:00",
               "returnAt": "2026-11-28T12:20:00-10:00"
-            }
-          ]
-        },
-        {
-          "airline": "VN",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Southern Asia",
-              "destination": "GOI",
-              "cityName": "Goa",
-              "countryName": "India",
-              "origin": "TYO",
-              "price": 143333,
-              "departureAt": "2026-11-28T09:30:00+09:00",
-              "returnAt": "2026-11-30T22:30:00+05:30"
             }
           ]
         },
@@ -379,18 +390,18 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "OZ",
+          "airline": "ZH",
           "airlineName": null,
           "groupResults": [
             {
-              "group": "Southern Europe",
-              "destination": "MIL",
-              "cityName": "Milan",
-              "countryName": "Italy",
+              "group": "South-Eastern Asia",
+              "destination": "HAN",
+              "cityName": "Hanoi",
+              "countryName": "Vietnam",
               "origin": "TYO",
-              "price": 194383,
-              "departureAt": "2026-11-24T01:30:00+09:00",
-              "returnAt": "2026-11-24T20:05:00+01:00"
+              "price": 60310,
+              "departureAt": "2026-11-05T19:00:00+09:00",
+              "returnAt": "2026-11-08T18:40:00+07:00"
             }
           ]
         },
@@ -471,18 +482,18 @@
           ]
         },
         {
-          "airline": "ZH",
+          "airline": "OZ",
           "airlineName": null,
           "groupResults": [
             {
-              "group": "South-Eastern Asia",
-              "destination": "HAN",
-              "cityName": "Hanoi",
-              "countryName": "Vietnam",
+              "group": "Southern Europe",
+              "destination": "MIL",
+              "cityName": "Milan",
+              "countryName": "Italy",
               "origin": "TYO",
-              "price": 60310,
-              "departureAt": "2026-11-05T19:00:00+09:00",
-              "returnAt": "2026-11-08T18:40:00+07:00"
+              "price": 194383,
+              "departureAt": "2026-11-24T01:30:00+09:00",
+              "returnAt": "2026-11-24T20:05:00+01:00"
             }
           ]
         }
