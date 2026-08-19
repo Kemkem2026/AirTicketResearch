@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T06:55:06.243Z",
+  "generatedAt": "2026-08-19T12:59:19.699Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -211,11 +211,11 @@
           "cityName": "Astana",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 153354,
+          "price": 153742,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-07T08:30:00+09:00",
-          "returnAt": "2026-11-22T16:45:00+06:00"
+          "returnAt": "2026-11-22T19:45:00+06:00"
         },
         {
           "destination": "BAK",
@@ -515,6 +515,16 @@
               "returnAt": "2026-11-19T21:10:00+05:00"
             },
             {
+              "group": "Southern Asia",
+              "destination": "KTM",
+              "cityName": "Kathmandu",
+              "countryName": "Nepal",
+              "origin": "TYO",
+              "price": 84415,
+              "departureAt": "2026-11-19T14:20:00+09:00",
+              "returnAt": "2026-11-25T11:55:00+05:45"
+            },
+            {
               "group": "Eastern Europe",
               "destination": "IKT",
               "cityName": "Irkutsk",
@@ -554,9 +564,9 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 134535,
+              "price": 154564,
               "departureAt": "2026-11-06T16:40:00+09:00",
-              "returnAt": "2026-11-20T22:20:00+03:00"
+              "returnAt": "2026-11-22T12:00:00+03:00"
             }
           ]
         },
