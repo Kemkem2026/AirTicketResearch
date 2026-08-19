@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T12:59:19.699Z",
+  "generatedAt": "2026-08-19T18:44:14.894Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -112,6 +112,17 @@
           "returnAt": "2026-11-18T21:00:00+04:00"
         },
         {
+          "destination": "MED",
+          "cityName": "Medina",
+          "countryName": "Saudi Arabia",
+          "origin": "TYO",
+          "price": 165746,
+          "airline": "5J",
+          "alliance": "other",
+          "departureAt": "2026-11-13T12:50:00+09:00",
+          "returnAt": "2026-11-20T23:40:00+03:00"
+        },
+        {
           "destination": "BAK",
           "cityName": "Baku",
           "countryName": "Azerbaijan",
@@ -136,7 +147,19 @@
         "oneworld",
         "skyteam"
       ],
-      "results": []
+      "results": [
+        {
+          "destination": "PEN",
+          "cityName": "Penang",
+          "countryName": "Malaysia",
+          "origin": "TYO",
+          "price": 71090,
+          "airline": "MU",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-18T10:55:00+09:00",
+          "returnAt": "2026-11-23T22:20:00+08:00"
+        }
+      ]
     },
     {
       "label": "独自グループ:シルクロード方面 x 全連合",
@@ -211,7 +234,7 @@
           "cityName": "Astana",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 153742,
+          "price": 153129,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-07T08:30:00+09:00",
@@ -350,6 +373,16 @@
           "airline": "MU",
           "airlineName": null,
           "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "PEN",
+              "cityName": "Penang",
+              "countryName": "Malaysia",
+              "origin": "TYO",
+              "price": 71090,
+              "departureAt": "2026-11-18T10:55:00+09:00",
+              "returnAt": "2026-11-23T22:20:00+08:00"
+            },
             {
               "group": "Western Asia",
               "destination": "TBS",
@@ -505,6 +538,16 @@
               "returnAt": "2026-11-16T01:30:00+07:00"
             },
             {
+              "group": "Eastern Asia",
+              "destination": "CTU",
+              "cityName": "Chengdu",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 73455,
+              "departureAt": "2026-11-02T14:20:00+09:00",
+              "returnAt": "2026-11-12T21:30:00+08:00"
+            },
+            {
               "group": "Central Asia",
               "destination": "TAS",
               "cityName": "Tashkent",
@@ -520,7 +563,7 @@
               "cityName": "Kathmandu",
               "countryName": "Nepal",
               "origin": "TYO",
-              "price": 84415,
+              "price": 84079,
               "departureAt": "2026-11-19T14:20:00+09:00",
               "returnAt": "2026-11-25T11:55:00+05:45"
             },
