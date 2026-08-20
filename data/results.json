@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T06:56:09.988Z",
+  "generatedAt": "2026-08-20T13:02:02.048Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -49,6 +49,17 @@
           "alliance": "oneworld",
           "departureAt": "2026-11-15T16:55:00+09:00",
           "returnAt": "2026-11-19T15:15:00+01:00"
+        },
+        {
+          "destination": "LED",
+          "cityName": "Saint Petersburg",
+          "countryName": "Russia",
+          "origin": "TYO",
+          "price": 166373,
+          "airline": "QR",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-16T16:55:00+09:00",
+          "returnAt": "2026-11-26T12:00:00+03:00"
         },
         {
           "destination": "MCX",
@@ -256,7 +267,7 @@
           "cityName": "Samarkand",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 181434,
+          "price": 181328,
           "airline": "GK",
           "alliance": "other",
           "departureAt": "2026-11-07T16:55:00+09:00",
@@ -440,7 +451,7 @@
               "cityName": "Ontario",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 223972,
+              "price": 223841,
               "departureAt": "2026-11-10T14:35:00+09:00",
               "returnAt": "2026-11-15T15:10:00-08:00"
             }
@@ -518,13 +529,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "BKK",
-              "cityName": "Bangkok",
-              "countryName": "Thailand",
+              "destination": "HAN",
+              "cityName": "Hanoi",
+              "countryName": "Vietnam",
               "origin": "TYO",
-              "price": 60681,
-              "departureAt": "2026-11-12T15:00:00+09:00",
-              "returnAt": "2026-11-16T01:30:00+07:00"
+              "price": 61832,
+              "departureAt": "2026-11-16T14:20:00+09:00",
+              "returnAt": "2026-11-30T02:10:00+07:00"
             },
             {
               "group": "Eastern Asia",
@@ -568,13 +579,29 @@
             },
             {
               "group": "Southern Europe",
-              "destination": "ROM",
-              "cityName": "Rome",
-              "countryName": "Italy",
+              "destination": "MAD",
+              "cityName": "Madrid",
+              "countryName": "Spain",
               "origin": "TYO",
-              "price": 146098,
-              "departureAt": "2026-11-24T14:20:00+09:00",
-              "returnAt": "2026-11-29T19:50:00+01:00"
+              "price": 137267,
+              "departureAt": "2026-11-13T15:25:00+09:00",
+              "returnAt": "2026-11-22T16:40:00+01:00"
+            }
+          ]
+        },
+        {
+          "airline": "LX",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "South America",
+              "destination": "RIO",
+              "cityName": "Rio de Janeiro",
+              "countryName": "Brazil",
+              "origin": "TYO",
+              "price": 287060,
+              "departureAt": "2026-11-16T12:10:00+09:00",
+              "returnAt": "2026-11-30T15:35:00-03:00"
             }
           ]
         },
@@ -635,18 +662,18 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "3U",
-          "airlineName": "四川航空",
+          "airline": "D7",
+          "airlineName": "エアアジアX",
           "groupResults": [
             {
               "group": "Eastern Europe",
-              "destination": "LED",
-              "cityName": "Saint Petersburg",
+              "destination": "KZN",
+              "cityName": "Kazan",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 154564,
-              "departureAt": "2026-11-06T16:40:00+09:00",
-              "returnAt": "2026-11-22T12:00:00+03:00"
+              "price": 169790,
+              "departureAt": "2026-11-01T23:55:00+09:00",
+              "returnAt": "2026-11-30T11:10:00+03:00"
             }
           ]
         },
