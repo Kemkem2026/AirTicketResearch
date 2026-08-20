@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T13:02:02.048Z",
+  "generatedAt": "2026-08-20T18:50:08.213Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -267,7 +267,7 @@
           "cityName": "Samarkand",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 181328,
+          "price": 181915,
           "airline": "GK",
           "alliance": "other",
           "departureAt": "2026-11-07T16:55:00+09:00",
@@ -283,22 +283,6 @@
       "alliance": "oneworld",
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "CX",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Melanesia",
-              "destination": "NAN",
-              "cityName": "Nadi",
-              "countryName": "Fiji",
-              "origin": "TYO",
-              "price": 160158,
-              "departureAt": "2026-11-07T21:30:00+09:00",
-              "returnAt": "2026-11-10T23:55:00+13:00"
-            }
-          ]
-        },
         {
           "airline": "AA",
           "airlineName": null,
@@ -356,14 +340,14 @@
               "returnAt": "2026-11-19T15:15:00+01:00"
             },
             {
-              "group": "South America",
-              "destination": "BUE",
-              "cityName": "Buenos Aires",
-              "countryName": "Argentina",
+              "group": "Northern Africa",
+              "destination": "CMN",
+              "cityName": "Casablanca",
+              "countryName": "Morocco",
               "origin": "TYO",
-              "price": 311103,
-              "departureAt": "2026-11-10T21:55:00+09:00",
-              "returnAt": "2026-11-28T17:00:00-03:00"
+              "price": 183180,
+              "departureAt": "2026-11-03T16:55:00+09:00",
+              "returnAt": "2026-11-12T13:00:00+01:00"
             }
           ]
         }
@@ -410,16 +394,6 @@
               "returnAt": "2026-11-18T21:00:00+04:00"
             },
             {
-              "group": "Northern Africa",
-              "destination": "CMN",
-              "cityName": "Casablanca",
-              "countryName": "Morocco",
-              "origin": "TYO",
-              "price": 146516,
-              "departureAt": "2026-11-07T16:55:00+09:00",
-              "returnAt": "2026-11-17T17:10:00+01:00"
-            },
-            {
               "group": "Australia and New Zealand",
               "destination": "BNE",
               "cityName": "Brisbane",
@@ -428,16 +402,6 @@
               "price": 152645,
               "departureAt": "2026-11-24T13:50:00+09:00",
               "returnAt": "2026-11-30T11:10:00+10:00"
-            },
-            {
-              "group": "Polynesia",
-              "destination": "BOB",
-              "cityName": "Bora Bora",
-              "countryName": "French Polynesia",
-              "origin": "TYO",
-              "price": 382032,
-              "departureAt": "2026-11-22T13:50:00+09:00",
-              "returnAt": "2026-11-28T12:20:00-10:00"
             }
           ]
         },
@@ -451,7 +415,7 @@
               "cityName": "Ontario",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 223841,
+              "price": 224566,
               "departureAt": "2026-11-10T14:35:00+09:00",
               "returnAt": "2026-11-15T15:10:00-08:00"
             }
@@ -583,7 +547,7 @@
               "cityName": "Madrid",
               "countryName": "Spain",
               "origin": "TYO",
-              "price": 137267,
+              "price": 137711,
               "departureAt": "2026-11-13T15:25:00+09:00",
               "returnAt": "2026-11-22T16:40:00+01:00"
             }
@@ -599,7 +563,7 @@
               "cityName": "Rio de Janeiro",
               "countryName": "Brazil",
               "origin": "TYO",
-              "price": 287060,
+              "price": 287989,
               "departureAt": "2026-11-16T12:10:00+09:00",
               "returnAt": "2026-11-30T15:35:00-03:00"
             }
@@ -671,7 +635,7 @@
               "cityName": "Kazan",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 169790,
+              "price": 170340,
               "departureAt": "2026-11-01T23:55:00+09:00",
               "returnAt": "2026-11-30T11:10:00+03:00"
             }
