@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T06:57:38.805Z",
+  "generatedAt": "2026-08-21T13:00:33.204Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -671,7 +671,7 @@
               "cityName": "Barcelona",
               "countryName": "Spain",
               "origin": "TYO",
-              "price": 138342,
+              "price": 137995,
               "departureAt": "2026-11-05T08:50:00+09:00",
               "returnAt": "2026-11-12T13:00:00+01:00"
             }
