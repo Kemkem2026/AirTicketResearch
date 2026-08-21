@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-20T18:50:08.213Z",
+  "generatedAt": "2026-08-21T01:45:50.669Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -267,7 +267,7 @@
           "cityName": "Samarkand",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 181915,
+          "price": 182148,
           "airline": "GK",
           "alliance": "other",
           "departureAt": "2026-11-07T16:55:00+09:00",
@@ -415,7 +415,7 @@
               "cityName": "Ontario",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 224566,
+              "price": 224853,
               "departureAt": "2026-11-10T14:35:00+09:00",
               "returnAt": "2026-11-15T15:10:00-08:00"
             }
@@ -547,7 +547,7 @@
               "cityName": "Madrid",
               "countryName": "Spain",
               "origin": "TYO",
-              "price": 137711,
+              "price": 137887,
               "departureAt": "2026-11-13T15:25:00+09:00",
               "returnAt": "2026-11-22T16:40:00+01:00"
             }
@@ -563,7 +563,7 @@
               "cityName": "Rio de Janeiro",
               "countryName": "Brazil",
               "origin": "TYO",
-              "price": 287989,
+              "price": 288358,
               "departureAt": "2026-11-16T12:10:00+09:00",
               "returnAt": "2026-11-30T15:35:00-03:00"
             }
@@ -635,7 +635,7 @@
               "cityName": "Kazan",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 170340,
+              "price": 170558,
               "departureAt": "2026-11-01T23:55:00+09:00",
               "returnAt": "2026-11-30T11:10:00+03:00"
             }
