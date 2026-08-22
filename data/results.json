@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T12:51:54.060Z",
+  "generatedAt": "2026-08-22T18:39:06.152Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -33,7 +33,7 @@
           "cityName": "Moscow",
           "countryName": "Russia",
           "origin": "TYO",
-          "price": 112155,
+          "price": 112141,
           "airline": "QR",
           "alliance": "oneworld",
           "departureAt": "2026-11-09T21:55:00+09:00",
@@ -105,7 +105,7 @@
           "cityName": "Dubai",
           "countryName": "United Arab Emirates",
           "origin": "TYO",
-          "price": 96729,
+          "price": 96716,
           "airline": "MU",
           "alliance": "skyteam",
           "departureAt": "2026-11-02T13:50:00+09:00",
@@ -160,7 +160,7 @@
           "cityName": "Sharjah",
           "countryName": "United Arab Emirates",
           "origin": "TYO",
-          "price": 196511,
+          "price": 196486,
           "airline": "TG",
           "alliance": "staralliance",
           "departureAt": "2026-11-02T10:35:00+09:00",
@@ -212,11 +212,11 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 80375,
+          "price": 75768,
           "airline": "CA",
           "alliance": "staralliance",
-          "departureAt": "2026-11-04T15:25:00+09:00",
-          "returnAt": "2026-11-19T21:10:00+05:00"
+          "departureAt": "2026-11-11T14:20:00+09:00",
+          "returnAt": "2026-11-14T21:10:00+05:00"
         },
         {
           "destination": "ALA",
@@ -245,11 +245,11 @@
           "cityName": "Bishkek",
           "countryName": "Kyrgyzstan",
           "origin": "TYO",
-          "price": 126957,
-          "airline": "CZ",
-          "alliance": "other",
-          "departureAt": "2026-11-17T15:05:00+09:00",
-          "returnAt": "2026-11-23T12:45:00+06:00"
+          "price": 105290,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-06T08:30:00+09:00",
+          "returnAt": "2026-11-27T22:20:00+06:00"
         },
         {
           "destination": "TBS",
@@ -347,7 +347,7 @@
               "cityName": "Moscow",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 112155,
+              "price": 112141,
               "departureAt": "2026-11-09T21:55:00+09:00",
               "returnAt": "2026-11-18T16:15:00+03:00"
             },
@@ -463,7 +463,7 @@
               "cityName": "Dubai",
               "countryName": "United Arab Emirates",
               "origin": "TYO",
-              "price": 96729,
+              "price": 96716,
               "departureAt": "2026-11-02T13:50:00+09:00",
               "returnAt": "2026-11-05T18:55:00+04:00"
             },
@@ -523,7 +523,7 @@
               "cityName": "Sharjah",
               "countryName": "United Arab Emirates",
               "origin": "TYO",
-              "price": 196511,
+              "price": 196486,
               "departureAt": "2026-11-02T10:35:00+09:00",
               "returnAt": "2026-11-05T01:15:00+04:00"
             },
@@ -633,9 +633,9 @@
               "cityName": "Tashkent",
               "countryName": "Uzbekistan",
               "origin": "TYO",
-              "price": 80375,
-              "departureAt": "2026-11-04T15:25:00+09:00",
-              "returnAt": "2026-11-19T21:10:00+05:00"
+              "price": 75768,
+              "departureAt": "2026-11-11T14:20:00+09:00",
+              "returnAt": "2026-11-14T21:10:00+05:00"
             },
             {
               "group": "Southern Asia",
@@ -713,7 +713,7 @@
               "cityName": "Yekaterinburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 198590,
+              "price": 198565,
               "departureAt": "2026-11-21T16:40:00+09:00",
               "returnAt": "2026-11-29T06:50:00+05:00"
             }
@@ -745,7 +745,7 @@
               "cityName": "Adler/Sochi",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 198215,
+              "price": 198190,
               "departureAt": "2026-11-07T12:10:00+09:00",
               "returnAt": "2026-11-09T19:45:00+03:00"
             }
