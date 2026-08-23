@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T06:52:04.203Z",
+  "generatedAt": "2026-08-23T12:53:02.040Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -306,6 +306,22 @@
       "groupBy": "subregion",
       "airlines": [
         {
+          "airline": "FJ",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 141704,
+              "departureAt": "2026-11-11T16:30:00+09:00",
+              "returnAt": "2026-11-20T23:55:00+13:00"
+            }
+          ]
+        },
+        {
           "airline": "AS",
           "airlineName": null,
           "groupResults": [
@@ -530,22 +546,6 @@
           ]
         },
         {
-          "airline": "OZ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Southern Europe",
-              "destination": "MIL",
-              "cityName": "Milan",
-              "countryName": "Italy",
-              "origin": "TYO",
-              "price": 194383,
-              "departureAt": "2026-11-24T01:30:00+09:00",
-              "returnAt": "2026-11-24T20:05:00+01:00"
-            }
-          ]
-        },
-        {
           "airline": "CA",
           "airlineName": null,
           "groupResults": [
@@ -561,13 +561,13 @@
             },
             {
               "group": "Eastern Asia",
-              "destination": "CTU",
-              "cityName": "Chengdu",
+              "destination": "BJS",
+              "cityName": "Beijing",
               "countryName": "China",
               "origin": "TYO",
-              "price": 73317,
-              "departureAt": "2026-11-02T14:20:00+09:00",
-              "returnAt": "2026-11-12T21:30:00+08:00"
+              "price": 64846,
+              "departureAt": "2026-11-08T08:30:00+09:00",
+              "returnAt": "2026-11-15T17:10:00+08:00"
             },
             {
               "group": "Central Asia",
@@ -692,16 +692,6 @@
               "price": 196486,
               "departureAt": "2026-11-02T10:35:00+09:00",
               "returnAt": "2026-11-05T01:15:00+04:00"
-            },
-            {
-              "group": "Southern Europe",
-              "destination": "VCE",
-              "cityName": "Venice",
-              "countryName": "Italy",
-              "origin": "TYO",
-              "price": 234384,
-              "departureAt": "2026-11-24T00:20:00+09:00",
-              "returnAt": "2026-11-24T22:20:00+01:00"
             }
           ]
         }
