@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T12:53:02.040Z",
+  "generatedAt": "2026-08-23T18:38:56.220Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -178,8 +178,19 @@
           "price": 64794,
           "airline": "MU",
           "alliance": "skyteam",
-          "departureAt": "2026-11-19T10:55:00+09:00",
-          "returnAt": "2026-11-30T23:05:00+07:00"
+          "departureAt": "2026-11-12T13:50:00+09:00",
+          "returnAt": "2026-11-26T23:05:00+07:00"
+        },
+        {
+          "destination": "BKI",
+          "cityName": "Kota-Kinabalu",
+          "countryName": "Malaysia",
+          "origin": "TYO",
+          "price": 68374,
+          "airline": "MF",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-04T15:30:00+09:00",
+          "returnAt": "2026-11-15T13:05:00+08:00"
         },
         {
           "destination": "PEN",
@@ -438,6 +449,16 @@
               "returnAt": "2026-11-27T19:50:00+08:00"
             },
             {
+              "group": "South-Eastern Asia",
+              "destination": "BKI",
+              "cityName": "Kota-Kinabalu",
+              "countryName": "Malaysia",
+              "origin": "TYO",
+              "price": 68374,
+              "departureAt": "2026-11-04T15:30:00+09:00",
+              "returnAt": "2026-11-15T13:05:00+08:00"
+            },
+            {
               "group": "Western Europe",
               "destination": "AMS",
               "cityName": "Amsterdam",
@@ -460,8 +481,8 @@
               "countryName": "Thailand",
               "origin": "TYO",
               "price": 64794,
-              "departureAt": "2026-11-19T10:55:00+09:00",
-              "returnAt": "2026-11-30T23:05:00+07:00"
+              "departureAt": "2026-11-12T13:50:00+09:00",
+              "returnAt": "2026-11-26T23:05:00+07:00"
             },
             {
               "group": "Central Asia",
