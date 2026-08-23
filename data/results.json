@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T18:39:06.152Z",
+  "generatedAt": "2026-08-23T01:49:00.629Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -181,6 +181,17 @@
         "skyteam"
       ],
       "results": [
+        {
+          "destination": "HKT",
+          "cityName": "Phuket",
+          "countryName": "Thailand",
+          "origin": "TYO",
+          "price": 64794,
+          "airline": "MU",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-19T10:55:00+09:00",
+          "returnAt": "2026-11-30T23:05:00+07:00"
+        },
         {
           "destination": "PEN",
           "cityName": "Penang",
@@ -439,13 +450,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "PEN",
-              "cityName": "Penang",
-              "countryName": "Malaysia",
+              "destination": "HKT",
+              "cityName": "Phuket",
+              "countryName": "Thailand",
               "origin": "TYO",
-              "price": 70957,
-              "departureAt": "2026-11-18T10:55:00+09:00",
-              "returnAt": "2026-11-23T22:20:00+08:00"
+              "price": 64794,
+              "departureAt": "2026-11-19T10:55:00+09:00",
+              "returnAt": "2026-11-30T23:05:00+07:00"
             },
             {
               "group": "Central Asia",
