@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:38:56.220Z",
+  "generatedAt": "2026-08-24T01:46:13.523Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -138,10 +138,10 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 179338,
+          "price": 179059,
           "airline": "QR",
           "alliance": "oneworld",
-          "departureAt": "2026-11-17T21:55:00+09:00",
+          "departureAt": "2026-11-02T21:55:00+09:00",
           "returnAt": "2026-11-23T14:35:00+04:00"
         },
         {
@@ -171,22 +171,11 @@
       ],
       "results": [
         {
-          "destination": "HKT",
-          "cityName": "Phuket",
-          "countryName": "Thailand",
-          "origin": "TYO",
-          "price": 64794,
-          "airline": "MU",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-12T13:50:00+09:00",
-          "returnAt": "2026-11-26T23:05:00+07:00"
-        },
-        {
           "destination": "BKI",
           "cityName": "Kota-Kinabalu",
           "countryName": "Malaysia",
           "origin": "TYO",
-          "price": 68374,
+          "price": 68389,
           "airline": "MF",
           "alliance": "skyteam",
           "departureAt": "2026-11-04T15:30:00+09:00",
@@ -234,11 +223,11 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 94478,
+          "price": 90234,
           "airline": "MU",
           "alliance": "skyteam",
-          "departureAt": "2026-11-05T16:55:00+09:00",
-          "returnAt": "2026-11-13T20:50:00+06:00"
+          "departureAt": "2026-11-04T10:55:00+09:00",
+          "returnAt": "2026-11-09T20:50:00+06:00"
         },
         {
           "destination": "NQZ",
@@ -289,10 +278,10 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 179338,
+          "price": 179059,
           "airline": "QR",
           "alliance": "oneworld",
-          "departureAt": "2026-11-17T21:55:00+09:00",
+          "departureAt": "2026-11-02T21:55:00+09:00",
           "returnAt": "2026-11-23T14:35:00+04:00"
         },
         {
@@ -326,7 +315,7 @@
               "cityName": "Nadi",
               "countryName": "Fiji",
               "origin": "TYO",
-              "price": 141704,
+              "price": 141736,
               "departureAt": "2026-11-11T16:30:00+09:00",
               "returnAt": "2026-11-20T23:55:00+13:00"
             }
@@ -378,8 +367,8 @@
               "cityName": "Baku",
               "countryName": "Azerbaijan",
               "origin": "TYO",
-              "price": 179338,
-              "departureAt": "2026-11-17T21:55:00+09:00",
+              "price": 179059,
+              "departureAt": "2026-11-02T21:55:00+09:00",
               "returnAt": "2026-11-23T14:35:00+04:00"
             },
             {
@@ -454,19 +443,9 @@
               "cityName": "Kota-Kinabalu",
               "countryName": "Malaysia",
               "origin": "TYO",
-              "price": 68374,
+              "price": 68389,
               "departureAt": "2026-11-04T15:30:00+09:00",
               "returnAt": "2026-11-15T13:05:00+08:00"
-            },
-            {
-              "group": "Western Europe",
-              "destination": "AMS",
-              "cityName": "Amsterdam",
-              "countryName": "Netherlands",
-              "origin": "TYO",
-              "price": 140881,
-              "departureAt": "2026-11-02T14:55:00+09:00",
-              "returnAt": "2026-11-08T20:30:00+01:00"
             }
           ]
         },
@@ -476,13 +455,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "HKT",
-              "cityName": "Phuket",
-              "countryName": "Thailand",
+              "destination": "PEN",
+              "cityName": "Penang",
+              "countryName": "Malaysia",
               "origin": "TYO",
-              "price": 64794,
-              "departureAt": "2026-11-12T13:50:00+09:00",
-              "returnAt": "2026-11-26T23:05:00+07:00"
+              "price": 70957,
+              "departureAt": "2026-11-18T10:55:00+09:00",
+              "returnAt": "2026-11-23T22:20:00+08:00"
             },
             {
               "group": "Central Asia",
@@ -490,9 +469,9 @@
               "cityName": "Almaty",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 94478,
-              "departureAt": "2026-11-05T16:55:00+09:00",
-              "returnAt": "2026-11-13T20:50:00+06:00"
+              "price": 90234,
+              "departureAt": "2026-11-04T10:55:00+09:00",
+              "returnAt": "2026-11-09T20:50:00+06:00"
             },
             {
               "group": "Western Asia",
@@ -611,16 +590,6 @@
               "returnAt": "2026-11-25T11:55:00+05:45"
             },
             {
-              "group": "Eastern Europe",
-              "destination": "IKT",
-              "cityName": "Irkutsk",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 118976,
-              "departureAt": "2026-11-17T14:20:00+09:00",
-              "returnAt": "2026-11-26T17:05:00+08:00"
-            },
-            {
               "group": "Southern Europe",
               "destination": "MAD",
               "cityName": "Madrid",
@@ -636,7 +605,7 @@
               "cityName": "Brussels",
               "countryName": "Belgium",
               "origin": "TYO",
-              "price": 143713,
+              "price": 143746,
               "departureAt": "2026-11-13T15:25:00+09:00",
               "returnAt": "2026-11-15T13:00:00+01:00"
             },
@@ -734,7 +703,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 134807,
+              "price": 134838,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-20T22:20:00+03:00"
             }
@@ -744,6 +713,16 @@
           "airline": "D7",
           "airlineName": "エアアジアX",
           "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "HKT",
+              "cityName": "Phuket",
+              "countryName": "Thailand",
+              "origin": "TYO",
+              "price": 61855,
+              "departureAt": "2026-11-01T23:55:00+09:00",
+              "returnAt": "2026-11-07T15:05:00+07:00"
+            },
             {
               "group": "Eastern Europe",
               "destination": "KZN",
@@ -778,13 +757,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "JKT",
-              "cityName": "Jakarta",
-              "countryName": "Indonesia",
+              "destination": "USM",
+              "cityName": "Koh Samui",
+              "countryName": "Thailand",
               "origin": "TYO",
-              "price": 68203,
-              "departureAt": "2026-11-04T19:55:00+09:00",
-              "returnAt": "2026-11-08T11:20:00+07:00"
+              "price": 91344,
+              "departureAt": "2026-11-18T08:50:00+09:00",
+              "returnAt": "2026-11-24T08:55:00+07:00"
             },
             {
               "group": "Australia and New Zealand",
