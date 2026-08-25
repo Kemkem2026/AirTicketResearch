@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T12:59:43.925Z",
+  "generatedAt": "2026-08-25T18:48:47.475Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -94,11 +94,11 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 144225,
-          "airline": "CA",
-          "alliance": "staralliance",
-          "departureAt": "2026-11-28T14:20:00+09:00",
-          "returnAt": "2026-11-30T14:45:00+03:00"
+          "price": 132288,
+          "airline": "OM",
+          "alliance": "other",
+          "departureAt": "2026-11-04T15:30:00+09:00",
+          "returnAt": "2026-11-09T14:10:00+03:00"
         },
         {
           "destination": "MED",
@@ -245,11 +245,11 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 144225,
-          "airline": "CA",
-          "alliance": "staralliance",
-          "departureAt": "2026-11-28T14:20:00+09:00",
-          "returnAt": "2026-11-30T14:45:00+03:00"
+          "price": 132288,
+          "airline": "OM",
+          "alliance": "other",
+          "departureAt": "2026-11-04T15:30:00+09:00",
+          "returnAt": "2026-11-09T14:10:00+03:00"
         },
         {
           "destination": "BAK",
@@ -338,6 +338,16 @@
           "airlineName": null,
           "groupResults": [
             {
+              "group": "Eastern Asia",
+              "destination": "SYX",
+              "cityName": "Sanya",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 64549,
+              "departureAt": "2026-11-02T15:30:00+09:00",
+              "returnAt": "2026-11-15T21:10:00+08:00"
+            },
+            {
               "group": "South-Eastern Asia",
               "destination": "BKI",
               "cityName": "Kota-Kinabalu",
@@ -346,22 +356,6 @@
               "price": 68389,
               "departureAt": "2026-11-04T15:30:00+09:00",
               "returnAt": "2026-11-15T13:05:00+08:00"
-            }
-          ]
-        },
-        {
-          "airline": "FM",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Australia and New Zealand",
-              "destination": "AKL",
-              "cityName": "Auckland",
-              "countryName": "New Zealand",
-              "origin": "TYO",
-              "price": 177666,
-              "departureAt": "2026-11-19T17:10:00+09:00",
-              "returnAt": "2026-11-25T09:00:00+13:00"
             }
           ]
         },
@@ -518,16 +512,6 @@
               "price": 143746,
               "departureAt": "2026-11-13T15:25:00+09:00",
               "returnAt": "2026-11-15T13:00:00+01:00"
-            },
-            {
-              "group": "Western Asia",
-              "destination": "IST",
-              "cityName": "Istanbul",
-              "countryName": "Türkiye",
-              "origin": "TYO",
-              "price": 144225,
-              "departureAt": "2026-11-28T14:20:00+09:00",
-              "returnAt": "2026-11-30T14:45:00+03:00"
             }
           ]
         },
@@ -548,22 +532,6 @@
           ]
         },
         {
-          "airline": "ET",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Africa",
-              "destination": "MRU",
-              "cityName": "Mauritius",
-              "countryName": "Mauritius",
-              "origin": "TYO",
-              "price": 166962,
-              "departureAt": "2026-11-19T20:30:00+09:00",
-              "returnAt": "2026-11-25T16:15:00+04:00"
-            }
-          ]
-        },
-        {
           "airline": "TG",
           "airlineName": null,
           "groupResults": [
@@ -576,22 +544,6 @@
               "price": 196486,
               "departureAt": "2026-11-02T10:35:00+09:00",
               "returnAt": "2026-11-05T01:15:00+04:00"
-            }
-          ]
-        },
-        {
-          "airline": "ZH",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "SYX",
-              "cityName": "Sanya",
-              "countryName": "China",
-              "origin": "TYO",
-              "price": 64788,
-              "departureAt": "2026-11-04T19:00:00+09:00",
-              "returnAt": "2026-11-11T18:50:00+08:00"
             }
           ]
         }
@@ -613,7 +565,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 132604,
+              "price": 132546,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-26T22:20:00+03:00"
             }
@@ -687,9 +639,9 @@
               "cityName": "Koh Samui",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 91344,
-              "departureAt": "2026-11-18T08:50:00+09:00",
-              "returnAt": "2026-11-24T08:55:00+07:00"
+              "price": 109226,
+              "departureAt": "2026-11-12T08:50:00+09:00",
+              "returnAt": "2026-11-15T12:00:00+07:00"
             },
             {
               "group": "Australia and New Zealand",
