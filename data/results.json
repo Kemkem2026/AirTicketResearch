@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T18:50:28.269Z",
+  "generatedAt": "2026-08-25T01:40:55.964Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -72,7 +72,7 @@
           "cityName": "Abu Dhabi",
           "countryName": "United Arab Emirates",
           "origin": "TYO",
-          "price": 82347,
+          "price": 82306,
           "airline": "MU",
           "alliance": "skyteam",
           "departureAt": "2026-11-10T13:50:00+09:00",
@@ -212,7 +212,7 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 90355,
+          "price": 90309,
           "airline": "MU",
           "alliance": "skyteam",
           "departureAt": "2026-11-04T10:55:00+09:00",
@@ -294,38 +294,6 @@
       "alliance": "oneworld",
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "AA",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "PAE",
-              "cityName": "Everett",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 302189,
-              "departureAt": "2026-11-24T18:00:00+09:00",
-              "returnAt": "2026-11-30T16:30:00-08:00"
-            }
-          ]
-        },
-        {
-          "airline": "AS",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "OAK",
-              "cityName": "Oakland",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 203138,
-              "departureAt": "2026-11-24T21:20:00+09:00",
-              "returnAt": "2026-11-30T22:55:00-08:00"
-            }
-          ]
-        },
         {
           "airline": "FJ",
           "airlineName": null,
@@ -422,7 +390,7 @@
               "cityName": "Abu Dhabi",
               "countryName": "United Arab Emirates",
               "origin": "TYO",
-              "price": 82347,
+              "price": 82306,
               "departureAt": "2026-11-10T13:50:00+09:00",
               "returnAt": "2026-11-14T23:30:00+04:00"
             },
@@ -432,9 +400,19 @@
               "cityName": "Almaty",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 90355,
+              "price": 90309,
               "departureAt": "2026-11-04T10:55:00+09:00",
               "returnAt": "2026-11-09T20:50:00+06:00"
+            },
+            {
+              "group": "Southern Asia",
+              "destination": "CMB",
+              "cityName": "Colombo",
+              "countryName": "Sri Lanka",
+              "origin": "TYO",
+              "price": 95059,
+              "departureAt": "2026-11-07T13:50:00+09:00",
+              "returnAt": "2026-11-16T20:20:00+05:30"
             },
             {
               "group": "Northern Africa",
@@ -445,16 +423,6 @@
               "price": 127226,
               "departureAt": "2026-11-04T13:50:00+09:00",
               "returnAt": "2026-11-11T13:00:00+02:00"
-            },
-            {
-              "group": "Australia and New Zealand",
-              "destination": "BNE",
-              "cityName": "Brisbane",
-              "countryName": "Australia",
-              "origin": "TYO",
-              "price": 152645,
-              "departureAt": "2026-11-24T13:50:00+09:00",
-              "returnAt": "2026-11-30T11:10:00+10:00"
             }
           ]
         },
@@ -575,6 +543,16 @@
               "returnAt": "2026-11-25T11:55:00+05:45"
             },
             {
+              "group": "Eastern Europe",
+              "destination": "VVO",
+              "cityName": "Vladivostok",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 111631,
+              "departureAt": "2026-11-17T14:20:00+09:00",
+              "returnAt": "2026-11-24T18:20:00+10:00"
+            },
+            {
               "group": "Southern Europe",
               "destination": "MAD",
               "cityName": "Madrid",
@@ -637,22 +615,6 @@
               "returnAt": "2026-11-05T01:15:00+04:00"
             }
           ]
-        },
-        {
-          "airline": "EH",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "YGJ",
-              "cityName": "Yonago",
-              "countryName": "Japan",
-              "origin": "TYO",
-              "price": 30914,
-              "departureAt": "2026-11-02T06:50:00+09:00",
-              "returnAt": "2026-11-02T14:25:00+09:00"
-            }
-          ]
         }
       ]
     },
@@ -688,7 +650,7 @@
               "cityName": "Kaohsiung",
               "countryName": "Taiwan",
               "origin": "TYO",
-              "price": 60426,
+              "price": 60396,
               "departureAt": "2026-11-26T13:30:00+09:00",
               "returnAt": "2026-11-29T08:05:00+08:00"
             }
@@ -704,7 +666,7 @@
               "cityName": "Phuket",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 61495,
+              "price": 61464,
               "departureAt": "2026-11-01T23:55:00+09:00",
               "returnAt": "2026-11-08T14:10:00+07:00"
             },
@@ -730,7 +692,7 @@
               "cityName": "Kemerovo",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 183338,
+              "price": 183245,
               "departureAt": "2026-11-01T21:15:00+09:00",
               "returnAt": "2026-11-11T14:15:00+07:00"
             }
