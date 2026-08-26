@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T01:46:15.856Z",
+  "generatedAt": "2026-08-26T06:59:35.992Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -284,22 +284,6 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "FJ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Melanesia",
-              "destination": "NAN",
-              "cityName": "Nadi",
-              "countryName": "Fiji",
-              "origin": "TYO",
-              "price": 141736,
-              "departureAt": "2026-11-11T16:30:00+09:00",
-              "returnAt": "2026-11-20T23:55:00+13:00"
-            }
-          ]
-        },
-        {
           "airline": "QR",
           "airlineName": null,
           "groupResults": [
@@ -324,6 +308,22 @@
               "returnAt": "2026-11-23T14:35:00+04:00"
             }
           ]
+        },
+        {
+          "airline": "FJ",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 141736,
+              "departureAt": "2026-11-11T16:30:00+09:00",
+              "returnAt": "2026-11-20T23:55:00+13:00"
+            }
+          ]
         }
       ]
     },
@@ -333,48 +333,6 @@
       "alliance": "skyteam",
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "MF",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "SYX",
-              "cityName": "Sanya",
-              "countryName": "China",
-              "origin": "TYO",
-              "price": 64549,
-              "departureAt": "2026-11-02T15:30:00+09:00",
-              "returnAt": "2026-11-15T21:10:00+08:00"
-            },
-            {
-              "group": "South-Eastern Asia",
-              "destination": "BKI",
-              "cityName": "Kota-Kinabalu",
-              "countryName": "Malaysia",
-              "origin": "TYO",
-              "price": 68389,
-              "departureAt": "2026-11-04T15:30:00+09:00",
-              "returnAt": "2026-11-15T13:05:00+08:00"
-            }
-          ]
-        },
-        {
-          "airline": "CI",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "ONT",
-              "cityName": "Ontario",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 224853,
-              "departureAt": "2026-11-10T14:35:00+09:00",
-              "returnAt": "2026-11-15T15:10:00-08:00"
-            }
-          ]
-        },
         {
           "airline": "MU",
           "airlineName": null,
@@ -430,6 +388,48 @@
               "returnAt": "2026-11-11T13:00:00+02:00"
             }
           ]
+        },
+        {
+          "airline": "CI",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "ONT",
+              "cityName": "Ontario",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 224853,
+              "departureAt": "2026-11-10T14:35:00+09:00",
+              "returnAt": "2026-11-15T15:10:00-08:00"
+            }
+          ]
+        },
+        {
+          "airline": "MF",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "SYX",
+              "cityName": "Sanya",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 64549,
+              "departureAt": "2026-11-02T15:30:00+09:00",
+              "returnAt": "2026-11-15T21:10:00+08:00"
+            },
+            {
+              "group": "South-Eastern Asia",
+              "destination": "BKI",
+              "cityName": "Kota-Kinabalu",
+              "countryName": "Malaysia",
+              "origin": "TYO",
+              "price": 68389,
+              "departureAt": "2026-11-04T15:30:00+09:00",
+              "returnAt": "2026-11-15T13:05:00+08:00"
+            }
+          ]
         }
       ]
     },
@@ -439,22 +439,6 @@
       "alliance": "staralliance",
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "BR",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "HOU",
-              "cityName": "Houston",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 308190,
-              "departureAt": "2026-11-29T12:15:00+09:00",
-              "returnAt": "2026-11-29T23:30:00-06:00"
-            }
-          ]
-        },
         {
           "airline": "CA",
           "airlineName": null,
@@ -544,6 +528,22 @@
               "price": 288358,
               "departureAt": "2026-11-16T12:10:00+09:00",
               "returnAt": "2026-11-30T15:35:00-03:00"
+            }
+          ]
+        },
+        {
+          "airline": "BR",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "HOU",
+              "cityName": "Houston",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 307719,
+              "departureAt": "2026-11-29T12:15:00+09:00",
+              "returnAt": "2026-11-29T23:30:00-06:00"
             }
           ]
         },
@@ -651,13 +651,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "USM",
-              "cityName": "Koh Samui",
-              "countryName": "Thailand",
+              "destination": "DPS",
+              "cityName": "Denpasar (Bali)",
+              "countryName": "Indonesia",
               "origin": "TYO",
-              "price": 109226,
-              "departureAt": "2026-11-12T08:50:00+09:00",
-              "returnAt": "2026-11-15T12:00:00+07:00"
+              "price": 69733,
+              "departureAt": "2026-11-10T08:50:00+09:00",
+              "returnAt": "2026-11-12T14:20:00+08:00"
             },
             {
               "group": "Australia and New Zealand",
