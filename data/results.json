@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T18:48:47.475Z",
+  "generatedAt": "2026-08-26T01:46:15.856Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -94,7 +94,7 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 132288,
+          "price": 132287,
           "airline": "OM",
           "alliance": "other",
           "departureAt": "2026-11-04T15:30:00+09:00",
@@ -245,7 +245,7 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 132288,
+          "price": 132287,
           "airline": "OM",
           "alliance": "other",
           "departureAt": "2026-11-04T15:30:00+09:00",
@@ -440,6 +440,22 @@
       "groupBy": "subregion",
       "airlines": [
         {
+          "airline": "BR",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "HOU",
+              "cityName": "Houston",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 308190,
+              "departureAt": "2026-11-29T12:15:00+09:00",
+              "returnAt": "2026-11-29T23:30:00-06:00"
+            }
+          ]
+        },
+        {
           "airline": "CA",
           "airlineName": null,
           "groupResults": [
@@ -565,7 +581,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 132546,
+              "price": 132544,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-26T22:20:00+03:00"
             }
