@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T08:49:37.172Z",
+  "generatedAt": "2026-08-27T22:08:39.601Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -44,7 +44,7 @@
           "cityName": "Kaliningrad",
           "countryName": "Russia",
           "origin": "TYO",
-          "price": 171604,
+          "price": 171656,
           "airline": "QR",
           "alliance": "oneworld",
           "departureAt": "2026-11-09T21:55:00+09:00",
@@ -116,7 +116,7 @@
           "cityName": "Izmir",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 169152,
+          "price": 169204,
           "airline": "9C",
           "alliance": "other",
           "departureAt": "2026-11-12T19:40:00+09:00",
@@ -208,17 +208,6 @@
           "returnAt": "2026-11-22T21:30:00+06:00"
         },
         {
-          "destination": "NQZ",
-          "cityName": "Astana",
-          "countryName": "Kazakhstan",
-          "origin": "TYO",
-          "price": 101861,
-          "airline": "CA",
-          "alliance": "staralliance",
-          "departureAt": "2026-11-03T14:20:00+09:00",
-          "returnAt": "2026-11-19T20:55:00+06:00"
-        },
-        {
           "destination": "BSZ",
           "cityName": "Bishkek",
           "countryName": "Kyrgyzstan",
@@ -252,11 +241,22 @@
           "returnAt": "2026-11-09T14:10:00+03:00"
         },
         {
+          "destination": "NQZ",
+          "cityName": "Astana",
+          "countryName": "Kazakhstan",
+          "origin": "TYO",
+          "price": 155623,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-07T08:30:00+09:00",
+          "returnAt": "2026-11-22T19:45:00+06:00"
+        },
+        {
           "destination": "IZM",
           "cityName": "Izmir",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 169152,
+          "price": 169204,
           "airline": "9C",
           "alliance": "other",
           "departureAt": "2026-11-12T19:40:00+09:00",
@@ -392,6 +392,16 @@
               "price": 127226,
               "departureAt": "2026-11-04T13:50:00+09:00",
               "returnAt": "2026-11-11T13:00:00+02:00"
+            },
+            {
+              "group": "Eastern Europe",
+              "destination": "KZN",
+              "cityName": "Kazan",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 178609,
+              "departureAt": "2026-11-20T08:40:00+09:00",
+              "returnAt": "2026-11-20T20:00:00+03:00"
             }
           ]
         }
@@ -432,22 +442,6 @@
               "price": 308412,
               "departureAt": "2026-11-29T12:15:00+09:00",
               "returnAt": "2026-11-29T23:30:00-06:00"
-            }
-          ]
-        },
-        {
-          "airline": "LX",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "South America",
-              "destination": "RIO",
-              "cityName": "Rio de Janeiro",
-              "countryName": "Brazil",
-              "origin": "TYO",
-              "price": 288358,
-              "departureAt": "2026-11-16T12:10:00+09:00",
-              "returnAt": "2026-11-30T15:35:00-03:00"
             }
           ]
         },
@@ -512,16 +506,6 @@
               "returnAt": "2026-11-24T18:20:00+10:00"
             },
             {
-              "group": "Southern Europe",
-              "destination": "MAD",
-              "cityName": "Madrid",
-              "countryName": "Spain",
-              "origin": "TYO",
-              "price": 137887,
-              "departureAt": "2026-11-13T15:25:00+09:00",
-              "returnAt": "2026-11-22T16:40:00+01:00"
-            },
-            {
               "group": "Western Europe",
               "destination": "BRU",
               "cityName": "Brussels",
@@ -570,16 +554,6 @@
               "price": 61464,
               "departureAt": "2026-11-01T23:55:00+09:00",
               "returnAt": "2026-11-08T14:10:00+07:00"
-            },
-            {
-              "group": "Eastern Europe",
-              "destination": "KZN",
-              "cityName": "Kazan",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 170558,
-              "departureAt": "2026-11-01T23:55:00+09:00",
-              "returnAt": "2026-11-30T11:10:00+03:00"
             }
           ]
         },
