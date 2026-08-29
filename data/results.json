@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T06:47:34.761Z",
+  "generatedAt": "2026-08-29T16:36:17.488Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -33,10 +33,10 @@
           "cityName": "Moscow",
           "countryName": "Russia",
           "origin": "TYO",
-          "price": 112141,
+          "price": 112621,
           "airline": "QR",
           "alliance": "oneworld",
-          "departureAt": "2026-11-09T21:55:00+09:00",
+          "departureAt": "2026-11-08T21:55:00+09:00",
           "returnAt": "2026-11-18T16:15:00+03:00"
         },
         {
@@ -83,11 +83,11 @@
           "cityName": "Dubai",
           "countryName": "United Arab Emirates",
           "origin": "TYO",
-          "price": 96716,
-          "airline": "MU",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-02T13:50:00+09:00",
-          "returnAt": "2026-11-05T18:55:00+04:00"
+          "price": 131612,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-22T15:25:00+09:00",
+          "returnAt": "2026-11-30T01:15:00+04:00"
         },
         {
           "destination": "IST",
@@ -347,8 +347,8 @@
               "cityName": "Moscow",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 112141,
-              "departureAt": "2026-11-09T21:55:00+09:00",
+              "price": 112621,
+              "departureAt": "2026-11-08T21:55:00+09:00",
               "returnAt": "2026-11-18T16:15:00+03:00"
             },
             {
@@ -412,6 +412,16 @@
               "returnAt": "2026-11-28T02:45:00+07:00"
             },
             {
+              "group": "Eastern Asia",
+              "destination": "CAN",
+              "cityName": "Guangzhou",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 72339,
+              "departureAt": "2026-11-04T13:50:00+09:00",
+              "returnAt": "2026-11-20T12:50:00+08:00"
+            },
+            {
               "group": "Western Asia",
               "destination": "AUH",
               "cityName": "Abu Dhabi",
@@ -440,16 +450,6 @@
               "price": 126720,
               "departureAt": "2026-11-23T16:55:00+09:00",
               "returnAt": "2026-11-30T12:00:00+11:00"
-            },
-            {
-              "group": "Northern Africa",
-              "destination": "CAI",
-              "cityName": "Cairo",
-              "countryName": "Egypt",
-              "origin": "TYO",
-              "price": 127384,
-              "departureAt": "2026-11-26T10:55:00+09:00",
-              "returnAt": "2026-11-29T13:00:00+02:00"
             },
             {
               "group": "Eastern Europe",
@@ -520,6 +520,22 @@
           ]
         },
         {
+          "airline": "OZ",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Europe",
+              "destination": "SVX",
+              "cityName": "Yekaterinburg",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 200538,
+              "departureAt": "2026-11-07T13:20:00+09:00",
+              "returnAt": "2026-11-22T05:30:00+05:00"
+            }
+          ]
+        },
+        {
           "airline": "CA",
           "airlineName": null,
           "groupResults": [
@@ -554,6 +570,16 @@
               "returnAt": "2026-11-24T18:20:00+10:00"
             },
             {
+              "group": "Western Asia",
+              "destination": "DXB",
+              "cityName": "Dubai",
+              "countryName": "United Arab Emirates",
+              "origin": "TYO",
+              "price": 131612,
+              "departureAt": "2026-11-22T15:25:00+09:00",
+              "returnAt": "2026-11-30T01:15:00+04:00"
+            },
+            {
               "group": "Western Europe",
               "destination": "BRU",
               "cityName": "Brussels",
@@ -562,16 +588,6 @@
               "price": 143746,
               "departureAt": "2026-11-13T15:25:00+09:00",
               "returnAt": "2026-11-15T13:00:00+01:00"
-            },
-            {
-              "group": "Western Asia",
-              "destination": "TBS",
-              "cityName": "Tbilisi",
-              "countryName": "Georgia",
-              "origin": "TYO",
-              "price": 153073,
-              "departureAt": "2026-11-17T08:30:00+09:00",
-              "returnAt": "2026-11-24T22:50:00+04:00"
             }
           ]
         }
@@ -667,7 +683,7 @@
               "cityName": "Melbourne",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 120827,
+              "price": 117678,
               "departureAt": "2026-11-20T02:10:00+09:00",
               "returnAt": "2026-11-28T22:35:00+11:00"
             },
