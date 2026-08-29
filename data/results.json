@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T22:08:16.989Z",
+  "generatedAt": "2026-08-29T06:47:34.761Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -116,7 +116,7 @@
           "cityName": "Sharjah",
           "countryName": "United Arab Emirates",
           "origin": "TYO",
-          "price": 154122,
+          "price": 154107,
           "airline": "5J",
           "alliance": "other",
           "departureAt": "2026-11-22T12:50:00+09:00",
@@ -164,7 +164,7 @@
           "cityName": "Hanoi",
           "countryName": "Vietnam",
           "origin": "TYO",
-          "price": 61695,
+          "price": 61689,
           "airline": "MU",
           "alliance": "skyteam",
           "departureAt": "2026-11-23T13:50:00+09:00",
@@ -175,10 +175,10 @@
           "cityName": "Bangkok",
           "countryName": "Thailand",
           "origin": "TYO",
-          "price": 63063,
+          "price": 62613,
           "airline": "MU",
           "alliance": "skyteam",
-          "departureAt": "2026-11-07T13:50:00+09:00",
+          "departureAt": "2026-11-07T16:55:00+09:00",
           "returnAt": "2026-11-15T01:05:00+07:00"
         },
         {
@@ -315,9 +315,25 @@
               "cityName": "Nadi",
               "countryName": "Fiji",
               "origin": "TYO",
-              "price": 142030,
+              "price": 142016,
               "departureAt": "2026-11-11T16:30:00+09:00",
               "returnAt": "2026-11-20T23:55:00+13:00"
+            }
+          ]
+        },
+        {
+          "airline": "AS",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "LGB",
+              "cityName": "Long Beach",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 238306,
+              "departureAt": "2026-11-01T21:20:00+09:00",
+              "returnAt": "2026-11-30T12:45:00-08:00"
             }
           ]
         },
@@ -391,7 +407,7 @@
               "cityName": "Hanoi",
               "countryName": "Vietnam",
               "origin": "TYO",
-              "price": 61695,
+              "price": 61689,
               "departureAt": "2026-11-23T13:50:00+09:00",
               "returnAt": "2026-11-28T02:45:00+07:00"
             },
@@ -421,7 +437,7 @@
               "cityName": "Sydney",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 126732,
+              "price": 126720,
               "departureAt": "2026-11-23T16:55:00+09:00",
               "returnAt": "2026-11-30T12:00:00+11:00"
             },
@@ -456,6 +472,22 @@
       "groupBy": "subregion",
       "airlines": [
         {
+          "airline": "EH",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "OKJ",
+              "cityName": "Okayama",
+              "countryName": "Japan",
+              "origin": "TYO",
+              "price": 21985,
+              "departureAt": "2026-11-05T12:05:00+09:00",
+              "returnAt": "2026-11-05T20:00:00+09:00"
+            }
+          ]
+        },
+        {
           "airline": "BR",
           "airlineName": null,
           "groupResults": [
@@ -468,6 +500,22 @@
               "price": 308412,
               "departureAt": "2026-11-29T12:15:00+09:00",
               "returnAt": "2026-11-29T23:30:00-06:00"
+            }
+          ]
+        },
+        {
+          "airline": "ET",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Southern Africa",
+              "destination": "CPT",
+              "cityName": "Cape Town",
+              "countryName": "South Africa",
+              "origin": "TYO",
+              "price": 177332,
+              "departureAt": "2026-11-06T20:30:00+09:00",
+              "returnAt": "2026-11-12T13:50:00+02:00"
             }
           ]
         },
@@ -526,22 +574,6 @@
               "returnAt": "2026-11-24T22:50:00+04:00"
             }
           ]
-        },
-        {
-          "airline": "EH",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "OKJ",
-              "cityName": "Okayama",
-              "countryName": "Japan",
-              "origin": "TYO",
-              "price": 21985,
-              "departureAt": "2026-11-05T12:05:00+09:00",
-              "returnAt": "2026-11-05T20:00:00+09:00"
-            }
-          ]
         }
       ]
     },
@@ -561,7 +593,7 @@
               "cityName": "Chiang Mai",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 124928,
+              "price": 124916,
               "departureAt": "2026-11-23T14:35:00+09:00",
               "returnAt": "2026-11-26T20:40:00+07:00"
             }
@@ -577,7 +609,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 133243,
+              "price": 133230,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-26T22:20:00+03:00"
             }
@@ -674,7 +706,7 @@
           "cityName": "Male",
           "countryName": "Maldives",
           "origin": "TYO",
-          "price": 212673,
+          "price": 212652,
           "departureAt": "2026-11-16T00:05:00+09:00",
           "returnAt": "2026-11-16T20:55:00+05:00"
         }
