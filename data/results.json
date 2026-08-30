@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T20:48:45.309Z",
+  "generatedAt": "2026-08-30T05:00:26.770Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -401,16 +401,6 @@
               "returnAt": "2026-11-28T02:45:00+07:00"
             },
             {
-              "group": "Eastern Asia",
-              "destination": "CAN",
-              "cityName": "Guangzhou",
-              "countryName": "China",
-              "origin": "TYO",
-              "price": 72339,
-              "departureAt": "2026-11-04T13:50:00+09:00",
-              "returnAt": "2026-11-20T12:50:00+08:00"
-            },
-            {
               "group": "Western Asia",
               "destination": "AUH",
               "cityName": "Abu Dhabi",
@@ -547,6 +537,16 @@
               "price": 68872,
               "departureAt": "2026-11-16T08:30:00+09:00",
               "returnAt": "2026-11-23T23:55:00+08:00"
+            },
+            {
+              "group": "Eastern Asia",
+              "destination": "CAN",
+              "cityName": "Guangzhou",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 71761,
+              "departureAt": "2026-11-17T15:00:00+09:00",
+              "returnAt": "2026-11-27T18:05:00+08:00"
             },
             {
               "group": "Central Asia",
