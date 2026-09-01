@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T22:43:15.386Z",
+  "generatedAt": "2026-09-01T04:44:13.042Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -61,7 +61,7 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 105117,
+          "price": 105111,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-18T15:40:00+09:00",
@@ -83,7 +83,7 @@
           "cityName": "Antalya",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 134975,
+          "price": 134966,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-18T15:40:00+09:00",
@@ -127,7 +127,7 @@
           "cityName": "Yerevan",
           "countryName": "Armenia",
           "origin": "TYO",
-          "price": 183476,
+          "price": 183465,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-03T10:45:00+09:00",
@@ -138,7 +138,7 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 183855,
+          "price": 183844,
           "airline": "QR",
           "alliance": "oneworld",
           "departureAt": "2026-11-09T21:55:00+09:00",
@@ -197,7 +197,7 @@
           "cityName": "Kuala Lumpur",
           "countryName": "Malaysia",
           "origin": "TYO",
-          "price": 66616,
+          "price": 66612,
           "airline": "MU",
           "alliance": "skyteam",
           "departureAt": "2026-11-02T16:55:00+09:00",
@@ -234,7 +234,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 89485,
+          "price": 89480,
           "airline": "MU",
           "alliance": "skyteam",
           "departureAt": "2026-11-02T16:55:00+09:00",
@@ -245,7 +245,7 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 105117,
+          "price": 105111,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-18T15:40:00+09:00",
@@ -256,7 +256,7 @@
           "cityName": "Antalya",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 134975,
+          "price": 134966,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-18T15:40:00+09:00",
@@ -300,7 +300,7 @@
           "cityName": "Yerevan",
           "countryName": "Armenia",
           "origin": "TYO",
-          "price": 183476,
+          "price": 183465,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-03T10:45:00+09:00",
@@ -352,7 +352,7 @@
               "cityName": "Baku",
               "countryName": "Azerbaijan",
               "origin": "TYO",
-              "price": 183855,
+              "price": 183844,
               "departureAt": "2026-11-09T21:55:00+09:00",
               "returnAt": "2026-11-20T14:35:00+04:00"
             },
@@ -362,7 +362,7 @@
               "cityName": "Bamako",
               "countryName": "Mali",
               "origin": "TYO",
-              "price": 254390,
+              "price": 254375,
               "departureAt": "2026-11-13T16:55:00+09:00",
               "returnAt": "2026-11-27T01:55:00Z"
             }
@@ -422,7 +422,7 @@
               "cityName": "Guangzhou",
               "countryName": "China",
               "origin": "TYO",
-              "price": 66508,
+              "price": 66504,
               "departureAt": "2026-11-04T13:50:00+09:00",
               "returnAt": "2026-11-16T12:50:00+08:00"
             },
@@ -432,7 +432,7 @@
               "cityName": "Tashkent",
               "countryName": "Uzbekistan",
               "origin": "TYO",
-              "price": 89485,
+              "price": 89480,
               "departureAt": "2026-11-02T16:55:00+09:00",
               "returnAt": "2026-11-16T19:30:00+05:00"
             },
@@ -452,7 +452,7 @@
               "cityName": "Paris",
               "countryName": "France",
               "origin": "TYO",
-              "price": 150157,
+              "price": 150147,
               "departureAt": "2026-11-09T16:55:00+09:00",
               "returnAt": "2026-11-15T20:05:00+01:00"
             },
@@ -525,22 +525,6 @@
           ]
         },
         {
-          "airline": "AI",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Western Europe",
-              "destination": "ZRH",
-              "cityName": "Zurich",
-              "countryName": "Switzerland",
-              "origin": "TYO",
-              "price": 162902,
-              "departureAt": "2026-11-15T10:30:00+09:00",
-              "returnAt": "2026-11-21T20:35:00+01:00"
-            }
-          ]
-        },
-        {
           "airline": "CA",
           "airlineName": null,
           "groupResults": [
@@ -570,7 +554,7 @@
               "cityName": "Vladivostok",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 101330,
+              "price": 101323,
               "departureAt": "2026-11-27T18:00:00+09:00",
               "returnAt": "2026-11-29T18:20:00+10:00"
             },
@@ -636,7 +620,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 134770,
+              "price": 129623,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-26T22:20:00+03:00"
             },
@@ -672,9 +656,29 @@
               "cityName": "Melbourne",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 117678,
+              "price": 119890,
               "departureAt": "2026-11-20T02:10:00+09:00",
               "returnAt": "2026-11-28T22:35:00+11:00"
+            },
+            {
+              "group": "Western Europe",
+              "destination": "ZRH",
+              "cityName": "Zurich",
+              "countryName": "Switzerland",
+              "origin": "TYO",
+              "price": 139647,
+              "departureAt": "2026-11-05T08:50:00+09:00",
+              "returnAt": "2026-11-14T14:00:00+01:00"
+            },
+            {
+              "group": "Central Europe",
+              "destination": "VIE",
+              "cityName": "Vienna",
+              "countryName": "Austria",
+              "origin": "TYO",
+              "price": 139810,
+              "departureAt": "2026-11-05T08:50:00+09:00",
+              "returnAt": "2026-11-14T17:05:00+01:00"
             },
             {
               "group": "Southern Europe",
@@ -685,16 +689,6 @@
               "price": 151258,
               "departureAt": "2026-11-01T11:55:00+09:00",
               "returnAt": "2026-11-15T11:30:00+02:00"
-            },
-            {
-              "group": "Central Europe",
-              "destination": "LJU",
-              "cityName": "Ljubljana",
-              "countryName": "Slovenia",
-              "origin": "TYO",
-              "price": 153814,
-              "departureAt": "2026-11-01T02:10:00+09:00",
-              "returnAt": "2026-11-04T20:45:00+01:00"
             }
           ]
         }
@@ -726,7 +720,7 @@
           "cityName": "Beijing",
           "countryName": "China",
           "origin": "TYO",
-          "price": 64951,
+          "price": 64947,
           "departureAt": "2026-11-07T17:25:00+09:00",
           "returnAt": "2026-11-15T08:25:00+08:00"
         }
