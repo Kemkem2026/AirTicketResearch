@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T16:24:59.632Z",
+  "generatedAt": "2026-09-02T20:54:06.816Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -401,7 +401,7 @@
               "cityName": "Omsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 163295,
+              "price": 163623,
               "departureAt": "2026-11-25T17:10:00+09:00",
               "returnAt": "2026-11-30T06:35:00+06:00"
             }
@@ -641,7 +641,7 @@
               "cityName": "Sydney",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 111163,
+              "price": 111386,
               "departureAt": "2026-11-11T02:15:00+09:00",
               "returnAt": "2026-11-18T13:25:00+11:00"
             },
