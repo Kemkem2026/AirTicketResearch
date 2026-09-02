@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T04:05:51.715Z",
+  "generatedAt": "2026-09-02T11:04:22.418Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -99,17 +99,6 @@
           "alliance": "other",
           "departureAt": "2026-11-22T12:50:00+09:00",
           "returnAt": "2026-11-30T01:15:00+04:00"
-        },
-        {
-          "destination": "TBS",
-          "cityName": "Tbilisi",
-          "countryName": "Georgia",
-          "origin": "TYO",
-          "price": 157954,
-          "airline": "9C",
-          "alliance": "other",
-          "departureAt": "2026-11-10T02:00:00+09:00",
-          "returnAt": "2026-11-17T06:15:00+04:00"
         },
         {
           "destination": "IZM",
@@ -263,17 +252,6 @@
           "returnAt": "2026-11-27T04:25:00+03:00"
         },
         {
-          "destination": "TBS",
-          "cityName": "Tbilisi",
-          "countryName": "Georgia",
-          "origin": "TYO",
-          "price": 157954,
-          "airline": "9C",
-          "alliance": "other",
-          "departureAt": "2026-11-10T02:00:00+09:00",
-          "returnAt": "2026-11-17T06:15:00+04:00"
-        },
-        {
           "destination": "CIT",
           "cityName": "Shymkent",
           "countryName": "Kazakhstan",
@@ -305,6 +283,17 @@
           "alliance": "other",
           "departureAt": "2026-11-03T10:45:00+09:00",
           "returnAt": "2026-11-27T04:15:00+04:00"
+        },
+        {
+          "destination": "BAK",
+          "cityName": "Baku",
+          "countryName": "Azerbaijan",
+          "origin": "TYO",
+          "price": 183844,
+          "airline": "QR",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-09T21:55:00+09:00",
+          "returnAt": "2026-11-20T14:35:00+04:00"
         }
       ]
     }
@@ -437,16 +426,6 @@
               "returnAt": "2026-11-16T19:30:00+05:00"
             },
             {
-              "group": "Australia and New Zealand",
-              "destination": "SYD",
-              "cityName": "Sydney",
-              "countryName": "Australia",
-              "origin": "TYO",
-              "price": 126720,
-              "departureAt": "2026-11-23T16:55:00+09:00",
-              "returnAt": "2026-11-30T12:00:00+11:00"
-            },
-            {
               "group": "Southern Europe",
               "destination": "ROM",
               "cityName": "Rome",
@@ -513,18 +492,18 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "ET",
+          "airline": "AI",
           "airlineName": null,
           "groupResults": [
             {
-              "group": "Southern Africa",
-              "destination": "CPT",
-              "cityName": "Cape Town",
-              "countryName": "South Africa",
+              "group": "Southern Asia",
+              "destination": "DAC",
+              "cityName": "Dhaka",
+              "countryName": "Bangladesh",
               "origin": "TYO",
-              "price": 177332,
-              "departureAt": "2026-11-06T20:30:00+09:00",
-              "returnAt": "2026-11-12T13:50:00+02:00"
+              "price": 108695,
+              "departureAt": "2026-11-02T09:15:00+09:00",
+              "returnAt": "2026-11-23T11:45:00+06:00"
             }
           ]
         },
@@ -561,18 +540,18 @@
           ]
         },
         {
-          "airline": "AI",
+          "airline": "ET",
           "airlineName": null,
           "groupResults": [
             {
-              "group": "Southern Asia",
-              "destination": "DAC",
-              "cityName": "Dhaka",
-              "countryName": "Bangladesh",
+              "group": "Southern Africa",
+              "destination": "CPT",
+              "cityName": "Cape Town",
+              "countryName": "South Africa",
               "origin": "TYO",
-              "price": 108695,
-              "departureAt": "2026-11-02T09:15:00+09:00",
-              "returnAt": "2026-11-23T11:45:00+06:00"
+              "price": 177332,
+              "departureAt": "2026-11-06T20:30:00+09:00",
+              "returnAt": "2026-11-12T13:50:00+02:00"
             }
           ]
         },
@@ -668,13 +647,13 @@
           "groupResults": [
             {
               "group": "Australia and New Zealand",
-              "destination": "MEL",
-              "cityName": "Melbourne",
+              "destination": "SYD",
+              "cityName": "Sydney",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 120219,
-              "departureAt": "2026-11-20T02:10:00+09:00",
-              "returnAt": "2026-11-28T22:35:00+11:00"
+              "price": 112067,
+              "departureAt": "2026-11-11T02:15:00+09:00",
+              "returnAt": "2026-11-18T13:25:00+11:00"
             },
             {
               "group": "Western Europe",
