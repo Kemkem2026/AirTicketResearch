@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T16:15:34.539Z",
+  "generatedAt": "2026-09-03T20:52:55.666Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -281,7 +281,7 @@
               "cityName": "Honolulu",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 76640,
+              "price": 76667,
               "departureAt": "2026-11-21T20:05:00+09:00",
               "returnAt": "2026-11-23T12:55:00-10:00"
             },
@@ -449,7 +449,7 @@
               "cityName": "Yanji",
               "countryName": "China",
               "origin": "TYO",
-              "price": 66677,
+              "price": 66701,
               "departureAt": "2026-11-08T02:00:00+09:00",
               "returnAt": "2026-11-18T15:30:00+08:00"
             }
@@ -521,7 +521,7 @@
               "cityName": "Hagatna",
               "countryName": "Guam",
               "origin": "TYO",
-              "price": 69014,
+              "price": 69039,
               "departureAt": "2026-11-04T13:20:00+09:00",
               "returnAt": "2026-11-08T16:50:00+10:00"
             },
@@ -583,7 +583,7 @@
               "cityName": "Saipan",
               "countryName": "Northern Mariana Islands",
               "origin": "TYO",
-              "price": 80741,
+              "price": 80770,
               "departureAt": "2026-11-01T17:00:00+09:00",
               "returnAt": "2026-11-04T09:50:00+10:00"
             }
@@ -623,7 +623,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 124742,
+              "price": 124787,
               "departureAt": "2026-11-17T16:40:00+09:00",
               "returnAt": "2026-11-24T22:20:00+03:00"
             }
@@ -703,7 +703,7 @@
           "cityName": "Beijing",
           "countryName": "China",
           "origin": "TYO",
-          "price": 62840,
+          "price": 62862,
           "departureAt": "2026-11-23T17:25:00+09:00",
           "returnAt": "2026-11-28T08:25:00+08:00"
         }
