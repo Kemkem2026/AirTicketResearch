@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T04:03:28.894Z",
+  "generatedAt": "2026-09-03T11:01:35.935Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -27,19 +27,7 @@
       "alliances": [
         "oneworld"
       ],
-      "results": [
-        {
-          "destination": "KGD",
-          "cityName": "Kaliningrad",
-          "countryName": "Russia",
-          "origin": "TYO",
-          "price": 171622,
-          "airline": "QR",
-          "alliance": "oneworld",
-          "departureAt": "2026-11-09T21:55:00+09:00",
-          "returnAt": "2026-11-23T19:55:00+02:00"
-        }
-      ]
+      "results": []
     },
     {
       "label": "西アジア(中東)x 全連合",
@@ -99,17 +87,6 @@
           "alliance": "other",
           "departureAt": "2026-11-22T12:50:00+09:00",
           "returnAt": "2026-11-30T01:15:00+04:00"
-        },
-        {
-          "destination": "IZM",
-          "cityName": "Izmir",
-          "countryName": "Türkiye",
-          "origin": "TYO",
-          "price": 169170,
-          "airline": "9C",
-          "alliance": "other",
-          "departureAt": "2026-11-12T19:40:00+09:00",
-          "returnAt": "2026-11-17T04:10:00+03:00"
         },
         {
           "destination": "EVN",
@@ -263,17 +240,6 @@
           "returnAt": "2026-11-30T20:15:00+06:00"
         },
         {
-          "destination": "IZM",
-          "cityName": "Izmir",
-          "countryName": "Türkiye",
-          "origin": "TYO",
-          "price": 169170,
-          "airline": "9C",
-          "alliance": "other",
-          "departureAt": "2026-11-12T19:40:00+09:00",
-          "returnAt": "2026-11-17T04:10:00+03:00"
-        },
-        {
           "destination": "EVN",
           "cityName": "Yerevan",
           "countryName": "Armenia",
@@ -311,13 +277,13 @@
           "groupResults": [
             {
               "group": "North America",
-              "destination": "LGB",
-              "cityName": "Long Beach",
+              "destination": "HNL",
+              "cityName": "Honolulu",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 238306,
-              "departureAt": "2026-11-01T21:20:00+09:00",
-              "returnAt": "2026-11-30T12:45:00-08:00"
+              "price": 77448,
+              "departureAt": "2026-11-21T20:05:00+09:00",
+              "returnAt": "2026-11-23T12:55:00-10:00"
             },
             {
               "group": "Polynesia",
@@ -332,19 +298,25 @@
           ]
         },
         {
-          "airline": "QR",
+          "airline": "FJ",
           "airlineName": null,
           "groupResults": [
             {
-              "group": "Eastern Europe",
-              "destination": "KGD",
-              "cityName": "Kaliningrad",
-              "countryName": "Russia",
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
               "origin": "TYO",
-              "price": 171622,
-              "departureAt": "2026-11-09T21:55:00+09:00",
-              "returnAt": "2026-11-23T19:55:00+02:00"
-            },
+              "price": 142016,
+              "departureAt": "2026-11-11T16:30:00+09:00",
+              "returnAt": "2026-11-20T23:55:00+13:00"
+            }
+          ]
+        },
+        {
+          "airline": "QR",
+          "airlineName": null,
+          "groupResults": [
             {
               "group": "Western Asia",
               "destination": "BAK",
@@ -366,22 +338,6 @@
               "returnAt": "2026-11-27T01:55:00Z"
             }
           ]
-        },
-        {
-          "airline": "FJ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Melanesia",
-              "destination": "NAN",
-              "cityName": "Nadi",
-              "countryName": "Fiji",
-              "origin": "TYO",
-              "price": 142016,
-              "departureAt": "2026-11-11T16:30:00+09:00",
-              "returnAt": "2026-11-20T23:55:00+13:00"
-            }
-          ]
         }
       ]
     },
@@ -392,18 +348,18 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "FM",
+          "airline": "CI",
           "airlineName": null,
           "groupResults": [
             {
-              "group": "Eastern Europe",
-              "destination": "OMS",
-              "cityName": "Omsk",
-              "countryName": "Russia",
+              "group": "Micronesia",
+              "destination": "ROR",
+              "cityName": "Koror",
+              "countryName": "Palau",
               "origin": "TYO",
-              "price": 163449,
-              "departureAt": "2026-11-25T17:10:00+09:00",
-              "returnAt": "2026-11-30T06:35:00+06:00"
+              "price": 153718,
+              "departureAt": "2026-11-22T19:30:00+09:00",
+              "returnAt": "2026-11-28T18:10:00+09:00"
             }
           ]
         },
@@ -484,18 +440,18 @@
           ]
         },
         {
-          "airline": "CI",
+          "airline": "FM",
           "airlineName": null,
           "groupResults": [
             {
-              "group": "Micronesia",
-              "destination": "ROR",
-              "cityName": "Koror",
-              "countryName": "Palau",
+              "group": "Eastern Europe",
+              "destination": "OMS",
+              "cityName": "Omsk",
+              "countryName": "Russia",
               "origin": "TYO",
-              "price": 153718,
-              "departureAt": "2026-11-22T19:30:00+09:00",
-              "returnAt": "2026-11-28T18:10:00+09:00"
+              "price": 163449,
+              "departureAt": "2026-11-25T17:10:00+09:00",
+              "returnAt": "2026-11-30T06:35:00+06:00"
             }
           ]
         }
@@ -524,18 +480,18 @@
           ]
         },
         {
-          "airline": "UA",
+          "airline": "ET",
           "airlineName": null,
           "groupResults": [
             {
-              "group": "Micronesia",
-              "destination": "SPN",
-              "cityName": "Saipan",
-              "countryName": "Northern Mariana Islands",
+              "group": "Southern Africa",
+              "destination": "CPT",
+              "cityName": "Cape Town",
+              "countryName": "South Africa",
               "origin": "TYO",
-              "price": 82349,
-              "departureAt": "2026-11-01T17:00:00+09:00",
-              "returnAt": "2026-11-04T09:50:00+10:00"
+              "price": 177332,
+              "departureAt": "2026-11-06T20:30:00+09:00",
+              "returnAt": "2026-11-12T13:50:00+02:00"
             }
           ]
         },
@@ -549,7 +505,7 @@
               "cityName": "Hagatna",
               "countryName": "Guam",
               "origin": "TYO",
-              "price": 70389,
+              "price": 69742,
               "departureAt": "2026-11-04T13:20:00+09:00",
               "returnAt": "2026-11-08T16:50:00+10:00"
             },
@@ -562,22 +518,6 @@
               "price": 157989,
               "departureAt": "2026-11-30T01:30:00+09:00",
               "returnAt": "2026-11-30T20:15:00+06:00"
-            }
-          ]
-        },
-        {
-          "airline": "ET",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Southern Africa",
-              "destination": "CPT",
-              "cityName": "Cape Town",
-              "countryName": "South Africa",
-              "origin": "TYO",
-              "price": 177332,
-              "departureAt": "2026-11-06T20:30:00+09:00",
-              "returnAt": "2026-11-12T13:50:00+02:00"
             }
           ]
         },
@@ -614,6 +554,22 @@
               "price": 131612,
               "departureAt": "2026-11-22T15:25:00+09:00",
               "returnAt": "2026-11-30T01:15:00+04:00"
+            }
+          ]
+        },
+        {
+          "airline": "UA",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Micronesia",
+              "destination": "SPN",
+              "cityName": "Saipan",
+              "countryName": "Northern Mariana Islands",
+              "origin": "TYO",
+              "price": 81592,
+              "departureAt": "2026-11-01T17:00:00+09:00",
+              "returnAt": "2026-11-04T09:50:00+10:00"
             }
           ]
         }
