@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T11:02:35.290Z",
+  "generatedAt": "2026-09-04T16:10:42.177Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -27,7 +27,19 @@
       "alliances": [
         "oneworld"
       ],
-      "results": []
+      "results": [
+        {
+          "destination": "MOW",
+          "cityName": "Moscow",
+          "countryName": "Russia",
+          "origin": "TYO",
+          "price": 115250,
+          "airline": "QR",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-11T21:55:00+09:00",
+          "returnAt": "2026-11-22T16:15:00+03:00"
+        }
+      ]
     },
     {
       "label": "西アジア(中東)x 全連合",
@@ -125,17 +137,6 @@
         "skyteam"
       ],
       "results": [
-        {
-          "destination": "HAN",
-          "cityName": "Hanoi",
-          "countryName": "Vietnam",
-          "origin": "TYO",
-          "price": 61689,
-          "airline": "MU",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-23T13:50:00+09:00",
-          "returnAt": "2026-11-28T02:45:00+07:00"
-        },
         {
           "destination": "BKK",
           "cityName": "Bangkok",
@@ -281,7 +282,7 @@
               "cityName": "Nadi",
               "countryName": "Fiji",
               "origin": "TYO",
-              "price": 139186,
+              "price": 138781,
               "departureAt": "2026-11-11T16:30:00+09:00",
               "returnAt": "2026-11-20T23:55:00+13:00"
             }
@@ -317,6 +318,16 @@
           "airline": "QR",
           "airlineName": null,
           "groupResults": [
+            {
+              "group": "Eastern Europe",
+              "destination": "MOW",
+              "cityName": "Moscow",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 115250,
+              "departureAt": "2026-11-11T21:55:00+09:00",
+              "returnAt": "2026-11-22T16:15:00+03:00"
+            },
             {
               "group": "Western Asia",
               "destination": "BAK",
@@ -369,13 +380,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "HAN",
-              "cityName": "Hanoi",
-              "countryName": "Vietnam",
+              "destination": "BKK",
+              "cityName": "Bangkok",
+              "countryName": "Thailand",
               "origin": "TYO",
-              "price": 61689,
-              "departureAt": "2026-11-23T13:50:00+09:00",
-              "returnAt": "2026-11-28T02:45:00+07:00"
+              "price": 62613,
+              "departureAt": "2026-11-07T16:55:00+09:00",
+              "returnAt": "2026-11-15T01:05:00+07:00"
             },
             {
               "group": "Eastern Asia",
@@ -440,6 +451,22 @@
           ]
         },
         {
+          "airline": "MF",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "TAO",
+              "cityName": "Qingdao",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 58022,
+              "departureAt": "2026-11-10T15:30:00+09:00",
+              "returnAt": "2026-11-11T18:00:00+08:00"
+            }
+          ]
+        },
+        {
           "airline": "CI",
           "airlineName": null,
           "groupResults": [
@@ -465,7 +492,7 @@
               "cityName": "Melbourne",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 125868,
+              "price": 125501,
               "departureAt": "2026-11-20T17:10:00+09:00",
               "returnAt": "2026-11-28T12:00:00+11:00"
             },
