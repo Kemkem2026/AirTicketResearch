@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T16:10:42.177Z",
+  "generatedAt": "2026-09-04T20:39:16.617Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -68,17 +68,6 @@
           "returnAt": "2026-11-27T14:10:00+03:00"
         },
         {
-          "destination": "DXB",
-          "cityName": "Dubai",
-          "countryName": "United Arab Emirates",
-          "origin": "TYO",
-          "price": 131612,
-          "airline": "CA",
-          "alliance": "staralliance",
-          "departureAt": "2026-11-22T15:25:00+09:00",
-          "returnAt": "2026-11-30T01:15:00+04:00"
-        },
-        {
           "destination": "AYT",
           "cityName": "Antalya",
           "countryName": "Türkiye",
@@ -88,17 +77,6 @@
           "alliance": "other",
           "departureAt": "2026-11-18T15:40:00+09:00",
           "returnAt": "2026-11-27T04:25:00+03:00"
-        },
-        {
-          "destination": "SHJ",
-          "cityName": "Sharjah",
-          "countryName": "United Arab Emirates",
-          "origin": "TYO",
-          "price": 154107,
-          "airline": "5J",
-          "alliance": "other",
-          "departureAt": "2026-11-22T12:50:00+09:00",
-          "returnAt": "2026-11-30T01:15:00+04:00"
         },
         {
           "destination": "EVN",
@@ -282,7 +260,7 @@
               "cityName": "Nadi",
               "countryName": "Fiji",
               "origin": "TYO",
-              "price": 138781,
+              "price": 139041,
               "departureAt": "2026-11-11T16:30:00+09:00",
               "returnAt": "2026-11-20T23:55:00+13:00"
             }
@@ -460,7 +438,7 @@
               "cityName": "Qingdao",
               "countryName": "China",
               "origin": "TYO",
-              "price": 58022,
+              "price": 58131,
               "departureAt": "2026-11-10T15:30:00+09:00",
               "returnAt": "2026-11-11T18:00:00+08:00"
             }
@@ -492,7 +470,7 @@
               "cityName": "Melbourne",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 125501,
+              "price": 125736,
               "departureAt": "2026-11-20T17:10:00+09:00",
               "returnAt": "2026-11-28T12:00:00+11:00"
             },
@@ -555,16 +533,6 @@
               "price": 101323,
               "departureAt": "2026-11-27T18:00:00+09:00",
               "returnAt": "2026-11-29T18:20:00+10:00"
-            },
-            {
-              "group": "Western Asia",
-              "destination": "DXB",
-              "cityName": "Dubai",
-              "countryName": "United Arab Emirates",
-              "origin": "TYO",
-              "price": 131612,
-              "departureAt": "2026-11-22T15:25:00+09:00",
-              "returnAt": "2026-11-30T01:15:00+04:00"
             }
           ]
         },
@@ -709,17 +677,7 @@
     {
       "label": "JAL(JL) 東京発 最安路線 TOP5(国際線)",
       "airline": "JL",
-      "results": [
-        {
-          "destination": "MLE",
-          "cityName": "Male",
-          "countryName": "Maldives",
-          "origin": "TYO",
-          "price": 212652,
-          "departureAt": "2026-11-16T00:05:00+09:00",
-          "returnAt": "2026-11-16T20:55:00+05:00"
-        }
-      ]
+      "results": []
     },
     {
       "label": "ANA(NH) 東京発 最安路線 TOP5(国際線)",
