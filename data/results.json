@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T10:24:36.303Z",
+  "generatedAt": "2026-09-05T14:58:57.176Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -541,7 +541,7 @@
               "cityName": "Chicago",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 147968,
+              "price": 148290,
               "departureAt": "2026-11-23T18:45:00+09:00",
               "returnAt": "2026-11-27T15:30:00-06:00"
             }
@@ -577,7 +577,7 @@
               "cityName": "Chiang Mai",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 121963,
+              "price": 122228,
               "departureAt": "2026-11-23T14:20:00+09:00",
               "returnAt": "2026-11-26T18:45:00+07:00"
             }
@@ -611,16 +611,6 @@
           "airline": "TR",
           "airlineName": "スクート",
           "groupResults": [
-            {
-              "group": "Australia and New Zealand",
-              "destination": "SYD",
-              "cityName": "Sydney",
-              "countryName": "Australia",
-              "origin": "TYO",
-              "price": 111268,
-              "departureAt": "2026-11-11T02:15:00+09:00",
-              "returnAt": "2026-11-18T13:25:00+11:00"
-            },
             {
               "group": "Western Europe",
               "destination": "ZRH",
