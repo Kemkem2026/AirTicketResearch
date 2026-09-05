@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T20:39:16.617Z",
+  "generatedAt": "2026-09-05T04:04:00.497Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -115,17 +115,6 @@
         "skyteam"
       ],
       "results": [
-        {
-          "destination": "BKK",
-          "cityName": "Bangkok",
-          "countryName": "Thailand",
-          "origin": "TYO",
-          "price": 62613,
-          "airline": "MU",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-07T16:55:00+09:00",
-          "returnAt": "2026-11-15T01:05:00+07:00"
-        },
         {
           "destination": "HKT",
           "cityName": "Phuket",
@@ -260,7 +249,7 @@
               "cityName": "Nadi",
               "countryName": "Fiji",
               "origin": "TYO",
-              "price": 139041,
+              "price": 139152,
               "departureAt": "2026-11-11T16:30:00+09:00",
               "returnAt": "2026-11-20T23:55:00+13:00"
             }
@@ -358,13 +347,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "BKK",
-              "cityName": "Bangkok",
+              "destination": "HKT",
+              "cityName": "Phuket",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 62613,
-              "departureAt": "2026-11-07T16:55:00+09:00",
-              "returnAt": "2026-11-15T01:05:00+07:00"
+              "price": 64324,
+              "departureAt": "2026-11-01T10:55:00+09:00",
+              "returnAt": "2026-11-05T00:20:00+07:00"
             },
             {
               "group": "Eastern Asia",
@@ -408,13 +397,13 @@
             },
             {
               "group": "Eastern Europe",
-              "destination": "KZN",
-              "cityName": "Kazan",
+              "destination": "OVB",
+              "cityName": "Novosibirsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 181946,
-              "departureAt": "2026-11-20T08:40:00+09:00",
-              "returnAt": "2026-11-29T20:00:00+03:00"
+              "price": 202905,
+              "departureAt": "2026-11-08T16:40:00+09:00",
+              "returnAt": "2026-11-23T23:30:00+07:00"
             },
             {
               "group": "Polynesia",
@@ -438,7 +427,7 @@
               "cityName": "Qingdao",
               "countryName": "China",
               "origin": "TYO",
-              "price": 58131,
+              "price": 58177,
               "departureAt": "2026-11-10T15:30:00+09:00",
               "returnAt": "2026-11-11T18:00:00+08:00"
             }
@@ -470,19 +459,9 @@
               "cityName": "Melbourne",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 125736,
+              "price": 125836,
               "departureAt": "2026-11-20T17:10:00+09:00",
               "returnAt": "2026-11-28T12:00:00+11:00"
-            },
-            {
-              "group": "Eastern Europe",
-              "destination": "OMS",
-              "cityName": "Omsk",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 163449,
-              "departureAt": "2026-11-25T17:10:00+09:00",
-              "returnAt": "2026-11-30T06:35:00+06:00"
             }
           ]
         }
@@ -533,22 +512,6 @@
               "price": 101323,
               "departureAt": "2026-11-27T18:00:00+09:00",
               "returnAt": "2026-11-29T18:20:00+10:00"
-            }
-          ]
-        },
-        {
-          "airline": "ET",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Southern Africa",
-              "destination": "CPT",
-              "cityName": "Cape Town",
-              "countryName": "South Africa",
-              "origin": "TYO",
-              "price": 177332,
-              "departureAt": "2026-11-06T20:30:00+09:00",
-              "returnAt": "2026-11-12T13:50:00+02:00"
             }
           ]
         },
