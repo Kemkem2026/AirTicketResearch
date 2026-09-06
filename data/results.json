@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T10:43:25.877Z",
+  "generatedAt": "2026-09-06T15:19:38.878Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -94,11 +94,11 @@
           "cityName": "Yerevan",
           "countryName": "Armenia",
           "origin": "TYO",
-          "price": 183465,
+          "price": 167176,
           "airline": "CZ",
           "alliance": "other",
-          "departureAt": "2026-11-03T10:45:00+09:00",
-          "returnAt": "2026-11-27T04:15:00+04:00"
+          "departureAt": "2026-11-23T15:40:00+09:00",
+          "returnAt": "2026-11-29T04:15:00+04:00"
         },
         {
           "destination": "BAK",
@@ -131,11 +131,11 @@
           "cityName": "Phuket",
           "countryName": "Thailand",
           "origin": "TYO",
-          "price": 64324,
+          "price": 64899,
           "airline": "MU",
           "alliance": "skyteam",
-          "departureAt": "2026-11-01T10:55:00+09:00",
-          "returnAt": "2026-11-05T00:20:00+07:00"
+          "departureAt": "2026-11-16T13:50:00+09:00",
+          "returnAt": "2026-11-19T00:20:00+07:00"
         },
         {
           "destination": "KUL",
@@ -234,11 +234,11 @@
           "cityName": "Yerevan",
           "countryName": "Armenia",
           "origin": "TYO",
-          "price": 183465,
+          "price": 167176,
           "airline": "CZ",
           "alliance": "other",
-          "departureAt": "2026-11-03T10:45:00+09:00",
-          "returnAt": "2026-11-27T04:15:00+04:00"
+          "departureAt": "2026-11-23T15:40:00+09:00",
+          "returnAt": "2026-11-29T04:15:00+04:00"
         },
         {
           "destination": "BAK",
@@ -405,9 +405,9 @@
               "cityName": "Phuket",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 64324,
-              "departureAt": "2026-11-01T10:55:00+09:00",
-              "returnAt": "2026-11-05T00:20:00+07:00"
+              "price": 64899,
+              "departureAt": "2026-11-16T13:50:00+09:00",
+              "returnAt": "2026-11-19T00:20:00+07:00"
             },
             {
               "group": "Eastern Asia",
@@ -522,6 +522,22 @@
           ]
         },
         {
+          "airline": "EH",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "WKJ",
+              "cityName": "Wakkanai",
+              "countryName": "Japan",
+              "origin": "TYO",
+              "price": 35914,
+              "departureAt": "2026-11-11T10:40:00+09:00",
+              "returnAt": "2026-11-21T13:10:00+09:00"
+            }
+          ]
+        },
+        {
           "airline": "CA",
           "airlineName": null,
           "groupResults": [
@@ -598,6 +614,22 @@
               "returnAt": "2026-11-30T20:15:00+06:00"
             }
           ]
+        },
+        {
+          "airline": "LO",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Southeast Europe",
+              "destination": "BEG",
+              "cityName": "Belgrade",
+              "countryName": "Serbia",
+              "origin": "TYO",
+              "price": 173325,
+              "departureAt": "2026-11-23T23:00:00+09:00",
+              "returnAt": "2026-11-29T13:55:00+01:00"
+            }
+          ]
         }
       ]
     },
@@ -617,9 +649,9 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 125011,
-              "departureAt": "2026-11-17T16:40:00+09:00",
-              "returnAt": "2026-11-24T22:20:00+03:00"
+              "price": 129629,
+              "departureAt": "2026-11-10T16:40:00+09:00",
+              "returnAt": "2026-11-26T22:20:00+03:00"
             }
           ]
         },
