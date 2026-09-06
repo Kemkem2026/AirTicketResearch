@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-05T20:12:49.452Z",
+  "generatedAt": "2026-09-06T04:12:02.726Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -611,6 +611,16 @@
           "airline": "TR",
           "airlineName": "スクート",
           "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "TPE",
+              "cityName": "Taipei",
+              "countryName": "Taiwan",
+              "origin": "TYO",
+              "price": 38180,
+              "departureAt": "2026-11-25T19:55:00+09:00",
+              "returnAt": "2026-11-30T06:40:00+08:00"
+            },
             {
               "group": "Western Europe",
               "destination": "ZRH",
