@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T16:24:41.721Z",
+  "generatedAt": "2026-09-09T20:49:09.592Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -157,7 +157,7 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 87561,
+          "price": 87666,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-03T15:05:00+09:00",
@@ -337,6 +337,16 @@
               "price": 119443,
               "departureAt": "2026-11-05T14:55:00+09:00",
               "returnAt": "2026-11-12T22:45:00-08:00"
+            },
+            {
+              "group": "Western Europe",
+              "destination": "RDZ",
+              "cityName": "Rodez",
+              "countryName": "France",
+              "origin": "TYO",
+              "price": 184773,
+              "departureAt": "2026-11-11T14:55:00+09:00",
+              "returnAt": "2026-11-23T06:25:00+01:00"
             }
           ]
         },
@@ -400,7 +410,7 @@
               "cityName": "Dakar",
               "countryName": "Senegal",
               "origin": "TYO",
-              "price": 250323,
+              "price": 250622,
               "departureAt": "2026-11-01T13:50:00+09:00",
               "returnAt": "2026-11-30T19:25:00Z"
             }
@@ -498,7 +508,7 @@
               "cityName": "Cape Town",
               "countryName": "South Africa",
               "origin": "TYO",
-              "price": 176670,
+              "price": 176882,
               "departureAt": "2026-11-05T20:30:00+09:00",
               "returnAt": "2026-11-11T15:10:00+02:00"
             }
@@ -514,7 +524,7 @@
               "cityName": "Guangzhou",
               "countryName": "China",
               "origin": "TYO",
-              "price": 67723,
+              "price": 67805,
               "departureAt": "2026-11-02T19:30:00+09:00",
               "returnAt": "2026-11-11T21:15:00+08:00"
             },
@@ -524,7 +534,7 @@
               "cityName": "Colombo",
               "countryName": "Sri Lanka",
               "origin": "TYO",
-              "price": 88580,
+              "price": 88686,
               "departureAt": "2026-11-01T18:00:00+09:00",
               "returnAt": "2026-11-09T22:25:00+05:30"
             },
