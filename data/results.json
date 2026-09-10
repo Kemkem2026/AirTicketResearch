@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T20:49:09.592Z",
+  "generatedAt": "2026-09-10T04:15:18.981Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -77,6 +77,17 @@
           "alliance": "other",
           "departureAt": "2026-11-18T15:30:00+09:00",
           "returnAt": "2026-11-29T16:20:00+03:00"
+        },
+        {
+          "destination": "ANK",
+          "cityName": "Ankara",
+          "countryName": "Türkiye",
+          "origin": "TYO",
+          "price": 155659,
+          "airline": "FM",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-17T13:30:00+09:00",
+          "returnAt": "2026-11-23T00:10:00+03:00"
         },
         {
           "destination": "EVN",
@@ -157,11 +168,11 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 87666,
+          "price": 83520,
           "airline": "CZ",
           "alliance": "other",
-          "departureAt": "2026-11-03T15:05:00+09:00",
-          "returnAt": "2026-11-13T21:00:00+06:00"
+          "departureAt": "2026-11-23T15:40:00+09:00",
+          "returnAt": "2026-11-29T20:40:00+06:00"
         },
         {
           "destination": "BSZ",
@@ -173,6 +184,17 @@
           "alliance": "staralliance",
           "departureAt": "2026-11-02T08:30:00+09:00",
           "returnAt": "2026-11-22T22:20:00+06:00"
+        },
+        {
+          "destination": "NQZ",
+          "cityName": "Astana",
+          "countryName": "Kazakhstan",
+          "origin": "TYO",
+          "price": 100375,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-02T14:20:00+09:00",
+          "returnAt": "2026-11-13T21:45:00+06:00"
         },
         {
           "destination": "TBS",
@@ -197,6 +219,17 @@
           "returnAt": "2026-11-29T16:20:00+03:00"
         },
         {
+          "destination": "ANK",
+          "cityName": "Ankara",
+          "countryName": "Türkiye",
+          "origin": "TYO",
+          "price": 155659,
+          "airline": "FM",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-17T13:30:00+09:00",
+          "returnAt": "2026-11-23T00:10:00+03:00"
+        },
+        {
           "destination": "EVN",
           "cityName": "Yerevan",
           "countryName": "Armenia",
@@ -206,17 +239,6 @@
           "alliance": "other",
           "departureAt": "2026-11-23T15:40:00+09:00",
           "returnAt": "2026-11-29T04:15:00+04:00"
-        },
-        {
-          "destination": "SKD",
-          "cityName": "Samarkand",
-          "countryName": "Uzbekistan",
-          "origin": "TYO",
-          "price": 211860,
-          "airline": "OM",
-          "alliance": "other",
-          "departureAt": "2026-11-04T15:30:00+09:00",
-          "returnAt": "2026-11-10T20:05:00+05:00"
         }
       ]
     }
@@ -305,6 +327,22 @@
       "groupBy": "subregion",
       "airlines": [
         {
+          "airline": "FM",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Western Asia",
+              "destination": "ANK",
+              "cityName": "Ankara",
+              "countryName": "Türkiye",
+              "origin": "TYO",
+              "price": 155659,
+              "departureAt": "2026-11-17T13:30:00+09:00",
+              "returnAt": "2026-11-23T00:10:00+03:00"
+            }
+          ]
+        },
+        {
           "airline": "MF",
           "airlineName": null,
           "groupResults": [
@@ -344,7 +382,7 @@
               "cityName": "Rodez",
               "countryName": "France",
               "origin": "TYO",
-              "price": 184773,
+              "price": 184843,
               "departureAt": "2026-11-11T14:55:00+09:00",
               "returnAt": "2026-11-23T06:25:00+01:00"
             }
@@ -410,7 +448,7 @@
               "cityName": "Dakar",
               "countryName": "Senegal",
               "origin": "TYO",
-              "price": 250622,
+              "price": 250717,
               "departureAt": "2026-11-01T13:50:00+09:00",
               "returnAt": "2026-11-30T19:25:00Z"
             }
@@ -508,7 +546,7 @@
               "cityName": "Cape Town",
               "countryName": "South Africa",
               "origin": "TYO",
-              "price": 176882,
+              "price": 176949,
               "departureAt": "2026-11-05T20:30:00+09:00",
               "returnAt": "2026-11-11T15:10:00+02:00"
             }
@@ -524,7 +562,7 @@
               "cityName": "Guangzhou",
               "countryName": "China",
               "origin": "TYO",
-              "price": 67805,
+              "price": 67830,
               "departureAt": "2026-11-02T19:30:00+09:00",
               "returnAt": "2026-11-11T21:15:00+08:00"
             },
@@ -534,7 +572,7 @@
               "cityName": "Colombo",
               "countryName": "Sri Lanka",
               "origin": "TYO",
-              "price": 88686,
+              "price": 88719,
               "departureAt": "2026-11-01T18:00:00+09:00",
               "returnAt": "2026-11-09T22:25:00+05:30"
             },
@@ -580,9 +618,9 @@
               "cityName": "Hagatna",
               "countryName": "Guam",
               "origin": "TYO",
-              "price": 69163,
-              "departureAt": "2026-11-04T13:20:00+09:00",
-              "returnAt": "2026-11-08T16:50:00+10:00"
+              "price": 68087,
+              "departureAt": "2026-11-26T01:30:00+09:00",
+              "returnAt": "2026-11-29T02:40:00+10:00"
             }
           ]
         },
@@ -674,17 +712,7 @@
     {
       "label": "ANA(NH) 東京発 最安路線 TOP5(国際線)",
       "airline": "NH",
-      "results": [
-        {
-          "destination": "BJS",
-          "cityName": "Beijing",
-          "countryName": "China",
-          "origin": "TYO",
-          "price": 62975,
-          "departureAt": "2026-11-23T17:25:00+09:00",
-          "returnAt": "2026-11-28T08:25:00+08:00"
-        }
-      ]
+      "results": []
     }
   ]
 }
