@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T10:31:04.700Z",
+  "generatedAt": "2026-09-12T15:24:00.137Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -223,11 +223,11 @@
           "cityName": "Bishkek",
           "countryName": "Kyrgyzstan",
           "origin": "TYO",
-          "price": 99180,
+          "price": 93835,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-02T08:30:00+09:00",
-          "returnAt": "2026-11-22T22:20:00+06:00"
+          "returnAt": "2026-11-15T22:20:00+06:00"
         },
         {
           "destination": "NQZ",
@@ -581,6 +581,22 @@
           ]
         },
         {
+          "airline": "AI",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Northern Europe",
+              "destination": "CPH",
+              "cityName": "Copenhagen",
+              "countryName": "Denmark",
+              "origin": "TYO",
+              "price": 138298,
+              "departureAt": "2026-11-09T10:30:00+09:00",
+              "returnAt": "2026-11-16T08:40:00+01:00"
+            }
+          ]
+        },
+        {
           "airline": "ET",
           "airlineName": null,
           "groupResults": [
@@ -626,9 +642,9 @@
               "cityName": "Bishkek",
               "countryName": "Kyrgyzstan",
               "origin": "TYO",
-              "price": 99180,
+              "price": 93835,
               "departureAt": "2026-11-02T08:30:00+09:00",
-              "returnAt": "2026-11-22T22:20:00+06:00"
+              "returnAt": "2026-11-15T22:20:00+06:00"
             },
             {
               "group": "Eastern Europe",
@@ -676,6 +692,22 @@
       "alliance": null,
       "groupBy": "subregion",
       "airlines": [
+        {
+          "airline": "EK",
+          "airlineName": "エミレーツ航空",
+          "groupResults": [
+            {
+              "group": "South America",
+              "destination": "RIO",
+              "cityName": "Rio de Janeiro",
+              "countryName": "Brazil",
+              "origin": "TYO",
+              "price": 295354,
+              "departureAt": "2026-11-02T22:20:00+09:00",
+              "returnAt": "2026-11-08T03:45:00-03:00"
+            }
+          ]
+        },
         {
           "airline": "3U",
           "airlineName": "四川航空",
