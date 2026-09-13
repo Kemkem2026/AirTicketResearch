@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-12T20:26:23.135Z",
+  "generatedAt": "2026-09-13T04:30:25.886Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -90,6 +90,17 @@
           "returnAt": "2026-11-23T00:10:00+03:00"
         },
         {
+          "destination": "EVN",
+          "cityName": "Yerevan",
+          "countryName": "Armenia",
+          "origin": "TYO",
+          "price": 158006,
+          "airline": "MM",
+          "alliance": "other",
+          "departureAt": "2026-11-24T08:30:00+09:00",
+          "returnAt": "2026-11-29T04:15:00+04:00"
+        },
+        {
           "destination": "KUT",
           "cityName": "Kutaisi",
           "countryName": "Georgia",
@@ -99,17 +110,6 @@
           "alliance": "other",
           "departureAt": "2026-11-03T06:35:00+09:00",
           "returnAt": "2026-11-10T04:10:00+04:00"
-        },
-        {
-          "destination": "EVN",
-          "cityName": "Yerevan",
-          "countryName": "Armenia",
-          "origin": "TYO",
-          "price": 166514,
-          "airline": "CZ",
-          "alliance": "other",
-          "departureAt": "2026-11-23T15:40:00+09:00",
-          "returnAt": "2026-11-29T04:15:00+04:00"
         },
         {
           "destination": "AYT",
@@ -147,6 +147,17 @@
           "alliance": "skyteam",
           "departureAt": "2026-11-23T13:50:00+09:00",
           "returnAt": "2026-11-29T23:05:00+07:00"
+        },
+        {
+          "destination": "BKK",
+          "cityName": "Bangkok",
+          "countryName": "Thailand",
+          "origin": "TYO",
+          "price": 63152,
+          "airline": "FM",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-19T13:30:00+09:00",
+          "returnAt": "2026-11-28T19:55:00+07:00"
         },
         {
           "destination": "JKT",
@@ -263,15 +274,15 @@
           "returnAt": "2026-11-23T00:10:00+03:00"
         },
         {
-          "destination": "KUT",
-          "cityName": "Kutaisi",
-          "countryName": "Georgia",
+          "destination": "EVN",
+          "cityName": "Yerevan",
+          "countryName": "Armenia",
           "origin": "TYO",
-          "price": 164251,
-          "airline": "UO",
+          "price": 158006,
+          "airline": "MM",
           "alliance": "other",
-          "departureAt": "2026-11-03T06:35:00+09:00",
-          "returnAt": "2026-11-10T04:10:00+04:00"
+          "departureAt": "2026-11-24T08:30:00+09:00",
+          "returnAt": "2026-11-29T04:15:00+04:00"
         }
       ]
     }
@@ -415,6 +426,16 @@
           "airline": "FM",
           "airlineName": null,
           "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "BKK",
+              "cityName": "Bangkok",
+              "countryName": "Thailand",
+              "origin": "TYO",
+              "price": 63152,
+              "departureAt": "2026-11-19T13:30:00+09:00",
+              "returnAt": "2026-11-28T19:55:00+07:00"
+            },
             {
               "group": "Western Asia",
               "destination": "ANK",
@@ -607,13 +628,13 @@
           "groupResults": [
             {
               "group": "Eastern Asia",
-              "destination": "CAN",
-              "cityName": "Guangzhou",
+              "destination": "BJS",
+              "cityName": "Beijing",
               "countryName": "China",
               "origin": "TYO",
-              "price": 67830,
-              "departureAt": "2026-11-02T19:30:00+09:00",
-              "returnAt": "2026-11-11T21:15:00+08:00"
+              "price": 62298,
+              "departureAt": "2026-11-11T14:20:00+09:00",
+              "returnAt": "2026-11-20T08:45:00+08:00"
             },
             {
               "group": "Southern Asia",
@@ -761,17 +782,7 @@
     {
       "label": "ANA(NH) 東京発 最安路線 TOP5(国際線)",
       "airline": "NH",
-      "results": [
-        {
-          "destination": "BJS",
-          "cityName": "Beijing",
-          "countryName": "China",
-          "origin": "TYO",
-          "price": 63211,
-          "departureAt": "2026-11-17T17:25:00+09:00",
-          "returnAt": "2026-11-25T08:25:00+08:00"
-        }
-      ]
+      "results": []
     }
   ]
 }
