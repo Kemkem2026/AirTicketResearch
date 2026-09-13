@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T11:34:21.849Z",
+  "generatedAt": "2026-09-13T16:02:50.113Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -307,6 +307,16 @@
               "price": 172932,
               "departureAt": "2026-11-05T21:20:00+09:00",
               "returnAt": "2026-11-12T09:00:00-08:00"
+            },
+            {
+              "group": "South America",
+              "destination": "SCL",
+              "cityName": "Santiago",
+              "countryName": "Chile",
+              "origin": "TYO",
+              "price": 265288,
+              "departureAt": "2026-11-04T17:25:00+09:00",
+              "returnAt": "2026-11-26T12:15:00-03:00"
             }
           ]
         },
@@ -579,22 +589,6 @@
           ]
         },
         {
-          "airline": "LO",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Southeast Europe",
-              "destination": "BEG",
-              "cityName": "Belgrade",
-              "countryName": "Serbia",
-              "origin": "TYO",
-              "price": 172638,
-              "departureAt": "2026-11-23T23:00:00+09:00",
-              "returnAt": "2026-11-29T13:55:00+01:00"
-            }
-          ]
-        },
-        {
           "airline": "EH",
           "airlineName": null,
           "groupResults": [
@@ -604,8 +598,8 @@
               "cityName": "Wakkanai",
               "countryName": "Japan",
               "origin": "TYO",
-              "price": 35772,
-              "departureAt": "2026-11-11T10:40:00+09:00",
+              "price": 35786,
+              "departureAt": "2026-11-12T10:40:00+09:00",
               "returnAt": "2026-11-21T13:10:00+09:00"
             }
           ]
@@ -697,6 +691,16 @@
           "airlineName": "エミレーツ航空",
           "groupResults": [
             {
+              "group": "Southeast Europe",
+              "destination": "BEG",
+              "cityName": "Belgrade",
+              "countryName": "Serbia",
+              "origin": "TYO",
+              "price": 250915,
+              "departureAt": "2026-11-26T00:05:00+09:00",
+              "returnAt": "2026-11-26T22:20:00+01:00"
+            },
+            {
               "group": "South America",
               "destination": "RIO",
               "cityName": "Rio de Janeiro",
@@ -744,7 +748,7 @@
               "cityName": "Koh Samui",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 89271,
+              "price": 88446,
               "departureAt": "2026-11-09T08:50:00+09:00",
               "returnAt": "2026-11-15T12:00:00+07:00"
             },
