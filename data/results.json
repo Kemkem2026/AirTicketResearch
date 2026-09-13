@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T16:02:50.113Z",
+  "generatedAt": "2026-09-13T20:37:32.011Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -343,22 +343,6 @@
               "price": 261521,
               "departureAt": "2026-11-13T16:55:00+09:00",
               "returnAt": "2026-11-27T01:55:00Z"
-            }
-          ]
-        },
-        {
-          "airline": "FJ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Melanesia",
-              "destination": "NAN",
-              "cityName": "Nadi",
-              "countryName": "Fiji",
-              "origin": "TYO",
-              "price": 160559,
-              "departureAt": "2026-11-04T16:30:00+09:00",
-              "returnAt": "2026-11-20T23:55:00+13:00"
             }
           ]
         }
