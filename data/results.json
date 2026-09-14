@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T20:37:32.011Z",
+  "generatedAt": "2026-09-14T04:32:53.967Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -137,6 +137,17 @@
         "skyteam"
       ],
       "results": [
+        {
+          "destination": "SGN",
+          "cityName": "Ho Chi Minh City",
+          "countryName": "Vietnam",
+          "origin": "TYO",
+          "price": 59207,
+          "airline": "MU",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-11T10:55:00+09:00",
+          "returnAt": "2026-11-25T04:30:00+07:00"
+        },
         {
           "destination": "HKT",
           "cityName": "Phuket",
@@ -314,7 +325,7 @@
               "cityName": "Santiago",
               "countryName": "Chile",
               "origin": "TYO",
-              "price": 265288,
+              "price": 267823,
               "departureAt": "2026-11-04T17:25:00+09:00",
               "returnAt": "2026-11-26T12:15:00-03:00"
             }
@@ -406,13 +417,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "HKT",
-              "cityName": "Phuket",
-              "countryName": "Thailand",
+              "destination": "SGN",
+              "cityName": "Ho Chi Minh City",
+              "countryName": "Vietnam",
               "origin": "TYO",
-              "price": 62053,
-              "departureAt": "2026-11-23T13:50:00+09:00",
-              "returnAt": "2026-11-29T23:05:00+07:00"
+              "price": 59207,
+              "departureAt": "2026-11-11T10:55:00+09:00",
+              "returnAt": "2026-11-25T04:30:00+07:00"
             },
             {
               "group": "Central Asia",
@@ -440,9 +451,9 @@
               "cityName": "Auckland",
               "countryName": "New Zealand",
               "origin": "TYO",
-              "price": 129586,
-              "departureAt": "2026-11-02T20:15:00+09:00",
-              "returnAt": "2026-11-12T22:00:00+13:00"
+              "price": 146052,
+              "departureAt": "2026-11-09T14:30:00+09:00",
+              "returnAt": "2026-11-23T22:00:00+13:00"
             },
             {
               "group": "Northern Africa",
@@ -633,16 +644,6 @@
               "price": 139460,
               "departureAt": "2026-11-24T18:25:00+09:00",
               "returnAt": "2026-11-30T18:37:00-08:00"
-            },
-            {
-              "group": "Micronesia",
-              "destination": "ROR",
-              "cityName": "Koror",
-              "countryName": "Palau",
-              "origin": "TYO",
-              "price": 150159,
-              "departureAt": "2026-11-02T17:40:00+09:00",
-              "returnAt": "2026-11-10T02:05:00+09:00"
             }
           ]
         },
@@ -732,7 +733,7 @@
               "cityName": "Koh Samui",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 88446,
+              "price": 89291,
               "departureAt": "2026-11-09T08:50:00+09:00",
               "returnAt": "2026-11-15T12:00:00+07:00"
             },
