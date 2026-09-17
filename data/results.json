@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T11:26:53.557Z",
+  "generatedAt": "2026-09-17T16:45:22.670Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -180,17 +180,6 @@
           "alliance": "skyteam",
           "departureAt": "2026-11-11T10:55:00+09:00",
           "returnAt": "2026-11-24T23:05:00+07:00"
-        },
-        {
-          "destination": "JKT",
-          "cityName": "Jakarta",
-          "countryName": "Indonesia",
-          "origin": "TYO",
-          "price": 67829,
-          "airline": "MF",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-19T14:55:00+09:00",
-          "returnAt": "2026-11-28T07:05:00+07:00"
         }
       ]
     },
@@ -223,7 +212,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 79011,
+          "price": 78962,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-02T14:20:00+09:00",
@@ -452,16 +441,6 @@
               "returnAt": "2026-11-26T20:55:00+08:00"
             },
             {
-              "group": "South-Eastern Asia",
-              "destination": "JKT",
-              "cityName": "Jakarta",
-              "countryName": "Indonesia",
-              "origin": "TYO",
-              "price": 67829,
-              "departureAt": "2026-11-19T14:55:00+09:00",
-              "returnAt": "2026-11-28T07:05:00+07:00"
-            },
-            {
               "group": "South America",
               "destination": "LIM",
               "cityName": "Lima",
@@ -529,13 +508,13 @@
             },
             {
               "group": "Eastern Asia",
-              "destination": "CAN",
-              "cityName": "Guangzhou",
+              "destination": "CKG",
+              "cityName": "Chongqing",
               "countryName": "China",
               "origin": "TYO",
-              "price": 69137,
-              "departureAt": "2026-11-13T20:10:00+09:00",
-              "returnAt": "2026-11-19T22:10:00+08:00"
+              "price": 68346,
+              "departureAt": "2026-11-06T15:25:00+09:00",
+              "returnAt": "2026-11-17T21:15:00+08:00"
             },
             {
               "group": "Central Asia",
@@ -543,7 +522,7 @@
               "cityName": "Tashkent",
               "countryName": "Uzbekistan",
               "origin": "TYO",
-              "price": 79011,
+              "price": 78962,
               "departureAt": "2026-11-02T14:20:00+09:00",
               "returnAt": "2026-11-12T21:10:00+05:00"
             },
@@ -610,6 +589,22 @@
               "returnAt": "2026-11-22T08:35:00+04:00"
             }
           ]
+        },
+        {
+          "airline": "AZ",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "South America",
+              "destination": "SAO",
+              "cityName": "Sao Paulo",
+              "countryName": "Brazil",
+              "origin": "TYO",
+              "price": 272499,
+              "departureAt": "2026-11-04T13:20:00+09:00",
+              "returnAt": "2026-11-16T15:45:00-03:00"
+            }
+          ]
         }
       ]
     },
@@ -661,7 +656,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 129497,
+              "price": 129417,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-26T22:20:00+03:00"
             }
