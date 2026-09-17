@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-17T16:45:22.670Z",
+  "generatedAt": "2026-09-17T21:12:31.457Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -208,17 +208,6 @@
           "returnAt": "2026-11-30T20:50:00+06:00"
         },
         {
-          "destination": "TAS",
-          "cityName": "Tashkent",
-          "countryName": "Uzbekistan",
-          "origin": "TYO",
-          "price": 78962,
-          "airline": "CA",
-          "alliance": "staralliance",
-          "departureAt": "2026-11-02T14:20:00+09:00",
-          "returnAt": "2026-11-12T21:10:00+05:00"
-        },
-        {
           "destination": "NQZ",
           "cityName": "Astana",
           "countryName": "Kazakhstan",
@@ -228,6 +217,17 @@
           "alliance": "staralliance",
           "departureAt": "2026-11-13T14:20:00+09:00",
           "returnAt": "2026-11-17T20:55:00+06:00"
+        },
+        {
+          "destination": "TAS",
+          "cityName": "Tashkent",
+          "countryName": "Uzbekistan",
+          "origin": "TYO",
+          "price": 79148,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-02T14:20:00+09:00",
+          "returnAt": "2026-11-12T21:10:00+05:00"
         },
         {
           "destination": "BSZ",
@@ -512,19 +512,19 @@
               "cityName": "Chongqing",
               "countryName": "China",
               "origin": "TYO",
-              "price": 68346,
+              "price": 68507,
               "departureAt": "2026-11-06T15:25:00+09:00",
               "returnAt": "2026-11-17T21:15:00+08:00"
             },
             {
               "group": "Central Asia",
-              "destination": "TAS",
-              "cityName": "Tashkent",
-              "countryName": "Uzbekistan",
+              "destination": "NQZ",
+              "cityName": "Astana",
+              "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 78962,
-              "departureAt": "2026-11-02T14:20:00+09:00",
-              "returnAt": "2026-11-12T21:10:00+05:00"
+              "price": 79016,
+              "departureAt": "2026-11-13T14:20:00+09:00",
+              "returnAt": "2026-11-17T20:55:00+06:00"
             },
             {
               "group": "Eastern Europe",
@@ -656,7 +656,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 129417,
+              "price": 129722,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-26T22:20:00+03:00"
             }
