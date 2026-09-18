@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T04:19:11.655Z",
+  "generatedAt": "2026-09-18T10:59:36.210Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -212,7 +212,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 68042,
+          "price": 68597,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-02T14:20:00+09:00",
@@ -295,22 +295,6 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "AA",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "SDF",
-              "cityName": "Louisville",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 174445,
-              "departureAt": "2026-11-03T20:25:00+09:00",
-              "returnAt": "2026-11-12T05:00:00-05:00"
-            }
-          ]
-        },
-        {
           "airline": "AS",
           "airlineName": null,
           "groupResults": [
@@ -349,6 +333,22 @@
               "price": 114335,
               "departureAt": "2026-11-10T21:55:00+09:00",
               "returnAt": "2026-11-25T16:15:00+03:00"
+            }
+          ]
+        },
+        {
+          "airline": "AA",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "SDF",
+              "cityName": "Louisville",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 174445,
+              "departureAt": "2026-11-03T20:25:00+09:00",
+              "returnAt": "2026-11-12T05:00:00-05:00"
             }
           ]
         }
@@ -461,34 +461,18 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "UA",
+          "airline": "AZ",
           "airlineName": null,
           "groupResults": [
             {
-              "group": "North America",
-              "destination": "ONT",
-              "cityName": "Ontario",
-              "countryName": "United States",
+              "group": "South America",
+              "destination": "SAO",
+              "cityName": "Sao Paulo",
+              "countryName": "Brazil",
               "origin": "TYO",
-              "price": 139460,
-              "departureAt": "2026-11-24T18:25:00+09:00",
-              "returnAt": "2026-11-30T18:37:00-08:00"
-            }
-          ]
-        },
-        {
-          "airline": "OZ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Europe",
-              "destination": "SVX",
-              "cityName": "Yekaterinburg",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 232505,
-              "departureAt": "2026-11-01T01:30:00+09:00",
-              "returnAt": "2026-11-01T23:10:00+05:00"
+              "price": 272499,
+              "departureAt": "2026-11-04T13:20:00+09:00",
+              "returnAt": "2026-11-16T15:45:00-03:00"
             }
           ]
         },
@@ -496,16 +480,6 @@
           "airline": "CA",
           "airlineName": null,
           "groupResults": [
-            {
-              "group": "Central Asia",
-              "destination": "TAS",
-              "cityName": "Tashkent",
-              "countryName": "Uzbekistan",
-              "origin": "TYO",
-              "price": 68042,
-              "departureAt": "2026-11-02T14:20:00+09:00",
-              "returnAt": "2026-11-12T21:10:00+05:00"
-            },
             {
               "group": "South-Eastern Asia",
               "destination": "KUL",
@@ -525,6 +499,16 @@
               "price": 68479,
               "departureAt": "2026-11-06T15:25:00+09:00",
               "returnAt": "2026-11-17T21:15:00+08:00"
+            },
+            {
+              "group": "Central Asia",
+              "destination": "TAS",
+              "cityName": "Tashkent",
+              "countryName": "Uzbekistan",
+              "origin": "TYO",
+              "price": 68597,
+              "departureAt": "2026-11-02T14:20:00+09:00",
+              "returnAt": "2026-11-12T21:10:00+05:00"
             },
             {
               "group": "Eastern Europe",
@@ -559,6 +543,38 @@
           ]
         },
         {
+          "airline": "OZ",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Europe",
+              "destination": "SVX",
+              "cityName": "Yekaterinburg",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 232505,
+              "departureAt": "2026-11-01T01:30:00+09:00",
+              "returnAt": "2026-11-01T23:10:00+05:00"
+            }
+          ]
+        },
+        {
+          "airline": "UA",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "ONT",
+              "cityName": "Ontario",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 139460,
+              "departureAt": "2026-11-24T18:25:00+09:00",
+              "returnAt": "2026-11-30T18:37:00-08:00"
+            }
+          ]
+        },
+        {
           "airline": "ET",
           "airlineName": null,
           "groupResults": [
@@ -587,22 +603,6 @@
               "price": 126710,
               "departureAt": "2026-11-02T09:15:00+09:00",
               "returnAt": "2026-11-22T08:35:00+04:00"
-            }
-          ]
-        },
-        {
-          "airline": "AZ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "South America",
-              "destination": "SAO",
-              "cityName": "Sao Paulo",
-              "countryName": "Brazil",
-              "origin": "TYO",
-              "price": 272499,
-              "departureAt": "2026-11-04T13:20:00+09:00",
-              "returnAt": "2026-11-16T15:45:00-03:00"
             }
           ]
         }
@@ -659,6 +659,22 @@
               "price": 129669,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-26T22:20:00+03:00"
+            }
+          ]
+        },
+        {
+          "airline": "XJ",
+          "airlineName": "タイ・エアアジアX",
+          "groupResults": [
+            {
+              "group": "Eastern Europe",
+              "destination": "OVB",
+              "cityName": "Novosibirsk",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 153521,
+              "departureAt": "2026-11-03T21:15:00+09:00",
+              "returnAt": "2026-11-24T23:15:00+07:00"
             }
           ]
         },
