@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T16:14:22.060Z",
+  "generatedAt": "2026-09-18T20:45:55.589Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -201,7 +201,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 68760,
+          "price": 68240,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-02T14:20:00+09:00",
@@ -359,7 +359,7 @@
               "cityName": "Auckland",
               "countryName": "New Zealand",
               "origin": "TYO",
-              "price": 166352,
+              "price": 165095,
               "departureAt": "2026-11-03T09:40:00+09:00",
               "returnAt": "2026-11-17T11:45:00+13:00"
             }
@@ -417,13 +417,13 @@
           "groupResults": [
             {
               "group": "Eastern Asia",
-              "destination": "CTU",
-              "cityName": "Chengdu",
+              "destination": "SYX",
+              "cityName": "Sanya",
               "countryName": "China",
               "origin": "TYO",
-              "price": 59533,
-              "departureAt": "2026-11-19T15:30:00+09:00",
-              "returnAt": "2026-11-26T20:55:00+08:00"
+              "price": 66837,
+              "departureAt": "2026-11-19T14:55:00+09:00",
+              "returnAt": "2026-11-22T21:10:00+08:00"
             },
             {
               "group": "South America",
@@ -466,6 +466,16 @@
           "airlineName": null,
           "groupResults": [
             {
+              "group": "Central Asia",
+              "destination": "TAS",
+              "cityName": "Tashkent",
+              "countryName": "Uzbekistan",
+              "origin": "TYO",
+              "price": 68240,
+              "departureAt": "2026-11-02T14:20:00+09:00",
+              "returnAt": "2026-11-12T21:10:00+05:00"
+            },
+            {
               "group": "South-Eastern Asia",
               "destination": "KUL",
               "cityName": "Kuala Lumpur",
@@ -486,22 +496,12 @@
               "returnAt": "2026-11-17T21:15:00+08:00"
             },
             {
-              "group": "Central Asia",
-              "destination": "TAS",
-              "cityName": "Tashkent",
-              "countryName": "Uzbekistan",
-              "origin": "TYO",
-              "price": 68760,
-              "departureAt": "2026-11-02T14:20:00+09:00",
-              "returnAt": "2026-11-12T21:10:00+05:00"
-            },
-            {
               "group": "Eastern Europe",
               "destination": "IKT",
               "cityName": "Irkutsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 112182,
+              "price": 111334,
               "departureAt": "2026-11-09T14:20:00+09:00",
               "returnAt": "2026-11-23T18:00:00+08:00"
             },
@@ -585,7 +585,7 @@
               "cityName": "Goa",
               "countryName": "India",
               "origin": "TYO",
-              "price": 143263,
+              "price": 142180,
               "departureAt": "2026-11-20T10:30:00+09:00",
               "returnAt": "2026-11-30T13:20:00+05:30"
             }
@@ -616,22 +616,6 @@
           ]
         },
         {
-          "airline": "HU",
-          "airlineName": "海南航空",
-          "groupResults": [
-            {
-              "group": "South-Eastern Asia",
-              "destination": "CNX",
-              "cityName": "Chiang Mai",
-              "countryName": "Thailand",
-              "origin": "TYO",
-              "price": 119914,
-              "departureAt": "2026-11-23T14:35:00+09:00",
-              "returnAt": "2026-11-26T16:25:00+07:00"
-            }
-          ]
-        },
-        {
           "airline": "3U",
           "airlineName": "四川航空",
           "groupResults": [
@@ -657,7 +641,7 @@
               "cityName": "Novosibirsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 153885,
+              "price": 152723,
               "departureAt": "2026-11-03T21:15:00+09:00",
               "returnAt": "2026-11-24T23:15:00+07:00"
             }
