@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-19T15:45:12.976Z",
+  "generatedAt": "2026-09-19T20:26:11.570Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -33,11 +33,11 @@
           "cityName": "Moscow",
           "countryName": "Russia",
           "origin": "TYO",
-          "price": 114957,
+          "price": 119941,
           "airline": "QR",
           "alliance": "oneworld",
           "departureAt": "2026-11-10T21:55:00+09:00",
-          "returnAt": "2026-11-29T16:15:00+03:00"
+          "returnAt": "2026-11-20T16:15:00+03:00"
         }
       ]
     },
@@ -284,6 +284,22 @@
       "groupBy": "subregion",
       "airlines": [
         {
+          "airline": "FJ",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Polynesia",
+              "destination": "BOB",
+              "cityName": "Bora Bora",
+              "countryName": "French Polynesia",
+              "origin": "TYO",
+              "price": 435809,
+              "departureAt": "2026-11-11T16:30:00+09:00",
+              "returnAt": "2026-11-25T18:20:00-10:00"
+            }
+          ]
+        },
+        {
           "airline": "QR",
           "airlineName": null,
           "groupResults": [
@@ -293,9 +309,9 @@
               "cityName": "Moscow",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 114957,
+              "price": 119941,
               "departureAt": "2026-11-10T21:55:00+09:00",
-              "returnAt": "2026-11-29T16:15:00+03:00"
+              "returnAt": "2026-11-20T16:15:00+03:00"
             },
             {
               "group": "Eastern Africa",
@@ -319,9 +335,9 @@
               "cityName": "Long Beach",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 194677,
-              "departureAt": "2026-11-09T21:20:00+09:00",
-              "returnAt": "2026-11-13T09:00:00-08:00"
+              "price": 240661,
+              "departureAt": "2026-11-01T21:20:00+09:00",
+              "returnAt": "2026-11-09T15:10:00-08:00"
             },
             {
               "group": "South America",
@@ -372,6 +388,16 @@
               "price": 66837,
               "departureAt": "2026-11-19T14:55:00+09:00",
               "returnAt": "2026-11-22T21:10:00+08:00"
+            },
+            {
+              "group": "Australia and New Zealand",
+              "destination": "SYD",
+              "cityName": "Sydney",
+              "countryName": "Australia",
+              "origin": "TYO",
+              "price": 91298,
+              "departureAt": "2026-11-01T14:55:00+09:00",
+              "returnAt": "2026-11-08T12:35:00+11:00"
             },
             {
               "group": "South America",
@@ -665,8 +691,8 @@
               "cityName": "Minsk",
               "countryName": "Belarus",
               "origin": "TYO",
-              "price": 344542,
-              "departureAt": "2026-11-28T00:05:00+09:00",
+              "price": 330042,
+              "departureAt": "2026-11-19T22:20:00+09:00",
               "returnAt": "2026-11-29T00:55:00+03:00"
             }
           ]
