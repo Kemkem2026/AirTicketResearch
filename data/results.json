@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-18T20:45:55.589Z",
+  "generatedAt": "2026-09-19T04:15:58.428Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -197,17 +197,6 @@
           "returnAt": "2026-11-30T20:50:00+06:00"
         },
         {
-          "destination": "TAS",
-          "cityName": "Tashkent",
-          "countryName": "Uzbekistan",
-          "origin": "TYO",
-          "price": 68240,
-          "airline": "CA",
-          "alliance": "staralliance",
-          "departureAt": "2026-11-02T14:20:00+09:00",
-          "returnAt": "2026-11-12T21:10:00+05:00"
-        },
-        {
           "destination": "NQZ",
           "cityName": "Astana",
           "countryName": "Kazakhstan",
@@ -217,6 +206,17 @@
           "alliance": "staralliance",
           "departureAt": "2026-11-13T14:20:00+09:00",
           "returnAt": "2026-11-17T20:55:00+06:00"
+        },
+        {
+          "destination": "TAS",
+          "cityName": "Tashkent",
+          "countryName": "Uzbekistan",
+          "origin": "TYO",
+          "price": 79426,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-02T14:20:00+09:00",
+          "returnAt": "2026-11-12T21:10:00+05:00"
         },
         {
           "destination": "BSZ",
@@ -359,7 +359,7 @@
               "cityName": "Auckland",
               "countryName": "New Zealand",
               "origin": "TYO",
-              "price": 165095,
+              "price": 165305,
               "departureAt": "2026-11-03T09:40:00+09:00",
               "returnAt": "2026-11-17T11:45:00+13:00"
             }
@@ -466,16 +466,6 @@
           "airlineName": null,
           "groupResults": [
             {
-              "group": "Central Asia",
-              "destination": "TAS",
-              "cityName": "Tashkent",
-              "countryName": "Uzbekistan",
-              "origin": "TYO",
-              "price": 68240,
-              "departureAt": "2026-11-02T14:20:00+09:00",
-              "returnAt": "2026-11-12T21:10:00+05:00"
-            },
-            {
               "group": "South-Eastern Asia",
               "destination": "KUL",
               "cityName": "Kuala Lumpur",
@@ -496,12 +486,22 @@
               "returnAt": "2026-11-17T21:15:00+08:00"
             },
             {
+              "group": "Central Asia",
+              "destination": "NQZ",
+              "cityName": "Astana",
+              "countryName": "Kazakhstan",
+              "origin": "TYO",
+              "price": 79016,
+              "departureAt": "2026-11-13T14:20:00+09:00",
+              "returnAt": "2026-11-17T20:55:00+06:00"
+            },
+            {
               "group": "Eastern Europe",
               "destination": "IKT",
               "cityName": "Irkutsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 111334,
+              "price": 111476,
               "departureAt": "2026-11-09T14:20:00+09:00",
               "returnAt": "2026-11-23T18:00:00+08:00"
             },
@@ -585,7 +585,7 @@
               "cityName": "Goa",
               "countryName": "India",
               "origin": "TYO",
-              "price": 142180,
+              "price": 142362,
               "departureAt": "2026-11-20T10:30:00+09:00",
               "returnAt": "2026-11-30T13:20:00+05:30"
             }
@@ -641,7 +641,7 @@
               "cityName": "Novosibirsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 152723,
+              "price": 152917,
               "departureAt": "2026-11-03T21:15:00+09:00",
               "returnAt": "2026-11-24T23:15:00+07:00"
             }
@@ -660,16 +660,6 @@
               "price": 89291,
               "departureAt": "2026-11-09T08:50:00+09:00",
               "returnAt": "2026-11-15T12:00:00+07:00"
-            },
-            {
-              "group": "Australia and New Zealand",
-              "destination": "MEL",
-              "cityName": "Melbourne",
-              "countryName": "Australia",
-              "origin": "TYO",
-              "price": 126537,
-              "departureAt": "2026-11-20T02:15:00+09:00",
-              "returnAt": "2026-11-28T22:35:00+11:00"
             },
             {
               "group": "Western Asia",
