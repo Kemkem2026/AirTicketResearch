@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-20T11:06:08.470Z",
+  "generatedAt": "2026-09-20T15:53:35.196Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -318,22 +318,6 @@
               "returnAt": "2026-11-12T05:00:00-05:00"
             }
           ]
-        },
-        {
-          "airline": "AS",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "South America",
-              "destination": "SCL",
-              "cityName": "Santiago",
-              "countryName": "Chile",
-              "origin": "TYO",
-              "price": 267823,
-              "departureAt": "2026-11-04T17:25:00+09:00",
-              "returnAt": "2026-11-26T12:15:00-03:00"
-            }
-          ]
         }
       ]
     },
@@ -419,6 +403,16 @@
           "airline": "MF",
           "airlineName": null,
           "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "HGH",
+              "cityName": "Hangzhou",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 56403,
+              "departureAt": "2026-11-01T14:55:00+09:00",
+              "returnAt": "2026-11-04T08:30:00+08:00"
+            },
             {
               "group": "Australia and New Zealand",
               "destination": "SYD",
