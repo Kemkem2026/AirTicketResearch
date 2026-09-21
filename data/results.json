@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T12:34:26.225Z",
+  "generatedAt": "2026-09-21T21:53:54.122Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -27,19 +27,7 @@
       "alliances": [
         "oneworld"
       ],
-      "results": [
-        {
-          "destination": "MOW",
-          "cityName": "Moscow",
-          "countryName": "Russia",
-          "origin": "TYO",
-          "price": 122586,
-          "airline": "QR",
-          "alliance": "oneworld",
-          "departureAt": "2026-11-10T21:55:00+09:00",
-          "returnAt": "2026-11-24T08:35:00+03:00"
-        }
-      ]
+      "results": []
     },
     {
       "label": "西アジア(中東)x 全連合",
@@ -287,16 +275,6 @@
           "airlineName": null,
           "groupResults": [
             {
-              "group": "Eastern Europe",
-              "destination": "MOW",
-              "cityName": "Moscow",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 122586,
-              "departureAt": "2026-11-10T21:55:00+09:00",
-              "returnAt": "2026-11-24T08:35:00+03:00"
-            },
-            {
               "group": "Eastern Africa",
               "destination": "ZNZ",
               "cityName": "Zanzibar",
@@ -411,16 +389,6 @@
               "price": 172825,
               "departureAt": "2026-11-05T08:40:00+09:00",
               "returnAt": "2026-11-29T12:55:00Z"
-            },
-            {
-              "group": "Western Europe",
-              "destination": "NCE",
-              "cityName": "Nice",
-              "countryName": "France",
-              "origin": "TYO",
-              "price": 176610,
-              "departureAt": "2026-11-15T16:55:00+09:00",
-              "returnAt": "2026-11-16T23:15:00+01:00"
             }
           ]
         }
@@ -459,22 +427,6 @@
           ]
         },
         {
-          "airline": "OZ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Europe",
-              "destination": "SVX",
-              "cityName": "Yekaterinburg",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 232505,
-              "departureAt": "2026-11-01T01:30:00+09:00",
-              "returnAt": "2026-11-01T23:10:00+05:00"
-            }
-          ]
-        },
-        {
           "airline": "ZH",
           "airlineName": null,
           "groupResults": [
@@ -484,7 +436,7 @@
               "cityName": "Ho Chi Minh City",
               "countryName": "Vietnam",
               "origin": "TYO",
-              "price": 60588,
+              "price": 60662,
               "departureAt": "2026-11-23T19:00:00+09:00",
               "returnAt": "2026-11-30T02:30:00+07:00"
             }
@@ -494,16 +446,6 @@
           "airline": "ET",
           "airlineName": null,
           "groupResults": [
-            {
-              "group": "Southern Africa",
-              "destination": "CPT",
-              "cityName": "Cape Town",
-              "countryName": "South Africa",
-              "origin": "TYO",
-              "price": 174129,
-              "departureAt": "2026-11-05T20:30:00+09:00",
-              "returnAt": "2026-11-11T15:10:00+02:00"
-            },
             {
               "group": "Eastern Africa",
               "destination": "DAR",
@@ -588,13 +530,13 @@
           "groupResults": [
             {
               "group": "Eastern Asia",
-              "destination": "HSG",
-              "cityName": "Saga",
+              "destination": "NGO",
+              "cityName": "Nagoya",
               "countryName": "Japan",
               "origin": "TYO",
-              "price": 29174,
-              "departureAt": "2026-11-26T07:15:00+09:00",
-              "returnAt": "2026-11-30T06:50:00+09:00"
+              "price": 20478,
+              "departureAt": "2026-11-16T17:25:00+09:00",
+              "returnAt": "2026-11-22T14:00:00+09:00"
             }
           ]
         }
@@ -632,7 +574,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 130210,
+              "price": 130370,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-26T22:20:00+03:00"
             }
@@ -658,6 +600,16 @@
           "airline": "XJ",
           "airlineName": "タイ・エアアジアX",
           "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "UTH",
+              "cityName": "Udon Thani",
+              "countryName": "Thailand",
+              "origin": "TYO",
+              "price": 77066,
+              "departureAt": "2026-11-05T11:10:00+09:00",
+              "returnAt": "2026-11-08T21:35:00+07:00"
+            },
             {
               "group": "Eastern Europe",
               "destination": "OVB",
