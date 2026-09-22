@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T04:28:47.867Z",
+  "generatedAt": "2026-09-22T11:22:10.285Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -239,38 +239,6 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "AA",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "SDF",
-              "cityName": "Louisville",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 174445,
-              "departureAt": "2026-11-03T20:25:00+09:00",
-              "returnAt": "2026-11-12T05:00:00-05:00"
-            }
-          ]
-        },
-        {
-          "airline": "FJ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Polynesia",
-              "destination": "BOB",
-              "cityName": "Bora Bora",
-              "countryName": "French Polynesia",
-              "origin": "TYO",
-              "price": 435809,
-              "departureAt": "2026-11-11T16:30:00+09:00",
-              "returnAt": "2026-11-25T18:20:00-10:00"
-            }
-          ]
-        },
-        {
           "airline": "QR",
           "airlineName": null,
           "groupResults": [
@@ -285,6 +253,22 @@
               "returnAt": "2026-11-18T18:40:00+03:00"
             }
           ]
+        },
+        {
+          "airline": "AA",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "SDF",
+              "cityName": "Louisville",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 174445,
+              "departureAt": "2026-11-03T20:25:00+09:00",
+              "returnAt": "2026-11-12T05:00:00-05:00"
+            }
+          ]
         }
       ]
     },
@@ -294,42 +278,6 @@
       "alliance": "skyteam",
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "MF",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "HGH",
-              "cityName": "Hangzhou",
-              "countryName": "China",
-              "origin": "TYO",
-              "price": 56392,
-              "departureAt": "2026-11-01T14:55:00+09:00",
-              "returnAt": "2026-11-04T08:30:00+08:00"
-            },
-            {
-              "group": "Australia and New Zealand",
-              "destination": "SYD",
-              "cityName": "Sydney",
-              "countryName": "Australia",
-              "origin": "TYO",
-              "price": 91298,
-              "departureAt": "2026-11-01T14:55:00+09:00",
-              "returnAt": "2026-11-08T12:35:00+11:00"
-            },
-            {
-              "group": "South America",
-              "destination": "LIM",
-              "cityName": "Lima",
-              "countryName": "Peru",
-              "origin": "TYO",
-              "price": 319232,
-              "departureAt": "2026-11-01T14:55:00+09:00",
-              "returnAt": "2026-11-08T08:00:00-05:00"
-            }
-          ]
-        },
         {
           "airline": "KE",
           "airlineName": null,
@@ -343,22 +291,16 @@
               "price": 165305,
               "departureAt": "2026-11-03T09:40:00+09:00",
               "returnAt": "2026-11-17T11:45:00+13:00"
-            }
-          ]
-        },
-        {
-          "airline": "FM",
-          "airlineName": null,
-          "groupResults": [
+            },
             {
-              "group": "Australia and New Zealand",
-              "destination": "MEL",
-              "cityName": "Melbourne",
-              "countryName": "Australia",
+              "group": "Polynesia",
+              "destination": "BOB",
+              "cityName": "Bora Bora",
+              "countryName": "French Polynesia",
               "origin": "TYO",
-              "price": 144228,
-              "departureAt": "2026-11-20T17:10:00+09:00",
-              "returnAt": "2026-11-28T12:00:00+11:00"
+              "price": 406075,
+              "departureAt": "2026-11-05T02:00:00+09:00",
+              "returnAt": "2026-11-15T19:05:00-10:00"
             }
           ]
         },
@@ -395,6 +337,74 @@
               "price": 104744,
               "departureAt": "2026-11-02T10:55:00+09:00",
               "returnAt": "2026-11-10T19:05:00+05:00"
+            }
+          ]
+        },
+        {
+          "airline": "VN",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Europe",
+              "destination": "OGZ",
+              "cityName": "Vladikavkaz",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 230164,
+              "departureAt": "2026-11-02T09:30:00+09:00",
+              "returnAt": "2026-11-10T14:30:00+03:00"
+            }
+          ]
+        },
+        {
+          "airline": "FM",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Australia and New Zealand",
+              "destination": "MEL",
+              "cityName": "Melbourne",
+              "countryName": "Australia",
+              "origin": "TYO",
+              "price": 143897,
+              "departureAt": "2026-11-20T17:10:00+09:00",
+              "returnAt": "2026-11-28T12:00:00+11:00"
+            }
+          ]
+        },
+        {
+          "airline": "MF",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "HGH",
+              "cityName": "Hangzhou",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 56392,
+              "departureAt": "2026-11-01T14:55:00+09:00",
+              "returnAt": "2026-11-04T08:30:00+08:00"
+            },
+            {
+              "group": "Australia and New Zealand",
+              "destination": "SYD",
+              "cityName": "Sydney",
+              "countryName": "Australia",
+              "origin": "TYO",
+              "price": 91298,
+              "departureAt": "2026-11-01T14:55:00+09:00",
+              "returnAt": "2026-11-08T12:35:00+11:00"
+            },
+            {
+              "group": "South America",
+              "destination": "LIM",
+              "cityName": "Lima",
+              "countryName": "Peru",
+              "origin": "TYO",
+              "price": 319232,
+              "departureAt": "2026-11-01T14:55:00+09:00",
+              "returnAt": "2026-11-08T08:00:00-05:00"
             }
           ]
         }
@@ -449,35 +459,9 @@
           ]
         },
         {
-          "airline": "ET",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Africa",
-              "destination": "DAR",
-              "cityName": "Dar Es Salaam",
-              "countryName": "Tanzania",
-              "origin": "TYO",
-              "price": 197087,
-              "departureAt": "2026-11-04T20:30:00+09:00",
-              "returnAt": "2026-11-11T18:45:00+03:00"
-            }
-          ]
-        },
-        {
           "airline": "CA",
           "airlineName": null,
           "groupResults": [
-            {
-              "group": "South-Eastern Asia",
-              "destination": "KUL",
-              "cityName": "Kuala Lumpur",
-              "countryName": "Malaysia",
-              "origin": "TYO",
-              "price": 68320,
-              "departureAt": "2026-11-21T14:20:00+09:00",
-              "returnAt": "2026-11-26T17:25:00+08:00"
-            },
             {
               "group": "Eastern Asia",
               "destination": "CKG",
@@ -519,6 +503,16 @@
               "returnAt": "2026-11-23T18:00:00+08:00"
             },
             {
+              "group": "South-Eastern Asia",
+              "destination": "CNX",
+              "cityName": "Chiang Mai",
+              "countryName": "Thailand",
+              "origin": "TYO",
+              "price": 122321,
+              "departureAt": "2026-11-23T14:20:00+09:00",
+              "returnAt": "2026-11-26T20:50:00+07:00"
+            },
+            {
               "group": "Western Asia",
               "destination": "TBS",
               "cityName": "Tbilisi",
@@ -527,6 +521,22 @@
               "price": 147167,
               "departureAt": "2026-11-02T14:20:00+09:00",
               "returnAt": "2026-11-05T22:50:00+04:00"
+            }
+          ]
+        },
+        {
+          "airline": "ET",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Africa",
+              "destination": "DAR",
+              "cityName": "Dar Es Salaam",
+              "countryName": "Tanzania",
+              "origin": "TYO",
+              "price": 197087,
+              "departureAt": "2026-11-04T20:30:00+09:00",
+              "returnAt": "2026-11-11T18:45:00+03:00"
             }
           ]
         },
@@ -555,22 +565,6 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "EK",
-          "airlineName": "エミレーツ航空",
-          "groupResults": [
-            {
-              "group": "Eastern Europe",
-              "destination": "MSQ",
-              "cityName": "Minsk",
-              "countryName": "Belarus",
-              "origin": "TYO",
-              "price": 330042,
-              "departureAt": "2026-11-19T22:20:00+09:00",
-              "returnAt": "2026-11-29T00:55:00+03:00"
-            }
-          ]
-        },
-        {
           "airline": "3U",
           "airlineName": "四川航空",
           "groupResults": [
@@ -580,7 +574,7 @@
               "cityName": "Saint Petersburg",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 130306,
+              "price": 129897,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-26T22:20:00+03:00"
             }
@@ -632,6 +626,16 @@
           "airline": "TR",
           "airlineName": "スクート",
           "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "KUL",
+              "cityName": "Kuala Lumpur",
+              "countryName": "Malaysia",
+              "origin": "TYO",
+              "price": 69143,
+              "departureAt": "2026-11-05T08:50:00+09:00",
+              "returnAt": "2026-11-06T12:30:00+08:00"
+            },
             {
               "group": "Western Asia",
               "destination": "AYT",
