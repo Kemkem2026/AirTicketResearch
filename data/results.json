@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T16:58:12.127Z",
+  "generatedAt": "2026-09-24T21:24:20.602Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -190,7 +190,7 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 72911,
+          "price": 72979,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-23T08:30:00+09:00",
@@ -250,17 +250,6 @@
           "alliance": "other",
           "departureAt": "2026-11-09T15:05:00+09:00",
           "returnAt": "2026-11-15T21:20:00+03:00"
-        },
-        {
-          "destination": "BSZ",
-          "cityName": "Bishkek",
-          "countryName": "Kyrgyzstan",
-          "origin": "TYO",
-          "price": 181601,
-          "airline": "OZ",
-          "alliance": "staralliance",
-          "departureAt": "2026-11-02T01:30:00+09:00",
-          "returnAt": "2026-11-02T22:20:00+06:00"
         },
         {
           "destination": "SKD",
@@ -325,7 +314,7 @@
               "cityName": "Oakland",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 304862,
+              "price": 305147,
               "departureAt": "2026-11-11T21:20:00+09:00",
               "returnAt": "2026-11-18T12:50:00-08:00"
             }
@@ -533,7 +522,7 @@
               "cityName": "Almaty",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 72911,
+              "price": 72979,
               "departureAt": "2026-11-23T08:30:00+09:00",
               "returnAt": "2026-11-27T21:30:00+06:00"
             },
@@ -543,7 +532,7 @@
               "cityName": "Chiang Mai",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 102768,
+              "price": 102863,
               "departureAt": "2026-11-17T15:00:00+09:00",
               "returnAt": "2026-11-26T18:00:00+07:00"
             },
@@ -620,22 +609,6 @@
               "price": 142362,
               "departureAt": "2026-11-20T10:30:00+09:00",
               "returnAt": "2026-11-30T13:20:00+05:30"
-            }
-          ]
-        },
-        {
-          "airline": "OZ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Central Asia",
-              "destination": "BSZ",
-              "cityName": "Bishkek",
-              "countryName": "Kyrgyzstan",
-              "origin": "TYO",
-              "price": 181601,
-              "departureAt": "2026-11-02T01:30:00+09:00",
-              "returnAt": "2026-11-02T22:20:00+06:00"
             }
           ]
         }
@@ -774,7 +747,7 @@
           "cityName": "San Jose",
           "countryName": "United States",
           "origin": "TYO",
-          "price": 279487,
+          "price": 279748,
           "departureAt": "2026-11-11T18:10:00+09:00",
           "returnAt": "2026-11-18T07:00:00-08:00"
         }
