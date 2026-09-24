@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T11:31:35.601Z",
+  "generatedAt": "2026-09-24T16:58:12.127Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -190,7 +190,7 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 72815,
+          "price": 72911,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-23T08:30:00+09:00",
@@ -325,7 +325,7 @@
               "cityName": "Oakland",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 304459,
+              "price": 304862,
               "departureAt": "2026-11-11T21:20:00+09:00",
               "returnAt": "2026-11-18T12:50:00-08:00"
             }
@@ -533,9 +533,19 @@
               "cityName": "Almaty",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 72815,
+              "price": 72911,
               "departureAt": "2026-11-23T08:30:00+09:00",
               "returnAt": "2026-11-27T21:30:00+06:00"
+            },
+            {
+              "group": "South-Eastern Asia",
+              "destination": "CNX",
+              "cityName": "Chiang Mai",
+              "countryName": "Thailand",
+              "origin": "TYO",
+              "price": 102768,
+              "departureAt": "2026-11-17T15:00:00+09:00",
+              "returnAt": "2026-11-26T18:00:00+07:00"
             },
             {
               "group": "Eastern Europe",
@@ -546,16 +556,6 @@
               "price": 111129,
               "departureAt": "2026-11-04T21:00:00+09:00",
               "returnAt": "2026-11-16T18:00:00+08:00"
-            },
-            {
-              "group": "South-Eastern Asia",
-              "destination": "CNX",
-              "cityName": "Chiang Mai",
-              "countryName": "Thailand",
-              "origin": "TYO",
-              "price": 122321,
-              "departureAt": "2026-11-23T14:20:00+09:00",
-              "returnAt": "2026-11-26T20:50:00+07:00"
             }
           ]
         },
@@ -774,7 +774,7 @@
           "cityName": "San Jose",
           "countryName": "United States",
           "origin": "TYO",
-          "price": 279117,
+          "price": 279487,
           "departureAt": "2026-11-11T18:10:00+09:00",
           "returnAt": "2026-11-18T07:00:00-08:00"
         }
