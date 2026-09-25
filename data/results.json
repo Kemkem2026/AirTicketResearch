@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T21:24:20.602Z",
+  "generatedAt": "2026-09-25T04:33:43.084Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -186,17 +186,6 @@
       ],
       "results": [
         {
-          "destination": "ALA",
-          "cityName": "Almaty",
-          "countryName": "Kazakhstan",
-          "origin": "TYO",
-          "price": 72979,
-          "airline": "CA",
-          "alliance": "staralliance",
-          "departureAt": "2026-11-23T08:30:00+09:00",
-          "returnAt": "2026-11-27T21:30:00+06:00"
-        },
-        {
           "destination": "NQZ",
           "cityName": "Astana",
           "countryName": "Kazakhstan",
@@ -206,6 +195,17 @@
           "alliance": "staralliance",
           "departureAt": "2026-11-14T08:30:00+09:00",
           "returnAt": "2026-11-23T21:45:00+06:00"
+        },
+        {
+          "destination": "ALA",
+          "cityName": "Almaty",
+          "countryName": "Kazakhstan",
+          "origin": "TYO",
+          "price": 85400,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-23T08:30:00+09:00",
+          "returnAt": "2026-11-27T21:20:00+06:00"
         },
         {
           "destination": "TAS",
@@ -314,7 +314,7 @@
               "cityName": "Oakland",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 305147,
+              "price": 305161,
               "departureAt": "2026-11-11T21:20:00+09:00",
               "returnAt": "2026-11-18T12:50:00-08:00"
             }
@@ -518,13 +518,13 @@
           "groupResults": [
             {
               "group": "Central Asia",
-              "destination": "ALA",
-              "cityName": "Almaty",
+              "destination": "NQZ",
+              "cityName": "Astana",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 72979,
-              "departureAt": "2026-11-23T08:30:00+09:00",
-              "returnAt": "2026-11-27T21:30:00+06:00"
+              "price": 81558,
+              "departureAt": "2026-11-14T08:30:00+09:00",
+              "returnAt": "2026-11-23T21:45:00+06:00"
             },
             {
               "group": "South-Eastern Asia",
@@ -532,7 +532,7 @@
               "cityName": "Chiang Mai",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 102863,
+              "price": 102868,
               "departureAt": "2026-11-17T15:00:00+09:00",
               "returnAt": "2026-11-26T18:00:00+07:00"
             },
@@ -658,13 +658,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "UTH",
-              "cityName": "Udon Thani",
+              "destination": "BKK",
+              "cityName": "Bangkok",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 77028,
-              "departureAt": "2026-11-05T11:10:00+09:00",
-              "returnAt": "2026-11-08T21:35:00+07:00"
+              "price": 61498,
+              "departureAt": "2026-11-03T21:15:00+09:00",
+              "returnAt": "2026-11-10T11:50:00+07:00"
             },
             {
               "group": "Southern Asia",
@@ -747,7 +747,7 @@
           "cityName": "San Jose",
           "countryName": "United States",
           "origin": "TYO",
-          "price": 279748,
+          "price": 279761,
           "departureAt": "2026-11-11T18:10:00+09:00",
           "returnAt": "2026-11-18T07:00:00-08:00"
         }
