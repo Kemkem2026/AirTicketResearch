@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T11:37:34.163Z",
+  "generatedAt": "2026-09-25T17:00:10.775Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -127,7 +127,7 @@
           "cityName": "Yerevan",
           "countryName": "Armenia",
           "origin": "TYO",
-          "price": 163663,
+          "price": 162536,
           "airline": "UL",
           "alliance": "oneworld",
           "departureAt": "2026-11-19T11:20:00+09:00",
@@ -212,7 +212,7 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 85139,
+          "price": 84553,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-23T08:30:00+09:00",
@@ -256,7 +256,7 @@
           "cityName": "Yerevan",
           "countryName": "Armenia",
           "origin": "TYO",
-          "price": 163663,
+          "price": 162536,
           "airline": "UL",
           "alliance": "oneworld",
           "departureAt": "2026-11-19T11:20:00+09:00",
@@ -304,7 +304,7 @@
               "cityName": "Yerevan",
               "countryName": "Armenia",
               "origin": "TYO",
-              "price": 163663,
+              "price": 162536,
               "departureAt": "2026-11-19T11:20:00+09:00",
               "returnAt": "2026-11-26T04:15:00+04:00"
             }
@@ -336,7 +336,7 @@
               "cityName": "Oakland",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 229480,
+              "price": 227900,
               "departureAt": "2026-11-25T20:05:00+09:00",
               "returnAt": "2026-11-26T23:00:00-08:00"
             }
@@ -352,7 +352,7 @@
               "cityName": "San Jose",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 223975,
+              "price": 222434,
               "departureAt": "2026-11-25T20:25:00+09:00",
               "returnAt": "2026-11-26T12:50:00-08:00"
             }
@@ -478,7 +478,7 @@
               "cityName": "San Francisco",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 149756,
+              "price": 148725,
               "departureAt": "2026-11-25T20:15:00+09:00",
               "returnAt": "2026-11-26T12:00:00-08:00"
             },
@@ -536,8 +536,8 @@
               "cityName": "Auckland",
               "countryName": "New Zealand",
               "origin": "TYO",
-              "price": 165305,
-              "departureAt": "2026-11-03T09:40:00+09:00",
+              "price": 154451,
+              "departureAt": "2026-11-03T14:00:00+09:00",
               "returnAt": "2026-11-17T11:45:00+13:00"
             },
             {
@@ -570,9 +570,9 @@
               "cityName": "Wakkanai",
               "countryName": "Japan",
               "origin": "TYO",
-              "price": 26319,
+              "price": 26138,
               "departureAt": "2026-11-01T10:40:00+09:00",
-              "returnAt": "2026-11-05T13:10:00+09:00"
+              "returnAt": "2026-11-06T13:10:00+09:00"
             }
           ]
         },
@@ -720,7 +720,7 @@
               "cityName": "Colombo",
               "countryName": "Sri Lanka",
               "origin": "TYO",
-              "price": 101613,
+              "price": 100913,
               "departureAt": "2026-11-12T11:10:00+09:00",
               "returnAt": "2026-11-25T21:45:00+05:30"
             },
