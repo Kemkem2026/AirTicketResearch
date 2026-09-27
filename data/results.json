@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T11:50:20.860Z",
+  "generatedAt": "2026-09-27T16:48:41.081Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -330,7 +330,7 @@
               "cityName": "Long Beach",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 184400,
+              "price": 184353,
               "departureAt": "2026-11-05T20:05:00+09:00",
               "returnAt": "2026-11-15T09:00:00-08:00"
             }
@@ -431,22 +431,12 @@
               "returnAt": "2026-11-16T00:30:00+08:00"
             },
             {
-              "group": "Australia and New Zealand",
-              "destination": "SYD",
-              "cityName": "Sydney",
-              "countryName": "Australia",
-              "origin": "TYO",
-              "price": 108586,
-              "departureAt": "2026-11-05T14:55:00+09:00",
-              "returnAt": "2026-11-06T12:35:00+11:00"
-            },
-            {
               "group": "North America",
               "destination": "LAX",
               "cityName": "Los Angeles",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 116970,
+              "price": 116941,
               "departureAt": "2026-11-05T14:55:00+09:00",
               "returnAt": "2026-11-15T22:55:00-08:00"
             }
@@ -570,7 +560,7 @@
               "cityName": "Ontario",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 166768,
+              "price": 166726,
               "departureAt": "2026-11-05T18:25:00+09:00",
               "returnAt": "2026-11-15T18:37:00-08:00"
             }
@@ -655,6 +645,16 @@
               "price": 69244,
               "departureAt": "2026-11-05T08:50:00+09:00",
               "returnAt": "2026-11-06T12:30:00+08:00"
+            },
+            {
+              "group": "Australia and New Zealand",
+              "destination": "SYD",
+              "cityName": "Sydney",
+              "countryName": "Australia",
+              "origin": "TYO",
+              "price": 104996,
+              "departureAt": "2026-11-18T08:50:00+09:00",
+              "returnAt": "2026-11-25T15:10:00+11:00"
             },
             {
               "group": "Southern Europe",
