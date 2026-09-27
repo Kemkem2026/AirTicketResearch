@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T16:48:41.081Z",
+  "generatedAt": "2026-09-27T21:12:58.079Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -326,13 +326,13 @@
           "groupResults": [
             {
               "group": "North America",
-              "destination": "LGB",
-              "cityName": "Long Beach",
+              "destination": "ITO",
+              "cityName": "Hilo",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 184353,
-              "departureAt": "2026-11-05T20:05:00+09:00",
-              "returnAt": "2026-11-15T09:00:00-08:00"
+              "price": 125357,
+              "departureAt": "2026-11-07T20:05:00+09:00",
+              "returnAt": "2026-11-14T11:00:00-10:00"
             }
           ]
         }
