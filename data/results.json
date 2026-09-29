@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T23:08:51.071Z",
+  "generatedAt": "2026-09-29T05:24:04.262Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -90,17 +90,6 @@
           "returnAt": "2026-11-12T22:05:00+04:00"
         },
         {
-          "destination": "SHJ",
-          "cityName": "Sharjah",
-          "countryName": "United Arab Emirates",
-          "origin": "TYO",
-          "price": 148459,
-          "airline": "XJ",
-          "alliance": "other",
-          "departureAt": "2026-11-07T19:45:00+09:00",
-          "returnAt": "2026-11-27T07:30:00+04:00"
-        },
-        {
           "destination": "DOH",
           "cityName": "Doha",
           "countryName": "Qatar",
@@ -143,6 +132,17 @@
           "alliance": "other",
           "departureAt": "2026-11-09T15:05:00+09:00",
           "returnAt": "2026-11-15T21:20:00+03:00"
+        },
+        {
+          "destination": "SHJ",
+          "cityName": "Sharjah",
+          "countryName": "United Arab Emirates",
+          "origin": "TYO",
+          "price": 181103,
+          "airline": "TG",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-10T00:20:00+09:00",
+          "returnAt": "2026-11-10T20:25:00+04:00"
         }
       ]
     },
@@ -545,6 +545,22 @@
           ]
         },
         {
+          "airline": "TG",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Western Asia",
+              "destination": "SHJ",
+              "cityName": "Sharjah",
+              "countryName": "United Arab Emirates",
+              "origin": "TYO",
+              "price": 181103,
+              "departureAt": "2026-11-10T00:20:00+09:00",
+              "returnAt": "2026-11-10T20:25:00+04:00"
+            }
+          ]
+        },
+        {
           "airline": "UA",
           "airlineName": null,
           "groupResults": [
@@ -629,22 +645,6 @@
               "price": 134294,
               "departureAt": "2026-11-10T16:40:00+09:00",
               "returnAt": "2026-11-20T22:20:00+03:00"
-            }
-          ]
-        },
-        {
-          "airline": "XJ",
-          "airlineName": "タイ・エアアジアX",
-          "groupResults": [
-            {
-              "group": "Western Asia",
-              "destination": "SHJ",
-              "cityName": "Sharjah",
-              "countryName": "United Arab Emirates",
-              "origin": "TYO",
-              "price": 148459,
-              "departureAt": "2026-11-07T19:45:00+09:00",
-              "returnAt": "2026-11-27T07:30:00+04:00"
             }
           ]
         },
