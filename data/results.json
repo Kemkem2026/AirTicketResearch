@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-30T22:07:07.761Z",
+  "generatedAt": "2026-10-01T05:26:51.878Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -306,6 +306,22 @@
               "returnAt": "2026-11-10T09:59:00-05:00"
             }
           ]
+        },
+        {
+          "airline": "FJ",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 168255,
+              "departureAt": "2026-11-18T16:30:00+09:00",
+              "returnAt": "2026-11-28T23:30:00+13:00"
+            }
+          ]
         }
       ]
     },
@@ -460,6 +476,22 @@
           ]
         },
         {
+          "airline": "ZH",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "URC",
+              "cityName": "Urumqi",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 105656,
+              "departureAt": "2026-11-01T19:00:00+09:00",
+              "returnAt": "2026-11-04T16:40:00+08:00"
+            }
+          ]
+        },
+        {
           "airline": "AC",
           "airlineName": null,
           "groupResults": [
@@ -516,6 +548,16 @@
           "airlineName": null,
           "groupResults": [
             {
+              "group": "South-Eastern Asia",
+              "destination": "HAN",
+              "cityName": "Hanoi",
+              "countryName": "Vietnam",
+              "origin": "TYO",
+              "price": 63544,
+              "departureAt": "2026-11-21T20:10:00+09:00",
+              "returnAt": "2026-11-23T18:30:00+07:00"
+            },
+            {
               "group": "Central Asia",
               "destination": "ALA",
               "cityName": "Almaty",
@@ -524,16 +566,6 @@
               "price": 70757,
               "departureAt": "2026-11-11T08:30:00+09:00",
               "returnAt": "2026-11-18T21:20:00+06:00"
-            },
-            {
-              "group": "South-Eastern Asia",
-              "destination": "CNX",
-              "cityName": "Chiang Mai",
-              "countryName": "Thailand",
-              "origin": "TYO",
-              "price": 102868,
-              "departureAt": "2026-11-17T15:00:00+09:00",
-              "returnAt": "2026-11-26T18:00:00+07:00"
             },
             {
               "group": "Eastern Europe",
@@ -599,7 +631,7 @@
               "origin": "TYO",
               "price": 48341,
               "departureAt": "2026-11-23T19:45:00+09:00",
-              "returnAt": "2026-11-25T06:50:00+08:00"
+              "returnAt": "2026-11-26T14:25:00+08:00"
             },
             {
               "group": "Western Asia",
