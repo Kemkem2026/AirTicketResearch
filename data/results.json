@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-02T12:18:45.582Z",
+  "generatedAt": "2026-10-02T22:03:37.296Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -93,7 +93,7 @@
           "cityName": "Doha",
           "countryName": "Qatar",
           "origin": "TYO",
-          "price": 149682,
+          "price": 149928,
           "airline": "UO",
           "alliance": "other",
           "departureAt": "2026-11-02T01:55:00+09:00",
@@ -104,11 +104,22 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 150653,
+          "price": 150901,
           "airline": "AI",
           "alliance": "staralliance",
           "departureAt": "2026-11-20T11:10:00+09:00",
           "returnAt": "2026-11-27T12:45:00+04:00"
+        },
+        {
+          "destination": "SHJ",
+          "cityName": "Sharjah",
+          "countryName": "United Arab Emirates",
+          "origin": "TYO",
+          "price": 150931,
+          "airline": "AI",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-17T09:15:00+09:00",
+          "returnAt": "2026-11-23T08:35:00+04:00"
         },
         {
           "destination": "KUT",
@@ -120,17 +131,6 @@
           "alliance": "other",
           "departureAt": "2026-11-19T08:50:00+09:00",
           "returnAt": "2026-11-23T15:55:00+04:00"
-        },
-        {
-          "destination": "EVN",
-          "cityName": "Yerevan",
-          "countryName": "Armenia",
-          "origin": "TYO",
-          "price": 168698,
-          "airline": "UO",
-          "alliance": "other",
-          "departureAt": "2026-11-13T01:55:00+09:00",
-          "returnAt": "2026-11-16T18:00:00+04:00"
         }
       ]
     },
@@ -210,7 +210,7 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 150653,
+          "price": 150901,
           "airline": "AI",
           "alliance": "staralliance",
           "departureAt": "2026-11-20T11:10:00+09:00",
@@ -264,6 +264,16 @@
           "airlineName": null,
           "groupResults": [
             {
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 171829,
+              "departureAt": "2026-11-07T21:35:00+09:00",
+              "returnAt": "2026-11-13T23:55:00+13:00"
+            },
+            {
               "group": "South America",
               "destination": "BUE",
               "cityName": "Buenos Aires",
@@ -288,22 +298,6 @@
               "price": 125359,
               "departureAt": "2026-11-07T20:05:00+09:00",
               "returnAt": "2026-11-14T11:00:00-10:00"
-            }
-          ]
-        },
-        {
-          "airline": "FJ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Melanesia",
-              "destination": "NAN",
-              "cityName": "Nadi",
-              "countryName": "Fiji",
-              "origin": "TYO",
-              "price": 168255,
-              "departureAt": "2026-11-18T16:30:00+09:00",
-              "returnAt": "2026-11-28T23:30:00+13:00"
             }
           ]
         },
@@ -427,9 +421,9 @@
               "cityName": "Wakkanai",
               "countryName": "Japan",
               "origin": "TYO",
-              "price": 26190,
-              "departureAt": "2026-11-01T10:40:00+09:00",
-              "returnAt": "2026-11-05T13:10:00+09:00"
+              "price": 26249,
+              "departureAt": "2026-11-02T10:40:00+09:00",
+              "returnAt": "2026-11-06T13:10:00+09:00"
             }
           ]
         },
@@ -478,16 +472,6 @@
               "price": 70757,
               "departureAt": "2026-11-11T08:30:00+09:00",
               "returnAt": "2026-11-18T21:20:00+06:00"
-            },
-            {
-              "group": "Eastern Europe",
-              "destination": "KGD",
-              "cityName": "Kaliningrad",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 206439,
-              "departureAt": "2026-11-13T08:30:00+09:00",
-              "returnAt": "2026-11-21T14:00:00+02:00"
             }
           ]
         },
@@ -533,7 +517,7 @@
               "cityName": "Bangui",
               "countryName": "Central African Republic",
               "origin": "TYO",
-              "price": 347608,
+              "price": 348179,
               "departureAt": "2026-11-02T20:30:00+09:00",
               "returnAt": "2026-11-15T13:20:00+01:00"
             }
