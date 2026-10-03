@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T16:05:04.991Z",
+  "generatedAt": "2026-10-03T20:55:15.604Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -162,17 +162,6 @@
       ],
       "results": [
         {
-          "destination": "TAS",
-          "cityName": "Tashkent",
-          "countryName": "Uzbekistan",
-          "origin": "TYO",
-          "price": 60767,
-          "airline": "MU",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-13T10:55:00+09:00",
-          "returnAt": "2026-11-17T20:20:00+05:00"
-        },
-        {
           "destination": "ALA",
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
@@ -182,6 +171,17 @@
           "alliance": "staralliance",
           "departureAt": "2026-11-22T21:00:00+09:00",
           "returnAt": "2026-11-27T21:20:00+06:00"
+        },
+        {
+          "destination": "TAS",
+          "cityName": "Tashkent",
+          "countryName": "Uzbekistan",
+          "origin": "TYO",
+          "price": 71816,
+          "airline": "MU",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-13T10:55:00+09:00",
+          "returnAt": "2026-11-17T20:20:00+05:00"
         },
         {
           "destination": "NQZ",
@@ -371,19 +371,9 @@
               "cityName": "Tashkent",
               "countryName": "Uzbekistan",
               "origin": "TYO",
-              "price": 60767,
+              "price": 71816,
               "departureAt": "2026-11-13T10:55:00+09:00",
               "returnAt": "2026-11-17T20:20:00+05:00"
-            },
-            {
-              "group": "Southern Asia",
-              "destination": "CMB",
-              "cityName": "Colombo",
-              "countryName": "Sri Lanka",
-              "origin": "TYO",
-              "price": 95570,
-              "departureAt": "2026-11-03T13:50:00+09:00",
-              "returnAt": "2026-11-13T20:50:00+05:30"
             },
             {
               "group": "Australia and New Zealand",
@@ -394,6 +384,16 @@
               "price": 115983,
               "departureAt": "2026-11-05T13:50:00+09:00",
               "returnAt": "2026-11-13T12:00:00+11:00"
+            },
+            {
+              "group": "Southern Asia",
+              "destination": "MLE",
+              "cityName": "Male",
+              "countryName": "Maldives",
+              "origin": "TYO",
+              "price": 116898,
+              "departureAt": "2026-11-17T20:15:00+09:00",
+              "returnAt": "2026-11-24T19:05:00+05:00"
             },
             {
               "group": "Western Asia",
