@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T11:28:26.164Z",
+  "generatedAt": "2026-10-03T16:05:04.991Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -93,7 +93,7 @@
           "cityName": "Doha",
           "countryName": "Qatar",
           "origin": "TYO",
-          "price": 149450,
+          "price": 149446,
           "airline": "UO",
           "alliance": "other",
           "departureAt": "2026-11-02T01:55:00+09:00",
@@ -166,7 +166,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 60769,
+          "price": 60767,
           "airline": "MU",
           "alliance": "skyteam",
           "departureAt": "2026-11-13T10:55:00+09:00",
@@ -177,7 +177,7 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 66295,
+          "price": 66293,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-22T21:00:00+09:00",
@@ -371,7 +371,7 @@
               "cityName": "Tashkent",
               "countryName": "Uzbekistan",
               "origin": "TYO",
-              "price": 60769,
+              "price": 60767,
               "departureAt": "2026-11-13T10:55:00+09:00",
               "returnAt": "2026-11-17T20:20:00+05:00"
             },
@@ -384,6 +384,16 @@
               "price": 95570,
               "departureAt": "2026-11-03T13:50:00+09:00",
               "returnAt": "2026-11-13T20:50:00+05:30"
+            },
+            {
+              "group": "Australia and New Zealand",
+              "destination": "MEL",
+              "cityName": "Melbourne",
+              "countryName": "Australia",
+              "origin": "TYO",
+              "price": 115983,
+              "departureAt": "2026-11-05T13:50:00+09:00",
+              "returnAt": "2026-11-13T12:00:00+11:00"
             },
             {
               "group": "Western Asia",
@@ -541,25 +551,9 @@
               "cityName": "Kazan",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 175606,
+              "price": 175601,
               "departureAt": "2026-11-09T09:15:00+09:00",
               "returnAt": "2026-11-21T11:30:00+03:00"
-            }
-          ]
-        },
-        {
-          "airline": "EH",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "WKJ",
-              "cityName": "Wakkanai",
-              "countryName": "Japan",
-              "origin": "TYO",
-              "price": 26249,
-              "departureAt": "2026-11-02T10:40:00+09:00",
-              "returnAt": "2026-11-06T13:10:00+09:00"
             }
           ]
         },
@@ -573,7 +567,7 @@
               "cityName": "Almaty",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 66295,
+              "price": 66293,
               "departureAt": "2026-11-22T21:00:00+09:00",
               "returnAt": "2026-11-27T21:20:00+06:00"
             },
@@ -583,7 +577,7 @@
               "cityName": "Vienna",
               "countryName": "Austria",
               "origin": "TYO",
-              "price": 147559,
+              "price": 147555,
               "departureAt": "2026-11-14T14:20:00+09:00",
               "returnAt": "2026-11-29T13:00:00+01:00"
             }
@@ -598,18 +592,18 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "HU",
-          "airlineName": "海南航空",
+          "airline": "EK",
+          "airlineName": "エミレーツ航空",
           "groupResults": [
             {
-              "group": "North America",
-              "destination": "MEX",
-              "cityName": "Mexico City",
-              "countryName": "Mexico",
+              "group": "Eastern Europe",
+              "destination": "TBW",
+              "cityName": "Tambov",
+              "countryName": "Russia",
               "origin": "TYO",
-              "price": 266028,
-              "departureAt": "2026-11-05T13:55:00+09:00",
-              "returnAt": "2026-11-19T04:55:00-06:00"
+              "price": 391943,
+              "departureAt": "2026-11-01T00:05:00+09:00",
+              "returnAt": "2026-11-04T09:50:00+03:00"
             }
           ]
         },
@@ -649,7 +643,7 @@
               "cityName": "Singapore",
               "countryName": "Singapore",
               "origin": "TYO",
-              "price": 64883,
+              "price": 64881,
               "departureAt": "2026-11-02T08:50:00+09:00",
               "returnAt": "2026-11-13T19:30:00+08:00"
             },
