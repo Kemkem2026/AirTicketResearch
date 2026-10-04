@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T20:55:15.604Z",
+  "generatedAt": "2026-10-04T05:30:08.856Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -166,11 +166,11 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 66293,
+          "price": 70757,
           "airline": "CA",
           "alliance": "staralliance",
-          "departureAt": "2026-11-22T21:00:00+09:00",
-          "returnAt": "2026-11-27T21:20:00+06:00"
+          "departureAt": "2026-11-11T08:30:00+09:00",
+          "returnAt": "2026-11-18T21:20:00+06:00"
         },
         {
           "destination": "TAS",
@@ -285,7 +285,7 @@
               "cityName": "Nadi",
               "countryName": "Fiji",
               "origin": "TYO",
-              "price": 171829,
+              "price": 179390,
               "departureAt": "2026-11-07T21:35:00+09:00",
               "returnAt": "2026-11-13T23:55:00+13:00"
             },
@@ -567,9 +567,9 @@
               "cityName": "Almaty",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 66293,
-              "departureAt": "2026-11-22T21:00:00+09:00",
-              "returnAt": "2026-11-27T21:20:00+06:00"
+              "price": 70757,
+              "departureAt": "2026-11-11T08:30:00+09:00",
+              "returnAt": "2026-11-18T21:20:00+06:00"
             },
             {
               "group": "Central Europe",
