@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T13:06:27.677Z",
+  "generatedAt": "2026-10-07T22:58:13.818Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -122,15 +122,15 @@
           "returnAt": "2026-11-23T08:35:00+04:00"
         },
         {
-          "destination": "KUT",
-          "cityName": "Kutaisi",
-          "countryName": "Georgia",
+          "destination": "EVN",
+          "cityName": "Yerevan",
+          "countryName": "Armenia",
           "origin": "TYO",
-          "price": 152097,
-          "airline": "TR",
+          "price": 155165,
+          "airline": "OM",
           "alliance": "other",
-          "departureAt": "2026-11-19T08:50:00+09:00",
-          "returnAt": "2026-11-23T15:55:00+04:00"
+          "departureAt": "2026-11-04T15:30:00+09:00",
+          "returnAt": "2026-11-11T12:15:00+04:00"
         }
       ]
     },
@@ -239,15 +239,15 @@
           "returnAt": "2026-11-27T12:45:00+04:00"
         },
         {
-          "destination": "KUT",
-          "cityName": "Kutaisi",
-          "countryName": "Georgia",
+          "destination": "EVN",
+          "cityName": "Yerevan",
+          "countryName": "Armenia",
           "origin": "TYO",
-          "price": 152097,
-          "airline": "TR",
+          "price": 155165,
+          "airline": "OM",
           "alliance": "other",
-          "departureAt": "2026-11-19T08:50:00+09:00",
-          "returnAt": "2026-11-23T15:55:00+04:00"
+          "departureAt": "2026-11-04T15:30:00+09:00",
+          "returnAt": "2026-11-11T12:15:00+04:00"
         }
       ]
     }
@@ -288,16 +288,6 @@
               "price": 195717,
               "departureAt": "2026-11-05T17:25:00+09:00",
               "returnAt": "2026-11-15T09:00:00-08:00"
-            },
-            {
-              "group": "Polynesia",
-              "destination": "PPT",
-              "cityName": "Papeete",
-              "countryName": "French Polynesia",
-              "origin": "TYO",
-              "price": 306819,
-              "departureAt": "2026-11-07T20:05:00+09:00",
-              "returnAt": "2026-11-14T23:30:00-10:00"
             }
           ]
         },
@@ -311,7 +301,7 @@
               "cityName": "Nadi",
               "countryName": "Fiji",
               "origin": "TYO",
-              "price": 175243,
+              "price": 174935,
               "departureAt": "2026-11-07T21:35:00+09:00",
               "returnAt": "2026-11-13T23:55:00+13:00"
             },
@@ -519,7 +509,7 @@
               "cityName": "Nagoya",
               "countryName": "Japan",
               "origin": "TYO",
-              "price": 18455,
+              "price": 18423,
               "departureAt": "2026-11-23T17:25:00+09:00",
               "returnAt": "2026-11-24T14:00:00+09:00"
             }
@@ -555,7 +545,7 @@
               "cityName": "Krabi",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 89994,
+              "price": 89836,
               "departureAt": "2026-11-10T15:00:00+09:00",
               "returnAt": "2026-11-25T20:45:00+07:00"
             },
@@ -584,22 +574,6 @@
               "price": 281900,
               "departureAt": "2026-11-20T00:20:00+09:00",
               "returnAt": "2026-11-29T18:40:00+03:00"
-            }
-          ]
-        },
-        {
-          "airline": "AC",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Caribbean",
-              "destination": "PUJ",
-              "cityName": "Punta Cana",
-              "countryName": "Dominican Republic",
-              "origin": "TYO",
-              "price": 241893,
-              "departureAt": "2026-11-10T18:15:00+09:00",
-              "returnAt": "2026-11-17T22:40:00-04:00"
             }
           ]
         },
@@ -656,22 +630,6 @@
               "price": 391943,
               "departureAt": "2026-11-01T00:05:00+09:00",
               "returnAt": "2026-11-04T09:50:00+03:00"
-            }
-          ]
-        },
-        {
-          "airline": "3U",
-          "airlineName": "四川航空",
-          "groupResults": [
-            {
-              "group": "Western Asia",
-              "destination": "RZV",
-              "cityName": "Rize",
-              "countryName": "Türkiye",
-              "origin": "TYO",
-              "price": 181893,
-              "departureAt": "2026-11-19T16:40:00+09:00",
-              "returnAt": "2026-11-23T09:35:00+03:00"
             }
           ]
         },
@@ -734,16 +692,6 @@
               "price": 140766,
               "departureAt": "2026-11-08T08:50:00+09:00",
               "returnAt": "2026-11-12T12:20:00+01:00"
-            },
-            {
-              "group": "Western Asia",
-              "destination": "KUT",
-              "cityName": "Kutaisi",
-              "countryName": "Georgia",
-              "origin": "TYO",
-              "price": 152097,
-              "departureAt": "2026-11-19T08:50:00+09:00",
-              "returnAt": "2026-11-23T15:55:00+04:00"
             }
           ]
         }
