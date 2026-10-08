@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-07T22:58:13.818Z",
+  "generatedAt": "2026-10-08T05:41:04.827Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -93,7 +93,7 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 147961,
+          "price": 148037,
           "airline": "GK",
           "alliance": "other",
           "departureAt": "2026-11-20T07:10:00+09:00",
@@ -126,7 +126,7 @@
           "cityName": "Yerevan",
           "countryName": "Armenia",
           "origin": "TYO",
-          "price": 155165,
+          "price": 155199,
           "airline": "OM",
           "alliance": "other",
           "departureAt": "2026-11-04T15:30:00+09:00",
@@ -232,7 +232,7 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 147961,
+          "price": 148037,
           "airline": "GK",
           "alliance": "other",
           "departureAt": "2026-11-20T07:10:00+09:00",
@@ -243,7 +243,7 @@
           "cityName": "Yerevan",
           "countryName": "Armenia",
           "origin": "TYO",
-          "price": 155165,
+          "price": 155199,
           "airline": "OM",
           "alliance": "other",
           "departureAt": "2026-11-04T15:30:00+09:00",
@@ -301,7 +301,7 @@
               "cityName": "Nadi",
               "countryName": "Fiji",
               "origin": "TYO",
-              "price": 174935,
+              "price": 174974,
               "departureAt": "2026-11-07T21:35:00+09:00",
               "returnAt": "2026-11-13T23:55:00+13:00"
             },
@@ -429,9 +429,9 @@
               "cityName": "Dhaka",
               "countryName": "Bangladesh",
               "origin": "TYO",
-              "price": 103397,
-              "departureAt": "2026-11-16T13:50:00+09:00",
-              "returnAt": "2026-11-30T14:00:00+06:00"
+              "price": 103503,
+              "departureAt": "2026-11-08T16:40:00+09:00",
+              "returnAt": "2026-11-17T14:00:00+06:00"
             },
             {
               "group": "Australia and New Zealand",
@@ -509,7 +509,7 @@
               "cityName": "Nagoya",
               "countryName": "Japan",
               "origin": "TYO",
-              "price": 18423,
+              "price": 18427,
               "departureAt": "2026-11-23T17:25:00+09:00",
               "returnAt": "2026-11-24T14:00:00+09:00"
             }
@@ -545,9 +545,19 @@
               "cityName": "Krabi",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 89836,
+              "price": 89856,
               "departureAt": "2026-11-10T15:00:00+09:00",
               "returnAt": "2026-11-25T20:45:00+07:00"
+            },
+            {
+              "group": "Southern Europe",
+              "destination": "BCN",
+              "cityName": "Barcelona",
+              "countryName": "Spain",
+              "origin": "TYO",
+              "price": 144251,
+              "departureAt": "2026-11-19T18:00:00+09:00",
+              "returnAt": "2026-11-25T11:30:00+01:00"
             },
             {
               "group": "Central Europe",
@@ -574,22 +584,6 @@
               "price": 281900,
               "departureAt": "2026-11-20T00:20:00+09:00",
               "returnAt": "2026-11-29T18:40:00+03:00"
-            }
-          ]
-        },
-        {
-          "airline": "ZH",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "URC",
-              "cityName": "Urumqi",
-              "countryName": "China",
-              "origin": "TYO",
-              "price": 105624,
-              "departureAt": "2026-11-01T19:00:00+09:00",
-              "returnAt": "2026-11-04T16:40:00+08:00"
             }
           ]
         },
@@ -702,7 +696,17 @@
     {
       "label": "JAL(JL) 東京発 最安路線 TOP5(国際線)",
       "airline": "JL",
-      "results": []
+      "results": [
+        {
+          "destination": "MPM",
+          "cityName": "Maputo",
+          "countryName": "Mozambique",
+          "origin": "TYO",
+          "price": 297029,
+          "departureAt": "2026-11-01T20:55:00+09:00",
+          "returnAt": "2026-11-04T07:20:00+02:00"
+        }
+      ]
     },
     {
       "label": "ANA(NH) 東京発 最安路線 TOP5(国際線)",
