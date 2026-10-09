@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T23:11:49.549Z",
+  "generatedAt": "2026-10-09T05:45:32.020Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -89,17 +89,6 @@
           "returnAt": "2026-11-15T21:20:00+04:00"
         },
         {
-          "destination": "BAK",
-          "cityName": "Baku",
-          "countryName": "Azerbaijan",
-          "origin": "TYO",
-          "price": 147774,
-          "airline": "GK",
-          "alliance": "other",
-          "departureAt": "2026-11-20T07:10:00+09:00",
-          "returnAt": "2026-11-27T12:45:00+04:00"
-        },
-        {
           "destination": "DOH",
           "cityName": "Doha",
           "countryName": "Qatar",
@@ -131,6 +120,17 @@
           "alliance": "other",
           "departureAt": "2026-11-04T15:30:00+09:00",
           "returnAt": "2026-11-11T12:15:00+04:00"
+        },
+        {
+          "destination": "BAK",
+          "cityName": "Baku",
+          "countryName": "Azerbaijan",
+          "origin": "TYO",
+          "price": 168257,
+          "airline": "IJ",
+          "alliance": "other",
+          "departureAt": "2026-11-24T18:00:00+09:00",
+          "returnAt": "2026-11-28T04:05:00+04:00"
         }
       ]
     },
@@ -228,17 +228,6 @@
           "returnAt": "2026-11-15T16:20:00+03:00"
         },
         {
-          "destination": "BAK",
-          "cityName": "Baku",
-          "countryName": "Azerbaijan",
-          "origin": "TYO",
-          "price": 147774,
-          "airline": "GK",
-          "alliance": "other",
-          "departureAt": "2026-11-20T07:10:00+09:00",
-          "returnAt": "2026-11-27T12:45:00+04:00"
-        },
-        {
           "destination": "EVN",
           "cityName": "Yerevan",
           "countryName": "Armenia",
@@ -248,6 +237,17 @@
           "alliance": "other",
           "departureAt": "2026-11-04T15:30:00+09:00",
           "returnAt": "2026-11-11T12:15:00+04:00"
+        },
+        {
+          "destination": "BAK",
+          "cityName": "Baku",
+          "countryName": "Azerbaijan",
+          "origin": "TYO",
+          "price": 168257,
+          "airline": "IJ",
+          "alliance": "other",
+          "departureAt": "2026-11-24T18:00:00+09:00",
+          "returnAt": "2026-11-28T04:05:00+04:00"
         }
       ]
     }
@@ -475,9 +475,9 @@
               "cityName": "Guangzhou",
               "countryName": "China",
               "origin": "TYO",
-              "price": 69229,
-              "departureAt": "2026-11-18T20:10:00+09:00",
-              "returnAt": "2026-11-27T10:45:00+08:00"
+              "price": 73969,
+              "departureAt": "2026-11-10T08:30:00+09:00",
+              "returnAt": "2026-11-15T22:10:00+08:00"
             },
             {
               "group": "Central Asia",
@@ -508,16 +508,6 @@
               "price": 143994,
               "departureAt": "2026-11-19T18:00:00+09:00",
               "returnAt": "2026-11-25T11:30:00+01:00"
-            },
-            {
-              "group": "Central Europe",
-              "destination": "VIE",
-              "cityName": "Vienna",
-              "countryName": "Austria",
-              "origin": "TYO",
-              "price": 147555,
-              "departureAt": "2026-11-14T14:20:00+09:00",
-              "returnAt": "2026-11-29T13:00:00+01:00"
             },
             {
               "group": "Northern Africa",
@@ -573,13 +563,13 @@
             },
             {
               "group": "Central Europe",
-              "destination": "WAW",
-              "cityName": "Warsaw",
-              "countryName": "Poland",
+              "destination": "VIE",
+              "cityName": "Vienna",
+              "countryName": "Austria",
               "origin": "TYO",
-              "price": 150563,
-              "departureAt": "2026-11-13T10:30:00+09:00",
-              "returnAt": "2026-11-21T06:30:00+01:00"
+              "price": 129740,
+              "departureAt": "2026-11-03T10:30:00+09:00",
+              "returnAt": "2026-11-23T16:45:00+01:00"
             }
           ]
         }
