@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T13:59:30.239Z",
+  "generatedAt": "2026-10-13T22:32:27.373Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -49,11 +49,11 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 118746,
-          "airline": "OM",
+          "price": 136860,
+          "airline": "CZ",
           "alliance": "other",
-          "departureAt": "2026-11-11T15:30:00+09:00",
-          "returnAt": "2026-11-15T16:20:00+03:00"
+          "departureAt": "2026-11-18T15:40:00+09:00",
+          "returnAt": "2026-11-23T14:25:00+03:00"
         },
         {
           "destination": "DXB",
@@ -115,7 +115,7 @@
           "cityName": "Tbilisi",
           "countryName": "Georgia",
           "origin": "TYO",
-          "price": 163331,
+          "price": 163582,
           "airline": "GK",
           "alliance": "other",
           "departureAt": "2026-11-16T22:20:00+09:00",
@@ -233,11 +233,11 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 118746,
-          "airline": "OM",
+          "price": 136860,
+          "airline": "CZ",
           "alliance": "other",
-          "departureAt": "2026-11-11T15:30:00+09:00",
-          "returnAt": "2026-11-15T16:20:00+03:00"
+          "departureAt": "2026-11-18T15:40:00+09:00",
+          "returnAt": "2026-11-23T14:25:00+03:00"
         },
         {
           "destination": "BAK",
@@ -308,7 +308,7 @@
               "cityName": "New York",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 134504,
+              "price": 134711,
               "departureAt": "2026-11-02T17:10:00+09:00",
               "returnAt": "2026-11-10T09:59:00-05:00"
             }
@@ -404,7 +404,7 @@
               "cityName": "Cairo",
               "countryName": "Egypt",
               "origin": "TYO",
-              "price": 163134,
+              "price": 163385,
               "departureAt": "2026-11-13T13:50:00+09:00",
               "returnAt": "2026-11-22T13:00:00+02:00"
             }
@@ -549,6 +549,16 @@
           "airlineName": null,
           "groupResults": [
             {
+              "group": "Western Europe",
+              "destination": "AMS",
+              "cityName": "Amsterdam",
+              "countryName": "Netherlands",
+              "origin": "TYO",
+              "price": 105883,
+              "departureAt": "2026-11-17T13:20:00+09:00",
+              "returnAt": "2026-11-24T20:35:00+01:00"
+            },
+            {
               "group": "Central Europe",
               "destination": "VIE",
               "cityName": "Vienna",
@@ -600,7 +610,7 @@
               "cityName": "Ontario",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 162855,
+              "price": 163105,
               "departureAt": "2026-11-18T18:25:00+09:00",
               "returnAt": "2026-11-26T09:30:00-08:00"
             }
@@ -650,7 +660,7 @@
               "cityName": "Madrid",
               "countryName": "Spain",
               "origin": "TYO",
-              "price": 146852,
+              "price": 147078,
               "departureAt": "2026-11-24T16:40:00+09:00",
               "returnAt": "2026-11-27T11:05:00+01:00"
             }
@@ -678,13 +688,13 @@
           "groupResults": [
             {
               "group": "Southern Asia",
-              "destination": "CCU",
-              "cityName": "Kolkata",
-              "countryName": "India",
+              "destination": "CMB",
+              "cityName": "Colombo",
+              "countryName": "Sri Lanka",
               "origin": "TYO",
-              "price": 80909,
+              "price": 100732,
               "departureAt": "2026-11-12T11:10:00+09:00",
-              "returnAt": "2026-11-17T00:30:00+05:30"
+              "returnAt": "2026-11-21T20:50:00+05:30"
             }
           ]
         },
