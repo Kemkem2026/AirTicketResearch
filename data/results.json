@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T22:32:27.373Z",
+  "generatedAt": "2026-10-14T04:32:22.614Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -115,7 +115,7 @@
           "cityName": "Tbilisi",
           "countryName": "Georgia",
           "origin": "TYO",
-          "price": 163582,
+          "price": 163541,
           "airline": "GK",
           "alliance": "other",
           "departureAt": "2026-11-16T22:20:00+09:00",
@@ -308,7 +308,7 @@
               "cityName": "New York",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 134711,
+              "price": 134677,
               "departureAt": "2026-11-02T17:10:00+09:00",
               "returnAt": "2026-11-10T09:59:00-05:00"
             }
@@ -371,6 +371,16 @@
               "price": 71034,
               "departureAt": "2026-11-06T14:55:00+09:00",
               "returnAt": "2026-11-07T23:30:00+07:00"
+            },
+            {
+              "group": "Australia and New Zealand",
+              "destination": "SYD",
+              "cityName": "Sydney",
+              "countryName": "Australia",
+              "origin": "TYO",
+              "price": 97551,
+              "departureAt": "2026-11-06T14:55:00+09:00",
+              "returnAt": "2026-11-09T12:35:00+11:00"
             }
           ]
         },
@@ -378,16 +388,6 @@
           "airline": "MU",
           "airlineName": null,
           "groupResults": [
-            {
-              "group": "Australia and New Zealand",
-              "destination": "SYD",
-              "cityName": "Sydney",
-              "countryName": "Australia",
-              "origin": "TYO",
-              "price": 108105,
-              "departureAt": "2026-11-02T16:55:00+09:00",
-              "returnAt": "2026-11-10T21:30:00+11:00"
-            },
             {
               "group": "Eastern Europe",
               "destination": "IKT",
@@ -404,7 +404,7 @@
               "cityName": "Cairo",
               "countryName": "Egypt",
               "origin": "TYO",
-              "price": 163385,
+              "price": 163344,
               "departureAt": "2026-11-13T13:50:00+09:00",
               "returnAt": "2026-11-22T13:00:00+02:00"
             }
@@ -554,7 +554,7 @@
               "cityName": "Amsterdam",
               "countryName": "Netherlands",
               "origin": "TYO",
-              "price": 105883,
+              "price": 105856,
               "departureAt": "2026-11-17T13:20:00+09:00",
               "returnAt": "2026-11-24T20:35:00+01:00"
             },
@@ -610,7 +610,7 @@
               "cityName": "Ontario",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 163105,
+              "price": 163064,
               "departureAt": "2026-11-18T18:25:00+09:00",
               "returnAt": "2026-11-26T09:30:00-08:00"
             }
@@ -660,7 +660,7 @@
               "cityName": "Madrid",
               "countryName": "Spain",
               "origin": "TYO",
-              "price": 147078,
+              "price": 147041,
               "departureAt": "2026-11-24T16:40:00+09:00",
               "returnAt": "2026-11-27T11:05:00+01:00"
             }
@@ -718,9 +718,9 @@
               "cityName": "Denpasar (Bali)",
               "countryName": "Indonesia",
               "origin": "TYO",
-              "price": 62561,
-              "departureAt": "2026-11-09T08:50:00+09:00",
-              "returnAt": "2026-11-25T17:30:00+08:00"
+              "price": 70789,
+              "departureAt": "2026-11-10T08:50:00+09:00",
+              "returnAt": "2026-11-17T14:20:00+08:00"
             },
             {
               "group": "Western Asia",
