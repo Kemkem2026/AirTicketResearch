@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T16:58:28.873Z",
+  "generatedAt": "2026-10-14T21:30:33.918Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -211,7 +211,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 94518,
+          "price": 94076,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-16T14:20:00+09:00",
@@ -378,7 +378,7 @@
               "cityName": "Sydney",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 97890,
+              "price": 97433,
               "departureAt": "2026-11-06T14:55:00+09:00",
               "returnAt": "2026-11-09T12:35:00+11:00"
             }
@@ -683,22 +683,6 @@
           ]
         },
         {
-          "airline": "XJ",
-          "airlineName": "タイ・エアアジアX",
-          "groupResults": [
-            {
-              "group": "Southern Asia",
-              "destination": "CMB",
-              "cityName": "Colombo",
-              "countryName": "Sri Lanka",
-              "origin": "TYO",
-              "price": 100732,
-              "departureAt": "2026-11-12T11:10:00+09:00",
-              "returnAt": "2026-11-21T20:50:00+05:30"
-            }
-          ]
-        },
-        {
           "airline": "TR",
           "airlineName": "スクート",
           "groupResults": [
@@ -718,7 +702,7 @@
               "cityName": "Denpasar (Bali)",
               "countryName": "Indonesia",
               "origin": "TYO",
-              "price": 65174,
+              "price": 64870,
               "departureAt": "2026-11-10T08:50:00+09:00",
               "returnAt": "2026-11-25T19:45:00+08:00"
             },
