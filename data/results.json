@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T16:45:30.916Z",
+  "generatedAt": "2026-10-15T21:12:36.202Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -71,7 +71,7 @@
           "cityName": "Tbilisi",
           "countryName": "Georgia",
           "origin": "TYO",
-          "price": 145683,
+          "price": 146175,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-10T08:30:00+09:00",
@@ -148,17 +148,6 @@
       ],
       "results": [
         {
-          "destination": "SIN",
-          "cityName": "Singapore",
-          "countryName": "Singapore",
-          "origin": "TYO",
-          "price": 66680,
-          "airline": "FM",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-10T13:30:00+09:00",
-          "returnAt": "2026-11-16T03:25:00+08:00"
-        },
-        {
           "destination": "JKT",
           "cityName": "Jakarta",
           "countryName": "Indonesia",
@@ -189,7 +178,7 @@
           "cityName": "Astana",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 80234,
+          "price": 80505,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-15T21:00:00+09:00",
@@ -211,7 +200,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 92113,
+          "price": 92424,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-16T14:20:00+09:00",
@@ -244,7 +233,7 @@
           "cityName": "Tbilisi",
           "countryName": "Georgia",
           "origin": "TYO",
-          "price": 145683,
+          "price": 146175,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-10T08:30:00+09:00",
@@ -266,7 +255,7 @@
           "cityName": "Oskemen",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 158338,
+          "price": 158873,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-14T10:45:00+09:00",
@@ -339,22 +328,6 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "FM",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "South-Eastern Asia",
-              "destination": "SIN",
-              "cityName": "Singapore",
-              "countryName": "Singapore",
-              "origin": "TYO",
-              "price": 66680,
-              "departureAt": "2026-11-10T13:30:00+09:00",
-              "returnAt": "2026-11-16T03:25:00+08:00"
-            }
-          ]
-        },
-        {
           "airline": "KE",
           "airlineName": null,
           "groupResults": [
@@ -400,7 +373,7 @@
               "cityName": "Sydney",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 93830,
+              "price": 94147,
               "departureAt": "2026-11-11T14:55:00+09:00",
               "returnAt": "2026-11-18T12:35:00+11:00"
             }
@@ -536,7 +509,7 @@
               "cityName": "Astana",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 80234,
+              "price": 80505,
               "departureAt": "2026-11-15T21:00:00+09:00",
               "returnAt": "2026-11-30T21:45:00+06:00"
             },
@@ -546,7 +519,7 @@
               "cityName": "Irkutsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 111023,
+              "price": 111398,
               "departureAt": "2026-11-17T21:00:00+09:00",
               "returnAt": "2026-11-27T18:00:00+08:00"
             },
@@ -702,7 +675,7 @@
               "cityName": "Denpasar (Bali)",
               "countryName": "Indonesia",
               "origin": "TYO",
-              "price": 65106,
+              "price": 65326,
               "departureAt": "2026-11-10T08:50:00+09:00",
               "returnAt": "2026-11-25T11:10:00+08:00"
             },
