@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T20:51:01.164Z",
+  "generatedAt": "2026-10-17T04:00:31.596Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -104,7 +104,7 @@
           "cityName": "Antalya",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 167576,
+          "price": 167456,
           "airline": "MM",
           "alliance": "other",
           "departureAt": "2026-11-23T08:30:00+09:00",
@@ -298,6 +298,22 @@
           ]
         },
         {
+          "airline": "FJ",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "NAN",
+              "cityName": "Nadi",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 221325,
+              "departureAt": "2026-11-18T16:30:00+09:00",
+              "returnAt": "2026-11-27T23:55:00+13:00"
+            }
+          ]
+        },
+        {
           "airline": "UL",
           "airlineName": null,
           "groupResults": [
@@ -307,7 +323,7 @@
               "cityName": "Gan Island",
               "countryName": "Maldives",
               "origin": "TYO",
-              "price": 205877,
+              "price": 205729,
               "departureAt": "2026-11-10T11:20:00+09:00",
               "returnAt": "2026-11-25T04:55:00+05:00"
             }
@@ -333,7 +349,7 @@
               "cityName": "Guatemala City",
               "countryName": "Guatemala",
               "origin": "TYO",
-              "price": 264037,
+              "price": 263847,
               "departureAt": "2026-11-16T17:25:00+09:00",
               "returnAt": "2026-11-25T02:41:00-06:00"
             }
@@ -393,9 +409,9 @@
               "cityName": "Sydney",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 94068,
-              "departureAt": "2026-11-11T14:55:00+09:00",
-              "returnAt": "2026-11-18T12:35:00+11:00"
+              "price": 97514,
+              "departureAt": "2026-11-06T14:55:00+09:00",
+              "returnAt": "2026-11-09T12:35:00+11:00"
             },
             {
               "group": "Northern Europe",
@@ -403,7 +419,7 @@
               "cityName": "Edinburgh",
               "countryName": "United Kingdom",
               "origin": "TYO",
-              "price": 164917,
+              "price": 164799,
               "departureAt": "2026-11-19T14:55:00+09:00",
               "returnAt": "2026-11-24T19:40:00Z"
             }
@@ -445,7 +461,7 @@
               "cityName": "Guangzhou",
               "countryName": "China",
               "origin": "TYO",
-              "price": 63564,
+              "price": 63518,
               "departureAt": "2026-11-11T16:40:00+09:00",
               "returnAt": "2026-11-18T07:30:00+08:00"
             },
@@ -607,7 +623,7 @@
               "cityName": "Belgrade",
               "countryName": "Serbia",
               "origin": "TYO",
-              "price": 160524,
+              "price": 160408,
               "departureAt": "2026-11-22T13:20:00+09:00",
               "returnAt": "2026-11-26T06:15:00+01:00"
             }
@@ -689,7 +705,7 @@
               "cityName": "Adler/Sochi",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 165446,
+              "price": 165328,
               "departureAt": "2026-11-16T11:10:00+09:00",
               "returnAt": "2026-11-22T01:30:00+03:00"
             }
@@ -701,13 +717,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "DPS",
-              "cityName": "Denpasar (Bali)",
-              "countryName": "Indonesia",
+              "destination": "SIN",
+              "cityName": "Singapore",
+              "countryName": "Singapore",
               "origin": "TYO",
-              "price": 63544,
-              "departureAt": "2026-11-10T08:50:00+09:00",
-              "returnAt": "2026-11-25T19:45:00+08:00"
+              "price": 65670,
+              "departureAt": "2026-11-06T08:50:00+09:00",
+              "returnAt": "2026-11-20T16:55:00+08:00"
             },
             {
               "group": "Eastern Africa",
