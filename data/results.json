@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T15:22:26.409Z",
+  "generatedAt": "2026-10-17T20:25:34.682Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -578,16 +578,6 @@
           "airlineName": null,
           "groupResults": [
             {
-              "group": "South-Eastern Asia",
-              "destination": "CNX",
-              "cityName": "Chiang Mai",
-              "countryName": "Thailand",
-              "origin": "TYO",
-              "price": 69727,
-              "departureAt": "2026-11-04T08:30:00+09:00",
-              "returnAt": "2026-11-25T18:10:00+07:00"
-            },
-            {
               "group": "Central Asia",
               "destination": "NQZ",
               "cityName": "Astana",
@@ -680,6 +670,22 @@
           ]
         },
         {
+          "airline": "D7",
+          "airlineName": "エアアジアX",
+          "groupResults": [
+            {
+              "group": "Western Asia",
+              "destination": "RZV",
+              "cityName": "Rize",
+              "countryName": "Türkiye",
+              "origin": "TYO",
+              "price": 194379,
+              "departureAt": "2026-11-21T23:55:00+09:00",
+              "returnAt": "2026-11-23T10:50:00+03:00"
+            }
+          ]
+        },
+        {
           "airline": "XJ",
           "airlineName": "タイ・エアアジアX",
           "groupResults": [
@@ -699,6 +705,16 @@
           "airline": "TR",
           "airlineName": "スクート",
           "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "TPE",
+              "cityName": "Taipei",
+              "countryName": "Taiwan",
+              "origin": "TYO",
+              "price": 45189,
+              "departureAt": "2026-11-10T12:10:00+09:00",
+              "returnAt": "2026-11-15T06:50:00+08:00"
+            },
             {
               "group": "South-Eastern Asia",
               "destination": "DPS",
@@ -737,15 +753,6 @@
           "price": 125693,
           "departureAt": "2026-11-19T20:40:00+09:00",
           "returnAt": "2026-11-24T04:35:00+05:30"
-        },
-        {
-          "destination": "MVD",
-          "cityName": "Montevideo",
-          "countryName": "Uruguay",
-          "origin": "TYO",
-          "price": 341604,
-          "departureAt": "2026-11-19T01:00:00+09:00",
-          "returnAt": "2026-11-29T22:45:00-03:00"
         }
       ]
     },
