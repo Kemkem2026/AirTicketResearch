@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T20:25:34.682Z",
+  "generatedAt": "2026-10-18T04:08:23.336Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -272,22 +272,6 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "FJ",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Melanesia",
-              "destination": "NAN",
-              "cityName": "Nadi",
-              "countryName": "Fiji",
-              "origin": "TYO",
-              "price": 221325,
-              "departureAt": "2026-11-18T16:30:00+09:00",
-              "returnAt": "2026-11-27T23:55:00+13:00"
-            }
-          ]
-        },
-        {
           "airline": "AA",
           "airlineName": null,
           "groupResults": [
@@ -300,6 +284,22 @@
               "price": 134677,
               "departureAt": "2026-11-02T17:10:00+09:00",
               "returnAt": "2026-11-10T09:59:00-05:00"
+            }
+          ]
+        },
+        {
+          "airline": "CX",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "SUV",
+              "cityName": "Suva",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 269801,
+              "departureAt": "2026-11-22T08:50:00+09:00",
+              "returnAt": "2026-11-29T19:30:00+13:00"
             }
           ]
         },
@@ -382,16 +382,6 @@
               "price": 63518,
               "departureAt": "2026-11-11T16:40:00+09:00",
               "returnAt": "2026-11-18T07:30:00+08:00"
-            },
-            {
-              "group": "Eastern Europe",
-              "destination": "OMS",
-              "cityName": "Omsk",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 157433,
-              "departureAt": "2026-11-25T16:40:00+09:00",
-              "returnAt": "2026-11-30T15:10:00+06:00"
             },
             {
               "group": "Northern Africa",
@@ -538,22 +528,6 @@
               "price": 160408,
               "departureAt": "2026-11-22T13:20:00+09:00",
               "returnAt": "2026-11-26T06:15:00+01:00"
-            }
-          ]
-        },
-        {
-          "airline": "ET",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Southern Africa",
-              "destination": "WDH",
-              "cityName": "Windhoek",
-              "countryName": "Namibia",
-              "origin": "TYO",
-              "price": 229379,
-              "departureAt": "2026-11-02T20:30:00+09:00",
-              "returnAt": "2026-11-15T14:30:00+02:00"
             }
           ]
         },
@@ -753,6 +727,15 @@
           "price": 125693,
           "departureAt": "2026-11-19T20:40:00+09:00",
           "returnAt": "2026-11-24T04:35:00+05:30"
+        },
+        {
+          "destination": "NAN",
+          "cityName": "Nadi",
+          "countryName": "Fiji",
+          "origin": "TYO",
+          "price": 197520,
+          "departureAt": "2026-11-22T18:10:00+09:00",
+          "returnAt": "2026-11-29T22:20:00+13:00"
         }
       ]
     },
