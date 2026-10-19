@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T12:49:17.417Z",
+  "generatedAt": "2026-10-19T22:13:43.294Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -49,11 +49,11 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 143249,
+          "price": 143520,
           "airline": "CZ",
           "alliance": "other",
-          "departureAt": "2026-11-24T15:05:00+09:00",
-          "returnAt": "2026-11-27T14:25:00+03:00"
+          "departureAt": "2026-11-22T14:20:00+09:00",
+          "returnAt": "2026-11-30T14:25:00+03:00"
         },
         {
           "destination": "TBS",
@@ -146,19 +146,7 @@
         "oneworld",
         "skyteam"
       ],
-      "results": [
-        {
-          "destination": "JKT",
-          "cityName": "Jakarta",
-          "countryName": "Indonesia",
-          "origin": "TYO",
-          "price": 71034,
-          "airline": "MF",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-06T14:55:00+09:00",
-          "returnAt": "2026-11-07T23:30:00+07:00"
-        }
-      ]
+      "results": []
     },
     {
       "label": "独自グループ:シルクロード方面 x 全連合",
@@ -189,7 +177,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 91344,
+          "price": 91532,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-06T21:00:00+09:00",
@@ -222,11 +210,11 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 143249,
+          "price": 143520,
           "airline": "CZ",
           "alliance": "other",
-          "departureAt": "2026-11-24T15:05:00+09:00",
-          "returnAt": "2026-11-27T14:25:00+03:00"
+          "departureAt": "2026-11-22T14:20:00+09:00",
+          "returnAt": "2026-11-30T14:25:00+03:00"
         },
         {
           "destination": "TBS",
@@ -426,14 +414,14 @@
           "airlineName": null,
           "groupResults": [
             {
-              "group": "South-Eastern Asia",
-              "destination": "JKT",
-              "cityName": "Jakarta",
-              "countryName": "Indonesia",
+              "group": "Eastern Asia",
+              "destination": "HAK",
+              "cityName": "Haikou",
+              "countryName": "China",
               "origin": "TYO",
-              "price": 71034,
-              "departureAt": "2026-11-06T14:55:00+09:00",
-              "returnAt": "2026-11-07T23:30:00+07:00"
+              "price": 69918,
+              "departureAt": "2026-11-15T15:30:00+09:00",
+              "returnAt": "2026-11-22T17:10:00+08:00"
             },
             {
               "group": "Australia and New Zealand",
@@ -485,7 +473,7 @@
               "cityName": "Saipan",
               "countryName": "Northern Mariana Islands",
               "origin": "TYO",
-              "price": 84402,
+              "price": 84575,
               "departureAt": "2026-11-25T17:00:00+09:00",
               "returnAt": "2026-11-28T09:50:00+10:00"
             },
@@ -706,7 +694,7 @@
           "cityName": "Santiago",
           "countryName": "Chile",
           "origin": "TYO",
-          "price": 285136,
+          "price": 285723,
           "departureAt": "2026-11-04T17:40:00+09:00",
           "returnAt": "2026-11-21T23:55:00-03:00"
         }
