@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T16:43:39.985Z",
+  "generatedAt": "2026-10-20T21:28:21.890Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -232,7 +232,7 @@
           "cityName": "Bishkek",
           "countryName": "Kyrgyzstan",
           "origin": "TYO",
-          "price": 159063,
+          "price": 159262,
           "airline": "OZ",
           "alliance": "staralliance",
           "departureAt": "2026-11-15T01:30:00+09:00",
@@ -269,7 +269,7 @@
               "cityName": "Auckland",
               "countryName": "New Zealand",
               "origin": "TYO",
-              "price": 145013,
+              "price": 145194,
               "departureAt": "2026-11-09T22:00:00+09:00",
               "returnAt": "2026-11-24T06:10:00+13:00"
             }
@@ -327,7 +327,7 @@
               "cityName": "Aktobe",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 180930,
+              "price": 181156,
               "departureAt": "2026-11-06T21:55:00+09:00",
               "returnAt": "2026-11-23T14:00:00+05:00"
             }
@@ -343,7 +343,7 @@
               "cityName": "Toronto",
               "countryName": "Canada",
               "origin": "TYO",
-              "price": 189737,
+              "price": 189974,
               "departureAt": "2026-11-08T17:10:00+09:00",
               "returnAt": "2026-11-10T19:40:00-05:00"
             }
@@ -505,7 +505,7 @@
               "cityName": "Sao Paulo",
               "countryName": "Brazil",
               "origin": "TYO",
-              "price": 283898,
+              "price": 284252,
               "departureAt": "2026-11-20T20:30:00+09:00",
               "returnAt": "2026-11-27T01:30:00-03:00"
             }
@@ -521,7 +521,7 @@
               "cityName": "Bishkek",
               "countryName": "Kyrgyzstan",
               "origin": "TYO",
-              "price": 159063,
+              "price": 159262,
               "departureAt": "2026-11-15T01:30:00+09:00",
               "returnAt": "2026-11-15T23:20:00+06:00"
             }
@@ -583,16 +583,6 @@
           "airline": "AI",
           "airlineName": null,
           "groupResults": [
-            {
-              "group": "Western Europe",
-              "destination": "AMS",
-              "cityName": "Amsterdam",
-              "countryName": "Netherlands",
-              "origin": "TYO",
-              "price": 105856,
-              "departureAt": "2026-11-17T13:20:00+09:00",
-              "returnAt": "2026-11-24T20:35:00+01:00"
-            },
             {
               "group": "Southeast Europe",
               "destination": "BEG",
@@ -685,7 +675,7 @@
               "cityName": "Denpasar (Bali)",
               "countryName": "Indonesia",
               "origin": "TYO",
-              "price": 64308,
+              "price": 64388,
               "departureAt": "2026-11-10T08:50:00+09:00",
               "returnAt": "2026-11-18T08:05:00+08:00"
             }
