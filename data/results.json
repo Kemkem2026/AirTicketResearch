@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T22:13:43.294Z",
+  "generatedAt": "2026-10-20T04:28:49.841Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -177,7 +177,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 91532,
+          "price": 91518,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-06T21:00:00+09:00",
@@ -419,7 +419,7 @@
               "cityName": "Haikou",
               "countryName": "China",
               "origin": "TYO",
-              "price": 69918,
+              "price": 69907,
               "departureAt": "2026-11-15T15:30:00+09:00",
               "returnAt": "2026-11-22T17:10:00+08:00"
             },
@@ -473,7 +473,7 @@
               "cityName": "Saipan",
               "countryName": "Northern Mariana Islands",
               "origin": "TYO",
-              "price": 84575,
+              "price": 84562,
               "departureAt": "2026-11-25T17:00:00+09:00",
               "returnAt": "2026-11-28T09:50:00+10:00"
             },
@@ -540,16 +540,6 @@
               "returnAt": "2026-11-24T22:10:00+06:00"
             },
             {
-              "group": "Eastern Europe",
-              "destination": "IKT",
-              "cityName": "Irkutsk",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 111305,
-              "departureAt": "2026-11-17T21:00:00+09:00",
-              "returnAt": "2026-11-27T18:00:00+08:00"
-            },
-            {
               "group": "Western Asia",
               "destination": "TBS",
               "cityName": "Tbilisi",
@@ -569,22 +559,6 @@
       "alliance": null,
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "3U",
-          "airlineName": "四川航空",
-          "groupResults": [
-            {
-              "group": "Southern Europe",
-              "destination": "MAD",
-              "cityName": "Madrid",
-              "countryName": "Spain",
-              "origin": "TYO",
-              "price": 147041,
-              "departureAt": "2026-11-24T16:40:00+09:00",
-              "returnAt": "2026-11-27T11:05:00+01:00"
-            }
-          ]
-        },
         {
           "airline": "D7",
           "airlineName": "エアアジアX",
@@ -694,7 +668,7 @@
           "cityName": "Santiago",
           "countryName": "Chile",
           "origin": "TYO",
-          "price": 285723,
+          "price": 285679,
           "departureAt": "2026-11-04T17:40:00+09:00",
           "returnAt": "2026-11-21T23:55:00-03:00"
         }
