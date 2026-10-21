@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T21:28:21.890Z",
+  "generatedAt": "2026-10-21T04:19:52.073Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -232,7 +232,7 @@
           "cityName": "Bishkek",
           "countryName": "Kyrgyzstan",
           "origin": "TYO",
-          "price": 159262,
+          "price": 159237,
           "airline": "OZ",
           "alliance": "staralliance",
           "departureAt": "2026-11-15T01:30:00+09:00",
@@ -269,7 +269,7 @@
               "cityName": "Auckland",
               "countryName": "New Zealand",
               "origin": "TYO",
-              "price": 145194,
+              "price": 145172,
               "departureAt": "2026-11-09T22:00:00+09:00",
               "returnAt": "2026-11-24T06:10:00+13:00"
             }
@@ -327,7 +327,7 @@
               "cityName": "Aktobe",
               "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 181156,
+              "price": 181128,
               "departureAt": "2026-11-06T21:55:00+09:00",
               "returnAt": "2026-11-23T14:00:00+05:00"
             }
@@ -343,7 +343,7 @@
               "cityName": "Toronto",
               "countryName": "Canada",
               "origin": "TYO",
-              "price": 189974,
+              "price": 189945,
               "departureAt": "2026-11-08T17:10:00+09:00",
               "returnAt": "2026-11-10T19:40:00-05:00"
             }
@@ -445,9 +445,9 @@
               "cityName": "Sydney",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 97514,
-              "departureAt": "2026-11-06T14:55:00+09:00",
-              "returnAt": "2026-11-09T12:35:00+11:00"
+              "price": 109057,
+              "departureAt": "2026-11-11T14:55:00+09:00",
+              "returnAt": "2026-11-18T12:35:00+11:00"
             },
             {
               "group": "Northern Europe",
@@ -505,7 +505,7 @@
               "cityName": "Sao Paulo",
               "countryName": "Brazil",
               "origin": "TYO",
-              "price": 284252,
+              "price": 284209,
               "departureAt": "2026-11-20T20:30:00+09:00",
               "returnAt": "2026-11-27T01:30:00-03:00"
             }
@@ -521,7 +521,7 @@
               "cityName": "Bishkek",
               "countryName": "Kyrgyzstan",
               "origin": "TYO",
-              "price": 159262,
+              "price": 159237,
               "departureAt": "2026-11-15T01:30:00+09:00",
               "returnAt": "2026-11-15T23:20:00+06:00"
             }
@@ -543,13 +543,13 @@
             },
             {
               "group": "Southern Asia",
-              "destination": "DAC",
-              "cityName": "Dhaka",
-              "countryName": "Bangladesh",
+              "destination": "CMB",
+              "cityName": "Colombo",
+              "countryName": "Sri Lanka",
               "origin": "TYO",
-              "price": 96604,
-              "departureAt": "2026-11-01T08:30:00+09:00",
-              "returnAt": "2026-11-24T22:10:00+06:00"
+              "price": 86388,
+              "departureAt": "2026-11-12T19:30:00+09:00",
+              "returnAt": "2026-11-21T22:25:00+05:30"
             },
             {
               "group": "Western Asia",
@@ -603,6 +603,22 @@
       "alliance": null,
       "groupBy": "subregion",
       "airlines": [
+        {
+          "airline": "FD",
+          "airlineName": "タイ・エアアジア",
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "KHH",
+              "cityName": "Kaohsiung",
+              "countryName": "Taiwan",
+              "origin": "TYO",
+              "price": 47760,
+              "departureAt": "2026-11-26T13:30:00+09:00",
+              "returnAt": "2026-11-29T08:05:00+08:00"
+            }
+          ]
+        },
         {
           "airline": "D7",
           "airlineName": "エアアジアX",
@@ -675,7 +691,7 @@
               "cityName": "Denpasar (Bali)",
               "countryName": "Indonesia",
               "origin": "TYO",
-              "price": 64388,
+              "price": 64378,
               "departureAt": "2026-11-10T08:50:00+09:00",
               "returnAt": "2026-11-18T08:05:00+08:00"
             }
@@ -697,15 +713,6 @@
           "price": 125693,
           "departureAt": "2026-11-19T20:40:00+09:00",
           "returnAt": "2026-11-24T04:35:00+05:30"
-        },
-        {
-          "destination": "NAN",
-          "cityName": "Nadi",
-          "countryName": "Fiji",
-          "origin": "TYO",
-          "price": 197542,
-          "departureAt": "2026-11-22T18:10:00+09:00",
-          "returnAt": "2026-11-29T22:20:00+13:00"
         },
         {
           "destination": "SCL",
