@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T16:59:55.407Z",
+  "generatedAt": "2026-10-22T21:25:10.220Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -49,7 +49,7 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 133404,
+          "price": 133001,
           "airline": "7C",
           "alliance": "other",
           "departureAt": "2026-11-12T12:05:00+09:00",
@@ -71,7 +71,7 @@
           "cityName": "Doha",
           "countryName": "Qatar",
           "origin": "TYO",
-          "price": 153019,
+          "price": 152556,
           "airline": "EY",
           "alliance": "other",
           "departureAt": "2026-11-12T17:20:00+09:00",
@@ -115,7 +115,7 @@
           "cityName": "Sharjah",
           "countryName": "United Arab Emirates",
           "origin": "TYO",
-          "price": 172102,
+          "price": 171582,
           "airline": "OD",
           "alliance": "other",
           "departureAt": "2026-11-22T10:25:00+09:00",
@@ -126,7 +126,7 @@
           "cityName": "Yerevan",
           "countryName": "Armenia",
           "origin": "TYO",
-          "price": 180020,
+          "price": 179476,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-22T14:20:00+09:00",
@@ -157,6 +157,17 @@
           "alliance": "skyteam",
           "departureAt": "2026-11-12T14:55:00+09:00",
           "returnAt": "2026-11-26T21:15:00+08:00"
+        },
+        {
+          "destination": "SIN",
+          "cityName": "Singapore",
+          "countryName": "Singapore",
+          "origin": "TYO",
+          "price": 66669,
+          "airline": "MF",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-19T15:30:00+09:00",
+          "returnAt": "2026-11-22T03:00:00+08:00"
         }
       ]
     },
@@ -200,7 +211,7 @@
           "cityName": "Bishkek",
           "countryName": "Kyrgyzstan",
           "origin": "TYO",
-          "price": 96708,
+          "price": 96416,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-10T14:20:00+09:00",
@@ -222,7 +233,7 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 133404,
+          "price": 133001,
           "airline": "7C",
           "alliance": "other",
           "departureAt": "2026-11-12T12:05:00+09:00",
@@ -240,17 +251,6 @@
           "returnAt": "2026-11-20T21:00:00+04:00"
         },
         {
-          "destination": "UKK",
-          "cityName": "Oskemen",
-          "countryName": "Kazakhstan",
-          "origin": "TYO",
-          "price": 158739,
-          "airline": "CZ",
-          "alliance": "other",
-          "departureAt": "2026-11-14T10:45:00+09:00",
-          "returnAt": "2026-11-26T15:50:00+06:00"
-        },
-        {
           "destination": "ANK",
           "cityName": "Ankara",
           "countryName": "Türkiye",
@@ -260,6 +260,17 @@
           "alliance": "other",
           "departureAt": "2026-11-03T15:05:00+09:00",
           "returnAt": "2026-11-10T10:55:00+03:00"
+        },
+        {
+          "destination": "AYT",
+          "cityName": "Antalya",
+          "countryName": "Türkiye",
+          "origin": "TYO",
+          "price": 167456,
+          "airline": "MM",
+          "alliance": "other",
+          "departureAt": "2026-11-23T08:30:00+09:00",
+          "returnAt": "2026-11-26T05:50:00+03:00"
         }
       ]
     }
@@ -333,7 +344,7 @@
               "cityName": "Bora Bora",
               "countryName": "French Polynesia",
               "origin": "TYO",
-              "price": 428526,
+              "price": 427232,
               "departureAt": "2026-11-17T17:25:00+09:00",
               "returnAt": "2026-11-24T18:45:00-10:00"
             }
@@ -421,7 +432,7 @@
               "cityName": "Sanya",
               "countryName": "China",
               "origin": "TYO",
-              "price": 57219,
+              "price": 57047,
               "departureAt": "2026-11-21T15:30:00+09:00",
               "returnAt": "2026-11-25T21:10:00+08:00"
             },
@@ -495,6 +506,16 @@
           "airline": "CA",
           "airlineName": null,
           "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "UBN",
+              "cityName": "Ulaanbaatar",
+              "countryName": "Mongolia",
+              "origin": "TYO",
+              "price": 85659,
+              "departureAt": "2026-11-18T14:20:00+09:00",
+              "returnAt": "2026-11-25T11:50:00+08:00"
+            },
             {
               "group": "Southern Asia",
               "destination": "CMB",
@@ -585,9 +606,19 @@
               "cityName": "New York",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 126005,
+              "price": 125624,
               "departureAt": "2026-11-12T18:45:00+09:00",
               "returnAt": "2026-11-26T08:00:00-05:00"
+            },
+            {
+              "group": "South America",
+              "destination": "BOG",
+              "cityName": "Bogota",
+              "countryName": "Colombia",
+              "origin": "TYO",
+              "price": 272722,
+              "departureAt": "2026-11-04T18:50:00+09:00",
+              "returnAt": "2026-11-21T09:00:00-05:00"
             }
           ]
         }
@@ -697,7 +728,7 @@
               "cityName": "Denpasar (Bali)",
               "countryName": "Indonesia",
               "origin": "TYO",
-              "price": 63844,
+              "price": 63651,
               "departureAt": "2026-11-10T08:50:00+09:00",
               "returnAt": "2026-11-25T11:10:00+08:00"
             }
@@ -725,7 +756,7 @@
           "cityName": "Santiago",
           "countryName": "Chile",
           "origin": "TYO",
-          "price": 285679,
+          "price": 278243,
           "departureAt": "2026-11-04T17:40:00+09:00",
           "returnAt": "2026-11-21T23:55:00-03:00"
         }
