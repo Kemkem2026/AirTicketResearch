@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T04:23:35.327Z",
+  "generatedAt": "2026-10-23T11:23:53.405Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -100,17 +100,6 @@
           "returnAt": "2026-11-10T10:55:00+03:00"
         },
         {
-          "destination": "AYT",
-          "cityName": "Antalya",
-          "countryName": "Türkiye",
-          "origin": "TYO",
-          "price": 167456,
-          "airline": "MM",
-          "alliance": "other",
-          "departureAt": "2026-11-23T08:30:00+09:00",
-          "returnAt": "2026-11-26T05:50:00+03:00"
-        },
-        {
           "destination": "SHJ",
           "cityName": "Sharjah",
           "countryName": "United Arab Emirates",
@@ -131,6 +120,17 @@
           "alliance": "other",
           "departureAt": "2026-11-22T14:20:00+09:00",
           "returnAt": "2026-11-28T17:20:00+04:00"
+        },
+        {
+          "destination": "BAK",
+          "cityName": "Baku",
+          "countryName": "Azerbaijan",
+          "origin": "TYO",
+          "price": 189455,
+          "airline": "MU",
+          "alliance": "skyteam",
+          "departureAt": "2026-11-20T16:55:00+09:00",
+          "returnAt": "2026-11-27T23:50:00+04:00"
         }
       ]
     },
@@ -146,30 +146,7 @@
         "oneworld",
         "skyteam"
       ],
-      "results": [
-        {
-          "destination": "MNL",
-          "cityName": "Manila",
-          "countryName": "Philippines",
-          "origin": "TYO",
-          "price": 58386,
-          "airline": "MF",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-12T14:55:00+09:00",
-          "returnAt": "2026-11-26T21:15:00+08:00"
-        },
-        {
-          "destination": "SIN",
-          "cityName": "Singapore",
-          "countryName": "Singapore",
-          "origin": "TYO",
-          "price": 66669,
-          "airline": "MF",
-          "alliance": "skyteam",
-          "departureAt": "2026-11-19T15:30:00+09:00",
-          "returnAt": "2026-11-22T03:00:00+08:00"
-        }
-      ]
+      "results": []
     },
     {
       "label": "独自グループ:シルクロード方面 x 全連合",
@@ -189,22 +166,11 @@
           "cityName": "Bishkek",
           "countryName": "Kyrgyzstan",
           "origin": "TYO",
-          "price": 90205,
+          "price": 90188,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-26T15:25:00+09:00",
           "returnAt": "2026-11-29T22:30:00+06:00"
-        },
-        {
-          "destination": "NQZ",
-          "cityName": "Astana",
-          "countryName": "Kazakhstan",
-          "origin": "TYO",
-          "price": 90471,
-          "airline": "CA",
-          "alliance": "staralliance",
-          "departureAt": "2026-11-05T18:00:00+09:00",
-          "returnAt": "2026-11-18T21:45:00+06:00"
         },
         {
           "destination": "TAS",
@@ -216,6 +182,17 @@
           "alliance": "staralliance",
           "departureAt": "2026-11-06T21:00:00+09:00",
           "returnAt": "2026-11-21T21:10:00+05:00"
+        },
+        {
+          "destination": "NQZ",
+          "cityName": "Astana",
+          "countryName": "Kazakhstan",
+          "origin": "TYO",
+          "price": 96621,
+          "airline": "CA",
+          "alliance": "staralliance",
+          "departureAt": "2026-11-04T21:00:00+09:00",
+          "returnAt": "2026-11-09T21:45:00+06:00"
         },
         {
           "destination": "ALA",
@@ -262,15 +239,15 @@
           "returnAt": "2026-11-10T10:55:00+03:00"
         },
         {
-          "destination": "AYT",
-          "cityName": "Antalya",
-          "countryName": "Türkiye",
+          "destination": "EVN",
+          "cityName": "Yerevan",
+          "countryName": "Armenia",
           "origin": "TYO",
-          "price": 167456,
-          "airline": "MM",
+          "price": 179461,
+          "airline": "CZ",
           "alliance": "other",
-          "departureAt": "2026-11-23T08:30:00+09:00",
-          "returnAt": "2026-11-26T05:50:00+03:00"
+          "departureAt": "2026-11-22T14:20:00+09:00",
+          "returnAt": "2026-11-28T17:20:00+04:00"
         }
       ]
     }
@@ -283,18 +260,34 @@
       "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "CX",
+          "airline": "QR",
           "airlineName": null,
           "groupResults": [
             {
-              "group": "Melanesia",
-              "destination": "SUV",
-              "cityName": "Suva",
-              "countryName": "Fiji",
+              "group": "Central Asia",
+              "destination": "AKX",
+              "cityName": "Aktobe",
+              "countryName": "Kazakhstan",
               "origin": "TYO",
-              "price": 269831,
-              "departureAt": "2026-11-22T08:50:00+09:00",
-              "returnAt": "2026-11-29T19:30:00+13:00"
+              "price": 181128,
+              "departureAt": "2026-11-06T21:55:00+09:00",
+              "returnAt": "2026-11-23T14:00:00+05:00"
+            }
+          ]
+        },
+        {
+          "airline": "AA",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "North America",
+              "destination": "MIA",
+              "cityName": "Miami",
+              "countryName": "United States",
+              "origin": "TYO",
+              "price": 171287,
+              "departureAt": "2026-11-09T17:10:00+09:00",
+              "returnAt": "2026-11-30T21:52:00-05:00"
             }
           ]
         },
@@ -335,22 +328,6 @@
           ]
         },
         {
-          "airline": "AA",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "MIA",
-              "cityName": "Miami",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 171320,
-              "departureAt": "2026-11-09T17:10:00+09:00",
-              "returnAt": "2026-11-30T21:52:00-05:00"
-            }
-          ]
-        },
-        {
           "airline": "FJ",
           "airlineName": null,
           "groupResults": [
@@ -363,22 +340,6 @@
               "price": 178006,
               "departureAt": "2026-11-14T16:30:00+09:00",
               "returnAt": "2026-11-21T23:30:00+13:00"
-            }
-          ]
-        },
-        {
-          "airline": "QR",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Central Asia",
-              "destination": "AKX",
-              "cityName": "Aktobe",
-              "countryName": "Kazakhstan",
-              "origin": "TYO",
-              "price": 181128,
-              "departureAt": "2026-11-06T21:55:00+09:00",
-              "returnAt": "2026-11-23T14:00:00+05:00"
             }
           ]
         },
@@ -397,6 +358,22 @@
               "returnAt": "2026-11-24T06:10:00+13:00"
             }
           ]
+        },
+        {
+          "airline": "CX",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Melanesia",
+              "destination": "SUV",
+              "cityName": "Suva",
+              "countryName": "Fiji",
+              "origin": "TYO",
+              "price": 269831,
+              "departureAt": "2026-11-22T08:50:00+09:00",
+              "returnAt": "2026-11-29T19:30:00+13:00"
+            }
+          ]
         }
       ]
     },
@@ -407,6 +384,22 @@
       "groupBy": "subregion",
       "airlines": [
         {
+          "airline": "MU",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Western Asia",
+              "destination": "TBS",
+              "cityName": "Tbilisi",
+              "countryName": "Georgia",
+              "origin": "TYO",
+              "price": 151227,
+              "departureAt": "2026-11-13T08:40:00+09:00",
+              "returnAt": "2026-11-20T21:00:00+04:00"
+            }
+          ]
+        },
+        {
           "airline": "MF",
           "airlineName": null,
           "groupResults": [
@@ -416,19 +409,9 @@
               "cityName": "Sanya",
               "countryName": "China",
               "origin": "TYO",
-              "price": 57042,
-              "departureAt": "2026-11-21T15:30:00+09:00",
+              "price": 54580,
+              "departureAt": "2026-11-20T15:30:00+09:00",
               "returnAt": "2026-11-25T21:10:00+08:00"
-            },
-            {
-              "group": "South-Eastern Asia",
-              "destination": "MNL",
-              "cityName": "Manila",
-              "countryName": "Philippines",
-              "origin": "TYO",
-              "price": 58386,
-              "departureAt": "2026-11-12T14:55:00+09:00",
-              "returnAt": "2026-11-26T21:15:00+08:00"
             },
             {
               "group": "Australia and New Zealand",
@@ -451,32 +434,6 @@
               "returnAt": "2026-11-24T19:40:00Z"
             }
           ]
-        },
-        {
-          "airline": "MU",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "CAN",
-              "cityName": "Guangzhou",
-              "countryName": "China",
-              "origin": "TYO",
-              "price": 63518,
-              "departureAt": "2026-11-11T16:40:00+09:00",
-              "returnAt": "2026-11-18T07:30:00+08:00"
-            },
-            {
-              "group": "Western Asia",
-              "destination": "TBS",
-              "cityName": "Tbilisi",
-              "countryName": "Georgia",
-              "origin": "TYO",
-              "price": 151227,
-              "departureAt": "2026-11-13T08:40:00+09:00",
-              "returnAt": "2026-11-20T21:00:00+04:00"
-            }
-          ]
         }
       ]
     },
@@ -486,100 +443,6 @@
       "alliance": "staralliance",
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "CA",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "UBN",
-              "cityName": "Ulaanbaatar",
-              "countryName": "Mongolia",
-              "origin": "TYO",
-              "price": 85659,
-              "departureAt": "2026-11-18T14:20:00+09:00",
-              "returnAt": "2026-11-25T11:50:00+08:00"
-            },
-            {
-              "group": "Southern Asia",
-              "destination": "CMB",
-              "cityName": "Colombo",
-              "countryName": "Sri Lanka",
-              "origin": "TYO",
-              "price": 86299,
-              "departureAt": "2026-11-12T19:30:00+09:00",
-              "returnAt": "2026-11-21T22:25:00+05:30"
-            },
-            {
-              "group": "Central Asia",
-              "destination": "BSZ",
-              "cityName": "Bishkek",
-              "countryName": "Kyrgyzstan",
-              "origin": "TYO",
-              "price": 90205,
-              "departureAt": "2026-11-26T15:25:00+09:00",
-              "returnAt": "2026-11-29T22:30:00+06:00"
-            },
-            {
-              "group": "Eastern Europe",
-              "destination": "KRR",
-              "cityName": "Krasnodar",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 186633,
-              "departureAt": "2026-11-07T08:30:00+09:00",
-              "returnAt": "2026-11-17T12:00:00+03:00"
-            }
-          ]
-        },
-        {
-          "airline": "ET",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "South America",
-              "destination": "SAO",
-              "cityName": "Sao Paulo",
-              "countryName": "Brazil",
-              "origin": "TYO",
-              "price": 284209,
-              "departureAt": "2026-11-20T20:30:00+09:00",
-              "returnAt": "2026-11-27T01:30:00-03:00"
-            }
-          ]
-        },
-        {
-          "airline": "UA",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Micronesia",
-              "destination": "SPN",
-              "cityName": "Saipan",
-              "countryName": "Northern Mariana Islands",
-              "origin": "TYO",
-              "price": 84562,
-              "departureAt": "2026-11-25T17:00:00+09:00",
-              "returnAt": "2026-11-28T09:50:00+10:00"
-            }
-          ]
-        },
-        {
-          "airline": "AI",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Southeast Europe",
-              "destination": "BEG",
-              "cityName": "Belgrade",
-              "countryName": "Serbia",
-              "origin": "TYO",
-              "price": 160408,
-              "departureAt": "2026-11-22T13:20:00+09:00",
-              "returnAt": "2026-11-26T06:15:00+01:00"
-            }
-          ]
-        },
         {
           "airline": "AC",
           "airlineName": null,
@@ -603,6 +466,94 @@
               "price": 272698,
               "departureAt": "2026-11-04T18:50:00+09:00",
               "returnAt": "2026-11-21T09:00:00-05:00"
+            }
+          ]
+        },
+        {
+          "airline": "UA",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Micronesia",
+              "destination": "SPN",
+              "cityName": "Saipan",
+              "countryName": "Northern Mariana Islands",
+              "origin": "TYO",
+              "price": 84562,
+              "departureAt": "2026-11-25T17:00:00+09:00",
+              "returnAt": "2026-11-28T09:50:00+10:00"
+            }
+          ]
+        },
+        {
+          "airline": "ET",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "South America",
+              "destination": "SAO",
+              "cityName": "Sao Paulo",
+              "countryName": "Brazil",
+              "origin": "TYO",
+              "price": 284209,
+              "departureAt": "2026-11-20T20:30:00+09:00",
+              "returnAt": "2026-11-27T01:30:00-03:00"
+            }
+          ]
+        },
+        {
+          "airline": "CA",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "South-Eastern Asia",
+              "destination": "SIN",
+              "cityName": "Singapore",
+              "countryName": "Singapore",
+              "origin": "TYO",
+              "price": 62234,
+              "departureAt": "2026-11-05T08:30:00+09:00",
+              "returnAt": "2026-11-08T17:50:00+08:00"
+            },
+            {
+              "group": "Eastern Asia",
+              "destination": "CAN",
+              "cityName": "Guangzhou",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 69707,
+              "departureAt": "2026-11-12T19:30:00+09:00",
+              "returnAt": "2026-11-15T19:35:00+08:00"
+            },
+            {
+              "group": "Southern Asia",
+              "destination": "CMB",
+              "cityName": "Colombo",
+              "countryName": "Sri Lanka",
+              "origin": "TYO",
+              "price": 86299,
+              "departureAt": "2026-11-12T19:30:00+09:00",
+              "returnAt": "2026-11-21T22:25:00+05:30"
+            },
+            {
+              "group": "Central Asia",
+              "destination": "BSZ",
+              "cityName": "Bishkek",
+              "countryName": "Kyrgyzstan",
+              "origin": "TYO",
+              "price": 90188,
+              "departureAt": "2026-11-26T15:25:00+09:00",
+              "returnAt": "2026-11-29T22:30:00+06:00"
+            },
+            {
+              "group": "Eastern Europe",
+              "destination": "KRR",
+              "cityName": "Krasnodar",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 186633,
+              "departureAt": "2026-11-07T08:30:00+09:00",
+              "returnAt": "2026-11-17T12:00:00+03:00"
             }
           ]
         }
