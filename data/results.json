@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T15:45:18.267Z",
+  "generatedAt": "2026-10-24T20:33:46.746Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -120,17 +120,6 @@
           "alliance": "other",
           "departureAt": "2026-11-22T14:20:00+09:00",
           "returnAt": "2026-11-28T17:20:00+04:00"
-        },
-        {
-          "destination": "RZV",
-          "cityName": "Rize",
-          "countryName": "Türkiye",
-          "origin": "TYO",
-          "price": 194379,
-          "airline": "D7",
-          "alliance": "other",
-          "departureAt": "2026-11-21T23:55:00+09:00",
-          "returnAt": "2026-11-23T10:50:00+03:00"
         }
       ]
     },
@@ -614,22 +603,6 @@
           ]
         },
         {
-          "airline": "D7",
-          "airlineName": "エアアジアX",
-          "groupResults": [
-            {
-              "group": "Western Asia",
-              "destination": "RZV",
-              "cityName": "Rize",
-              "countryName": "Türkiye",
-              "origin": "TYO",
-              "price": 194379,
-              "departureAt": "2026-11-21T23:55:00+09:00",
-              "returnAt": "2026-11-23T10:50:00+03:00"
-            }
-          ]
-        },
-        {
           "airline": "XJ",
           "airlineName": "タイ・エアアジアX",
           "groupResults": [
@@ -719,15 +692,6 @@
       "label": "JAL(JL) 東京発 最安路線 TOP5(国際線)",
       "airline": "JL",
       "results": [
-        {
-          "destination": "DEL",
-          "cityName": "New Delhi",
-          "countryName": "India",
-          "origin": "TYO",
-          "price": 118279,
-          "departureAt": "2026-11-01T20:40:00+09:00",
-          "returnAt": "2026-11-27T04:35:00+05:30"
-        },
         {
           "destination": "SCL",
           "cityName": "Santiago",
