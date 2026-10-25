@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T20:33:46.746Z",
+  "generatedAt": "2026-10-25T04:17:15.156Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -554,22 +554,6 @@
       "alliance": null,
       "groupBy": "subregion",
       "airlines": [
-        {
-          "airline": "EK",
-          "airlineName": "エミレーツ航空",
-          "groupResults": [
-            {
-              "group": "South America",
-              "destination": "RIO",
-              "cityName": "Rio de Janeiro",
-              "countryName": "Brazil",
-              "origin": "TYO",
-              "price": 281351,
-              "departureAt": "2026-11-04T22:20:00+09:00",
-              "returnAt": "2026-11-12T03:45:00-03:00"
-            }
-          ]
-        },
         {
           "airline": "HU",
           "airlineName": "海南航空",
