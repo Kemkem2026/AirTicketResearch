@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T15:56:46.960Z",
+  "generatedAt": "2026-10-25T20:41:26.660Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -578,8 +578,8 @@
               "cityName": "Male",
               "countryName": "Maldives",
               "origin": "TYO",
-              "price": 113691,
-              "departureAt": "2026-11-23T19:45:00+09:00",
+              "price": 114349,
+              "departureAt": "2026-11-27T19:45:00+09:00",
               "returnAt": "2026-11-30T12:30:00+05:00"
             }
           ]
