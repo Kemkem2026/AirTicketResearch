@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T12:42:03.505Z",
+  "generatedAt": "2026-10-26T22:33:01.552Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -71,7 +71,7 @@
           "cityName": "Dubai",
           "countryName": "United Arab Emirates",
           "origin": "TYO",
-          "price": 155344,
+          "price": 155500,
           "airline": "PR",
           "alliance": "other",
           "departureAt": "2026-11-12T01:35:00+09:00",
@@ -126,7 +126,7 @@
           "cityName": "Antalya",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 199421,
+          "price": 199622,
           "airline": "D7",
           "alliance": "other",
           "departureAt": "2026-11-01T23:55:00+09:00",
@@ -152,7 +152,7 @@
           "cityName": "Manila",
           "countryName": "Philippines",
           "origin": "TYO",
-          "price": 58076,
+          "price": 58135,
           "airline": "MF",
           "alliance": "skyteam",
           "departureAt": "2026-11-12T14:55:00+09:00",
@@ -349,13 +349,13 @@
           "groupResults": [
             {
               "group": "Eastern Asia",
-              "destination": "SYX",
-              "cityName": "Sanya",
+              "destination": "WUH",
+              "cityName": "Wuhan",
               "countryName": "China",
               "origin": "TYO",
-              "price": 54720,
-              "departureAt": "2026-11-23T15:30:00+09:00",
-              "returnAt": "2026-11-29T15:40:00+08:00"
+              "price": 54282,
+              "departureAt": "2026-11-20T15:30:00+09:00",
+              "returnAt": "2026-11-25T22:55:00+08:00"
             },
             {
               "group": "South-Eastern Asia",
@@ -363,7 +363,7 @@
               "cityName": "Manila",
               "countryName": "Philippines",
               "origin": "TYO",
-              "price": 58076,
+              "price": 58135,
               "departureAt": "2026-11-12T14:55:00+09:00",
               "returnAt": "2026-11-26T21:15:00+08:00"
             },
@@ -373,7 +373,7 @@
               "cityName": "Sydney",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 95510,
+              "price": 97167,
               "departureAt": "2026-11-09T14:55:00+09:00",
               "returnAt": "2026-11-16T12:35:00+11:00"
             },
@@ -407,7 +407,7 @@
               "cityName": "Rome",
               "countryName": "Italy",
               "origin": "TYO",
-              "price": 134212,
+              "price": 134347,
               "departureAt": "2026-11-24T13:20:00+09:00",
               "returnAt": "2026-11-28T20:40:00+01:00"
             },
@@ -433,7 +433,7 @@
               "cityName": "Nagoya",
               "countryName": "Japan",
               "origin": "TYO",
-              "price": 23648,
+              "price": 23672,
               "departureAt": "2026-11-18T17:25:00+09:00",
               "returnAt": "2026-11-19T14:00:00+09:00"
             }
@@ -501,7 +501,7 @@
               "cityName": "Guangzhou",
               "countryName": "China",
               "origin": "TYO",
-              "price": 67021,
+              "price": 67088,
               "departureAt": "2026-11-24T15:00:00+09:00",
               "returnAt": "2026-11-26T06:30:00+08:00"
             },
@@ -567,7 +567,7 @@
               "cityName": "Guatemala City",
               "countryName": "Guatemala",
               "origin": "TYO",
-              "price": 199686,
+              "price": 199887,
               "departureAt": "2026-11-11T18:45:00+09:00",
               "returnAt": "2026-11-25T10:30:00-06:00"
             },
@@ -617,7 +617,7 @@
               "cityName": "Antalya",
               "countryName": "Türkiye",
               "origin": "TYO",
-              "price": 199421,
+              "price": 199622,
               "departureAt": "2026-11-01T23:55:00+09:00",
               "returnAt": "2026-11-12T00:35:00+03:00"
             }
