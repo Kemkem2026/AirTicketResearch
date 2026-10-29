@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T22:27:07.812Z",
+  "generatedAt": "2026-10-29T05:25:00.188Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -60,7 +60,7 @@
           "cityName": "Abu Dhabi",
           "countryName": "United Arab Emirates",
           "origin": "TYO",
-          "price": 145969,
+          "price": 145889,
           "airline": "AI",
           "alliance": "staralliance",
           "departureAt": "2026-11-26T11:10:00+09:00",
@@ -222,7 +222,7 @@
           "cityName": "Almaty",
           "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 100965,
+          "price": 100909,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-13T13:20:00+09:00",
@@ -464,7 +464,7 @@
               "cityName": "Fort Lauderdale",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 149901,
+              "price": 149819,
               "departureAt": "2026-11-19T16:50:00+09:00",
               "returnAt": "2026-11-30T15:39:00-05:00"
             }
@@ -500,7 +500,7 @@
               "cityName": "Abu Dhabi",
               "countryName": "United Arab Emirates",
               "origin": "TYO",
-              "price": 145969,
+              "price": 145889,
               "departureAt": "2026-11-26T11:10:00+09:00",
               "returnAt": "2026-11-29T10:05:00+04:00"
             },
@@ -536,7 +536,7 @@
               "cityName": "Jijiga",
               "countryName": "Ethiopia",
               "origin": "TYO",
-              "price": 261324,
+              "price": 261180,
               "departureAt": "2026-11-04T20:30:00+09:00",
               "returnAt": "2026-11-11T17:30:00+03:00"
             }
@@ -658,7 +658,7 @@
               "cityName": "Sydney",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 114460,
+              "price": 114397,
               "departureAt": "2026-11-09T14:35:00+09:00",
               "returnAt": "2026-11-16T12:15:00+11:00"
             }
@@ -674,7 +674,7 @@
               "cityName": "Ho Chi Minh City",
               "countryName": "Vietnam",
               "origin": "TYO",
-              "price": 56814,
+              "price": 56783,
               "departureAt": "2026-11-19T11:10:00+09:00",
               "returnAt": "2026-11-26T23:20:00+07:00"
             },
@@ -700,7 +700,7 @@
               "cityName": "Taipei",
               "countryName": "Taiwan",
               "origin": "TYO",
-              "price": 35492,
+              "price": 35473,
               "departureAt": "2026-11-03T12:10:00+09:00",
               "returnAt": "2026-11-04T06:50:00+08:00"
             },
@@ -710,7 +710,7 @@
               "cityName": "Kuala Lumpur",
               "countryName": "Malaysia",
               "origin": "TYO",
-              "price": 51328,
+              "price": 51300,
               "departureAt": "2026-11-06T02:15:00+09:00",
               "returnAt": "2026-11-10T19:15:00+08:00"
             },
@@ -730,7 +730,7 @@
               "cityName": "Kayseri",
               "countryName": "Türkiye",
               "origin": "TYO",
-              "price": 185920,
+              "price": 185818,
               "departureAt": "2026-11-07T08:50:00+09:00",
               "returnAt": "2026-11-11T05:30:00+03:00"
             },
