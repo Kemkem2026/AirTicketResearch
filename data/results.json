@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T12:36:47.392Z",
+  "generatedAt": "2026-10-30T22:09:40.777Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -152,7 +152,7 @@
           "cityName": "Bangkok",
           "countryName": "Thailand",
           "origin": "TYO",
-          "price": 61499,
+          "price": 61595,
           "airline": "FM",
           "alliance": "skyteam",
           "departureAt": "2026-11-03T17:10:00+09:00",
@@ -291,7 +291,7 @@
               "cityName": "Cape Town",
               "countryName": "South Africa",
               "origin": "TYO",
-              "price": 211581,
+              "price": 211912,
               "departureAt": "2026-11-07T21:55:00+09:00",
               "returnAt": "2026-11-15T19:25:00+02:00"
             },
@@ -301,7 +301,7 @@
               "cityName": "Cap Haitien",
               "countryName": "Haiti",
               "origin": "TYO",
-              "price": 252562,
+              "price": 252956,
               "departureAt": "2026-11-03T21:55:00+09:00",
               "returnAt": "2026-11-10T13:28:00-05:00"
             }
@@ -343,7 +343,7 @@
               "cityName": "Nadi",
               "countryName": "Fiji",
               "origin": "TYO",
-              "price": 170147,
+              "price": 170413,
               "departureAt": "2026-11-11T16:30:00+09:00",
               "returnAt": "2026-11-18T23:30:00+13:00"
             }
@@ -377,7 +377,7 @@
               "cityName": "Melbourne",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 103826,
+              "price": 103989,
               "departureAt": "2026-11-12T14:55:00+09:00",
               "returnAt": "2026-11-23T12:35:00+11:00"
             }
@@ -393,7 +393,7 @@
               "cityName": "Bangkok",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 61499,
+              "price": 61595,
               "departureAt": "2026-11-03T17:10:00+09:00",
               "returnAt": "2026-11-10T05:05:00+07:00"
             }
@@ -409,7 +409,7 @@
               "cityName": "Madrid",
               "countryName": "Spain",
               "origin": "TYO",
-              "price": 196426,
+              "price": 196733,
               "departureAt": "2026-11-10T02:00:00+09:00",
               "returnAt": "2026-11-10T21:25:00+01:00"
             }
@@ -505,7 +505,7 @@
               "cityName": "New York",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 130726,
+              "price": 130930,
               "departureAt": "2026-11-04T18:50:00+09:00",
               "returnAt": "2026-11-13T06:55:00-05:00"
             },
@@ -553,13 +553,13 @@
           "groupResults": [
             {
               "group": "Eastern Africa",
-              "destination": "JIJ",
-              "cityName": "Jijiga",
-              "countryName": "Ethiopia",
+              "destination": "MRU",
+              "cityName": "Mauritius",
+              "countryName": "Mauritius",
               "origin": "TYO",
-              "price": 261180,
-              "departureAt": "2026-11-04T20:30:00+09:00",
-              "returnAt": "2026-11-11T17:30:00+03:00"
+              "price": 137232,
+              "departureAt": "2026-11-05T20:30:00+09:00",
+              "returnAt": "2026-11-11T16:20:00+04:00"
             }
           ]
         },
@@ -629,7 +629,7 @@
               "cityName": "Colombo",
               "countryName": "Sri Lanka",
               "origin": "TYO",
-              "price": 95578,
+              "price": 95728,
               "departureAt": "2026-11-11T19:30:00+09:00",
               "returnAt": "2026-11-20T22:25:00+05:30"
             },
@@ -715,7 +715,7 @@
               "cityName": "Perth",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 95377,
+              "price": 95526,
               "departureAt": "2026-11-05T08:50:00+09:00",
               "returnAt": "2026-11-12T17:30:00+08:00"
             },
