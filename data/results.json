@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T22:09:40.777Z",
+  "generatedAt": "2026-10-31T05:09:17.385Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -152,7 +152,7 @@
           "cityName": "Bangkok",
           "countryName": "Thailand",
           "origin": "TYO",
-          "price": 61595,
+          "price": 61608,
           "airline": "FM",
           "alliance": "skyteam",
           "departureAt": "2026-11-03T17:10:00+09:00",
@@ -291,7 +291,7 @@
               "cityName": "Cape Town",
               "countryName": "South Africa",
               "origin": "TYO",
-              "price": 211912,
+              "price": 211956,
               "departureAt": "2026-11-07T21:55:00+09:00",
               "returnAt": "2026-11-15T19:25:00+02:00"
             },
@@ -301,9 +301,25 @@
               "cityName": "Cap Haitien",
               "countryName": "Haiti",
               "origin": "TYO",
-              "price": 252956,
+              "price": 253009,
               "departureAt": "2026-11-03T21:55:00+09:00",
               "returnAt": "2026-11-10T13:28:00-05:00"
+            }
+          ]
+        },
+        {
+          "airline": "UL",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Southern Asia",
+              "destination": "NMF",
+              "cityName": "Maafaru",
+              "countryName": "Maldives",
+              "origin": "TYO",
+              "price": 196082,
+              "departureAt": "2026-11-03T11:20:00+09:00",
+              "returnAt": "2026-11-10T09:15:00+05:00"
             }
           ]
         },
@@ -343,7 +359,7 @@
               "cityName": "Nadi",
               "countryName": "Fiji",
               "origin": "TYO",
-              "price": 170413,
+              "price": 170449,
               "departureAt": "2026-11-11T16:30:00+09:00",
               "returnAt": "2026-11-18T23:30:00+13:00"
             }
@@ -377,7 +393,7 @@
               "cityName": "Melbourne",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 103989,
+              "price": 104011,
               "departureAt": "2026-11-12T14:55:00+09:00",
               "returnAt": "2026-11-23T12:35:00+11:00"
             }
@@ -393,7 +409,7 @@
               "cityName": "Bangkok",
               "countryName": "Thailand",
               "origin": "TYO",
-              "price": 61595,
+              "price": 61608,
               "departureAt": "2026-11-03T17:10:00+09:00",
               "returnAt": "2026-11-10T05:05:00+07:00"
             }
@@ -409,7 +425,7 @@
               "cityName": "Madrid",
               "countryName": "Spain",
               "origin": "TYO",
-              "price": 196733,
+              "price": 196774,
               "departureAt": "2026-11-10T02:00:00+09:00",
               "returnAt": "2026-11-10T21:25:00+01:00"
             }
@@ -505,7 +521,7 @@
               "cityName": "New York",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 130930,
+              "price": 130958,
               "departureAt": "2026-11-04T18:50:00+09:00",
               "returnAt": "2026-11-13T06:55:00-05:00"
             },
@@ -557,7 +573,7 @@
               "cityName": "Mauritius",
               "countryName": "Mauritius",
               "origin": "TYO",
-              "price": 137232,
+              "price": 137260,
               "departureAt": "2026-11-05T20:30:00+09:00",
               "returnAt": "2026-11-11T16:20:00+04:00"
             }
@@ -629,7 +645,7 @@
               "cityName": "Colombo",
               "countryName": "Sri Lanka",
               "origin": "TYO",
-              "price": 95728,
+              "price": 95748,
               "departureAt": "2026-11-11T19:30:00+09:00",
               "returnAt": "2026-11-20T22:25:00+05:30"
             },
@@ -715,7 +731,7 @@
               "cityName": "Perth",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 95526,
+              "price": 95546,
               "departureAt": "2026-11-05T08:50:00+09:00",
               "returnAt": "2026-11-12T17:30:00+08:00"
             },
