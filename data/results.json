@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T15:27:16.582Z",
+  "generatedAt": "2026-11-03T00:50:48.845Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -189,7 +189,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 91738,
+          "price": 91743,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-23T21:00:00+09:00",
@@ -447,13 +447,13 @@
           "groupResults": [
             {
               "group": "Eastern Asia",
-              "destination": "WUH",
-              "cityName": "Wuhan",
+              "destination": "SYX",
+              "cityName": "Sanya",
               "countryName": "China",
               "origin": "TYO",
-              "price": 54272,
-              "departureAt": "2026-11-20T15:30:00+09:00",
-              "returnAt": "2026-11-25T22:55:00+08:00"
+              "price": 59504,
+              "departureAt": "2026-11-17T15:30:00+09:00",
+              "returnAt": "2026-11-21T21:10:00+08:00"
             },
             {
               "group": "Australia and New Zealand",
@@ -543,7 +543,7 @@
               "cityName": "Colombo",
               "countryName": "Sri Lanka",
               "origin": "TYO",
-              "price": 95864,
+              "price": 95870,
               "departureAt": "2026-11-11T19:30:00+09:00",
               "returnAt": "2026-11-20T22:25:00+05:30"
             },
@@ -553,7 +553,7 @@
               "cityName": "Omsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 117895,
+              "price": 117902,
               "departureAt": "2026-11-25T21:00:00+09:00",
               "returnAt": "2026-11-30T10:00:00+06:00"
             }
@@ -713,7 +713,7 @@
               "cityName": "Kathmandu",
               "countryName": "Nepal",
               "origin": "TYO",
-              "price": 157311,
+              "price": 157321,
               "departureAt": "2026-11-03T11:10:00+09:00",
               "returnAt": "2026-11-04T13:45:00+05:45"
             },
