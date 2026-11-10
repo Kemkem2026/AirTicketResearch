@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T14:42:06.102Z",
+  "generatedAt": "2026-11-10T23:05:41.112Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -82,7 +82,7 @@
           "cityName": "Batumi",
           "countryName": "Georgia",
           "origin": "TYO",
-          "price": 183641,
+          "price": 184352,
           "airline": "TR",
           "alliance": "other",
           "departureAt": "2026-11-27T08:50:00+09:00",
@@ -188,7 +188,7 @@
           "cityName": "Batumi",
           "countryName": "Georgia",
           "origin": "TYO",
-          "price": 183641,
+          "price": 184352,
           "airline": "TR",
           "alliance": "other",
           "departureAt": "2026-11-27T08:50:00+09:00",
@@ -290,13 +290,13 @@
           "groupResults": [
             {
               "group": "North America",
-              "destination": "LAX",
-              "cityName": "Los Angeles",
+              "destination": "IND",
+              "cityName": "Indianapolis",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 133588,
-              "departureAt": "2026-11-11T18:00:00+09:00",
-              "returnAt": "2026-11-26T09:30:00-08:00"
+              "price": 253013,
+              "departureAt": "2026-11-15T20:25:00+09:00",
+              "returnAt": "2026-11-30T11:03:00-05:00"
             },
             {
               "group": "South America",
@@ -456,7 +456,7 @@
               "cityName": "Oslo",
               "countryName": "Norway",
               "origin": "TYO",
-              "price": 174054,
+              "price": 174728,
               "departureAt": "2026-11-11T09:45:00+09:00",
               "returnAt": "2026-11-25T06:00:00+01:00"
             }
