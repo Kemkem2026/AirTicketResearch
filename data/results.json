@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T15:53:32.045Z",
+  "generatedAt": "2026-11-10T01:24:39.382Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -54,6 +54,17 @@
           "alliance": "other",
           "departureAt": "2026-11-17T02:15:00+09:00",
           "returnAt": "2026-11-24T12:25:00+03:00"
+        },
+        {
+          "destination": "AYT",
+          "cityName": "Antalya",
+          "countryName": "Türkiye",
+          "origin": "TYO",
+          "price": 172059,
+          "airline": "TR",
+          "alliance": "other",
+          "departureAt": "2026-11-14T08:50:00+09:00",
+          "returnAt": "2026-11-17T11:05:00+03:00"
         },
         {
           "destination": "BAK",
@@ -140,6 +151,17 @@
           "returnAt": "2026-11-24T12:25:00+03:00"
         },
         {
+          "destination": "AYT",
+          "cityName": "Antalya",
+          "countryName": "Türkiye",
+          "origin": "TYO",
+          "price": 172059,
+          "airline": "TR",
+          "alliance": "other",
+          "departureAt": "2026-11-14T08:50:00+09:00",
+          "returnAt": "2026-11-17T11:05:00+03:00"
+        },
+        {
           "destination": "BAK",
           "cityName": "Baku",
           "countryName": "Azerbaijan",
@@ -202,7 +224,7 @@
               "cityName": "Ushuaia",
               "countryName": "Argentina",
               "origin": "TYO",
-              "price": 400769,
+              "price": 400670,
               "departureAt": "2026-11-15T17:10:00+09:00",
               "returnAt": "2026-11-30T20:25:00-03:00"
             }
@@ -412,7 +434,7 @@
               "cityName": "Oslo",
               "countryName": "Norway",
               "origin": "TYO",
-              "price": 173919,
+              "price": 173876,
               "departureAt": "2026-11-11T09:45:00+09:00",
               "returnAt": "2026-11-25T06:00:00+01:00"
             }
@@ -452,7 +474,7 @@
               "cityName": "Kaohsiung",
               "countryName": "Taiwan",
               "origin": "TYO",
-              "price": 45686,
+              "price": 45675,
               "departureAt": "2026-11-27T13:30:00+09:00",
               "returnAt": "2026-11-29T08:05:00+08:00"
             }
@@ -524,7 +546,7 @@
               "cityName": "Melbourne",
               "countryName": "Australia",
               "origin": "TYO",
-              "price": 138918,
+              "price": 138884,
               "departureAt": "2026-11-20T02:15:00+09:00",
               "returnAt": "2026-11-28T07:45:00+11:00"
             },
@@ -573,7 +595,7 @@
           "cityName": "Casablanca",
           "countryName": "Morocco",
           "origin": "TYO",
-          "price": 199208,
+          "price": 199159,
           "departureAt": "2026-11-28T00:25:00+09:00",
           "returnAt": "2026-11-29T10:10:00+01:00"
         }
