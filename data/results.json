@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-15T22:41:49.776Z",
+  "generatedAt": "2026-11-16T05:58:01.059Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -49,7 +49,7 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 146141,
+          "price": 146233,
           "airline": "OD",
           "alliance": "other",
           "departureAt": "2026-11-23T10:25:00+09:00",
@@ -100,26 +100,26 @@
           "returnAt": "2026-11-28T20:00:00+04:00"
         },
         {
-          "destination": "EVN",
-          "cityName": "Yerevan",
-          "countryName": "Armenia",
-          "origin": "TYO",
-          "price": 207329,
-          "airline": "OM",
-          "alliance": "other",
-          "departureAt": "2026-11-17T15:30:00+09:00",
-          "returnAt": "2026-11-27T16:20:00+04:00"
-        },
-        {
           "destination": "BAK",
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 212196,
-          "airline": "7C",
+          "price": 206938,
+          "airline": "CZ",
           "alliance": "other",
-          "departureAt": "2026-11-20T14:00:00+09:00",
-          "returnAt": "2026-11-27T14:35:00+04:00"
+          "departureAt": "2026-11-20T15:40:00+09:00",
+          "returnAt": "2026-11-27T22:45:00+04:00"
+        },
+        {
+          "destination": "EVN",
+          "cityName": "Yerevan",
+          "countryName": "Armenia",
+          "origin": "TYO",
+          "price": 207460,
+          "airline": "OM",
+          "alliance": "other",
+          "departureAt": "2026-11-17T15:30:00+09:00",
+          "returnAt": "2026-11-27T16:20:00+04:00"
         }
       ]
     },
@@ -135,7 +135,19 @@
         "oneworld",
         "skyteam"
       ],
-      "results": []
+      "results": [
+        {
+          "destination": "UTP",
+          "cityName": "Pattaya",
+          "countryName": "Thailand",
+          "origin": "TYO",
+          "price": 218559,
+          "airline": "JL",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-16T20:55:00+09:00",
+          "returnAt": "2026-11-21T13:00:00+07:00"
+        }
+      ]
     },
     {
       "label": "独自グループ:シルクロード方面 x 全連合",
@@ -150,17 +162,6 @@
         "other"
       ],
       "results": [
-        {
-          "destination": "ALA",
-          "cityName": "Almaty",
-          "countryName": "Kazakhstan",
-          "origin": "TYO",
-          "price": 101626,
-          "airline": "CZ",
-          "alliance": "other",
-          "departureAt": "2026-11-17T10:45:00+09:00",
-          "returnAt": "2026-11-24T09:20:00+06:00"
-        },
         {
           "destination": "TAS",
           "cityName": "Tashkent",
@@ -177,7 +178,7 @@
           "cityName": "Bishkek",
           "countryName": "Kyrgyzstan",
           "origin": "TYO",
-          "price": 125264,
+          "price": 125344,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-18T12:50:00+09:00",
@@ -188,7 +189,7 @@
           "cityName": "Istanbul",
           "countryName": "Türkiye",
           "origin": "TYO",
-          "price": 146141,
+          "price": 146233,
           "airline": "OD",
           "alliance": "other",
           "departureAt": "2026-11-23T10:25:00+09:00",
@@ -217,26 +218,37 @@
           "returnAt": "2026-11-19T07:40:00+03:00"
         },
         {
+          "destination": "BAK",
+          "cityName": "Baku",
+          "countryName": "Azerbaijan",
+          "origin": "TYO",
+          "price": 206938,
+          "airline": "CZ",
+          "alliance": "other",
+          "departureAt": "2026-11-20T15:40:00+09:00",
+          "returnAt": "2026-11-27T22:45:00+04:00"
+        },
+        {
           "destination": "EVN",
           "cityName": "Yerevan",
           "countryName": "Armenia",
           "origin": "TYO",
-          "price": 207329,
+          "price": 207460,
           "airline": "OM",
           "alliance": "other",
           "departureAt": "2026-11-17T15:30:00+09:00",
           "returnAt": "2026-11-27T16:20:00+04:00"
         },
         {
-          "destination": "BAK",
-          "cityName": "Baku",
-          "countryName": "Azerbaijan",
+          "destination": "ALA",
+          "cityName": "Almaty",
+          "countryName": "Kazakhstan",
           "origin": "TYO",
-          "price": 212196,
-          "airline": "7C",
+          "price": 253150,
+          "airline": "9C",
           "alliance": "other",
-          "departureAt": "2026-11-20T14:00:00+09:00",
-          "returnAt": "2026-11-27T14:35:00+04:00"
+          "departureAt": "2026-11-21T02:00:00+09:00",
+          "returnAt": "2026-11-21T23:05:00+06:00"
         }
       ]
     }
@@ -268,7 +280,7 @@
               "cityName": "Washington",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 224323,
+              "price": 224464,
               "departureAt": "2026-11-23T21:55:00+09:00",
               "returnAt": "2026-11-26T20:05:00-05:00"
             }
@@ -284,7 +296,7 @@
               "cityName": "Las Vegas",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 161375,
+              "price": 161477,
               "departureAt": "2026-11-21T17:25:00+09:00",
               "returnAt": "2026-11-26T09:30:00-08:00"
             }
@@ -318,7 +330,7 @@
               "cityName": "Vienna",
               "countryName": "Austria",
               "origin": "TYO",
-              "price": 160764,
+              "price": 160866,
               "departureAt": "2026-11-22T20:40:00+09:00",
               "returnAt": "2026-11-30T19:30:00+01:00"
             }
@@ -350,7 +362,7 @@
               "cityName": "Changchun",
               "countryName": "China",
               "origin": "TYO",
-              "price": 84602,
+              "price": 84656,
               "departureAt": "2026-11-17T13:30:00+09:00",
               "returnAt": "2026-11-22T20:30:00+08:00"
             }
@@ -390,7 +402,7 @@
               "cityName": "Omsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 164610,
+              "price": 165411,
               "departureAt": "2026-11-25T19:35:00+09:00",
               "returnAt": "2026-11-30T15:10:00+06:00"
             }
@@ -406,7 +418,7 @@
               "cityName": "Shonai",
               "countryName": "Japan",
               "origin": "TYO",
-              "price": 44770,
+              "price": 44799,
               "departureAt": "2026-11-19T07:10:00+09:00",
               "returnAt": "2026-11-19T14:05:00+09:00"
             }
@@ -449,6 +461,16 @@
           "airlineName": null,
           "groupResults": [
             {
+              "group": "South-Eastern Asia",
+              "destination": "CNX",
+              "cityName": "Chiang Mai",
+              "countryName": "Thailand",
+              "origin": "TYO",
+              "price": 92987,
+              "departureAt": "2026-11-16T18:00:00+09:00",
+              "returnAt": "2026-11-18T23:05:00+07:00"
+            },
+            {
               "group": "Central Asia",
               "destination": "TAS",
               "cityName": "Tashkent",
@@ -485,18 +507,18 @@
           ]
         },
         {
-          "airline": "XJ",
-          "airlineName": "タイ・エアアジアX",
+          "airline": "D7",
+          "airlineName": "エアアジアX",
           "groupResults": [
             {
-              "group": "South-Eastern Asia",
-              "destination": "CNX",
-              "cityName": "Chiang Mai",
-              "countryName": "Thailand",
+              "group": "Southern Asia",
+              "destination": "KTM",
+              "cityName": "Kathmandu",
+              "countryName": "Nepal",
               "origin": "TYO",
-              "price": 61422,
-              "departureAt": "2026-11-16T09:15:00+09:00",
-              "returnAt": "2026-11-18T16:30:00+07:00"
+              "price": 188502,
+              "departureAt": "2026-11-16T23:55:00+09:00",
+              "returnAt": "2026-11-26T13:50:00+05:45"
             }
           ]
         },
@@ -592,6 +614,15 @@
           "price": 199159,
           "departureAt": "2026-11-28T00:25:00+09:00",
           "returnAt": "2026-11-29T10:10:00+01:00"
+        },
+        {
+          "destination": "UTP",
+          "cityName": "Pattaya",
+          "countryName": "Thailand",
+          "origin": "TYO",
+          "price": 218559,
+          "departureAt": "2026-11-16T20:55:00+09:00",
+          "returnAt": "2026-11-21T13:00:00+07:00"
         }
       ]
     },
