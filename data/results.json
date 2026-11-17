@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T15:33:12.111Z",
+  "generatedAt": "2026-11-17T01:48:32.946Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -93,7 +93,7 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 206607,
+          "price": 206622,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-20T15:40:00+09:00",
@@ -140,6 +140,17 @@
       ],
       "results": [
         {
+          "destination": "BSZ",
+          "cityName": "Bishkek",
+          "countryName": "Kyrgyzstan",
+          "origin": "TYO",
+          "price": 97739,
+          "airline": "CZ",
+          "alliance": "other",
+          "departureAt": "2026-11-27T13:20:00+09:00",
+          "returnAt": "2026-11-30T09:50:00+06:00"
+        },
+        {
           "destination": "TAS",
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
@@ -149,17 +160,6 @@
           "alliance": "staralliance",
           "departureAt": "2026-11-18T21:00:00+09:00",
           "returnAt": "2026-11-26T21:10:00+05:00"
-        },
-        {
-          "destination": "BSZ",
-          "cityName": "Bishkek",
-          "countryName": "Kyrgyzstan",
-          "origin": "TYO",
-          "price": 125344,
-          "airline": "CZ",
-          "alliance": "other",
-          "departureAt": "2026-11-18T12:50:00+09:00",
-          "returnAt": "2026-11-28T23:55:00+06:00"
         },
         {
           "destination": "IST",
@@ -188,7 +188,7 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 206607,
+          "price": 206622,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-20T15:40:00+09:00",
@@ -255,6 +255,16 @@
               "price": 224464,
               "departureAt": "2026-11-23T21:55:00+09:00",
               "returnAt": "2026-11-26T20:05:00-05:00"
+            },
+            {
+              "group": "Eastern Africa",
+              "destination": "ZNZ",
+              "cityName": "Zanzibar",
+              "countryName": "Tanzania",
+              "origin": "TYO",
+              "price": 273280,
+              "departureAt": "2026-11-17T16:55:00+09:00",
+              "returnAt": "2026-11-22T18:40:00+03:00"
             }
           ]
         }
@@ -286,6 +296,16 @@
           "airline": "KE",
           "airlineName": null,
           "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "BJS",
+              "cityName": "Beijing",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 67733,
+              "departureAt": "2026-11-18T14:00:00+09:00",
+              "returnAt": "2026-11-19T11:00:00+08:00"
+            },
             {
               "group": "North America",
               "destination": "HNL",
@@ -384,7 +404,7 @@
               "cityName": "Pohnpei",
               "countryName": "Micronesia",
               "origin": "TYO",
-              "price": 169828,
+              "price": 169840,
               "departureAt": "2026-11-22T11:00:00+09:00",
               "returnAt": "2026-11-30T00:45:00+11:00"
             }
@@ -448,7 +468,7 @@
               "cityName": "Omsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 165147,
+              "price": 165158,
               "departureAt": "2026-11-25T19:35:00+09:00",
               "returnAt": "2026-11-30T15:10:00+06:00"
             }
@@ -551,6 +571,16 @@
               "price": 176401,
               "departureAt": "2026-11-23T08:50:00+09:00",
               "returnAt": "2026-11-30T16:40:00+02:00"
+            },
+            {
+              "group": "Eastern Europe",
+              "destination": "SGC",
+              "cityName": "Surgut",
+              "countryName": "Russia",
+              "origin": "TYO",
+              "price": 195379,
+              "departureAt": "2026-11-22T08:50:00+09:00",
+              "returnAt": "2026-11-24T06:20:00+05:00"
             }
           ]
         }
