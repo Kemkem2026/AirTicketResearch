@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T15:49:27.435Z",
+  "generatedAt": "2026-11-18T00:51:24.137Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -60,7 +60,7 @@
           "cityName": "Sharjah",
           "countryName": "United Arab Emirates",
           "origin": "TYO",
-          "price": 160274,
+          "price": 160339,
           "airline": "TR",
           "alliance": "other",
           "departureAt": "2026-11-26T08:50:00+09:00",
@@ -71,7 +71,7 @@
           "cityName": "Dubai",
           "countryName": "United Arab Emirates",
           "origin": "TYO",
-          "price": 175515,
+          "price": 175586,
           "airline": "PR",
           "alliance": "other",
           "departureAt": "2026-11-27T01:35:00+09:00",
@@ -122,7 +122,7 @@
           "cityName": "Bishkek",
           "countryName": "Kyrgyzstan",
           "origin": "TYO",
-          "price": 97636,
+          "price": 97675,
           "airline": "CZ",
           "alliance": "other",
           "departureAt": "2026-11-27T13:20:00+09:00",
@@ -133,7 +133,7 @@
           "cityName": "Tashkent",
           "countryName": "Uzbekistan",
           "origin": "TYO",
-          "price": 108468,
+          "price": 112108,
           "airline": "CA",
           "alliance": "staralliance",
           "departureAt": "2026-11-20T21:00:00+09:00",
@@ -220,13 +220,13 @@
           "groupResults": [
             {
               "group": "North America",
-              "destination": "NYC",
-              "cityName": "New York",
+              "destination": "SAN",
+              "cityName": "San Diego",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 183644,
-              "departureAt": "2026-11-18T17:10:00+09:00",
-              "returnAt": "2026-11-28T23:15:00-05:00"
+              "price": 160640,
+              "departureAt": "2026-11-20T20:25:00+09:00",
+              "returnAt": "2026-11-28T18:51:00-08:00"
             }
           ]
         }
@@ -251,6 +251,22 @@
               "price": 157683,
               "departureAt": "2026-11-18T19:30:00+09:00",
               "returnAt": "2026-11-25T18:10:00+09:00"
+            }
+          ]
+        },
+        {
+          "airline": "KL",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Western Europe",
+              "destination": "AMS",
+              "cityName": "Amsterdam",
+              "countryName": "Netherlands",
+              "origin": "TYO",
+              "price": 517109,
+              "departureAt": "2026-11-18T13:35:00+09:00",
+              "returnAt": "2026-11-18T21:50:00+01:00"
             }
           ]
         },
@@ -367,6 +383,16 @@
           "airlineName": null,
           "groupResults": [
             {
+              "group": "South-Eastern Asia",
+              "destination": "NHA",
+              "cityName": "Nha Trang",
+              "countryName": "Vietnam",
+              "origin": "TYO",
+              "price": 106757,
+              "departureAt": "2026-11-18T13:20:00+09:00",
+              "returnAt": "2026-11-19T23:05:00+07:00"
+            },
+            {
               "group": "Eastern Europe",
               "destination": "OMS",
               "cityName": "Omsk",
@@ -388,7 +414,7 @@
               "cityName": "Tashkent",
               "countryName": "Uzbekistan",
               "origin": "TYO",
-              "price": 108468,
+              "price": 112108,
               "departureAt": "2026-11-20T21:00:00+09:00",
               "returnAt": "2026-11-24T21:10:00+05:00"
             }
@@ -456,13 +482,13 @@
           "groupResults": [
             {
               "group": "South-Eastern Asia",
-              "destination": "KUL",
-              "cityName": "Kuala Lumpur",
-              "countryName": "Malaysia",
+              "destination": "DPS",
+              "cityName": "Denpasar (Bali)",
+              "countryName": "Indonesia",
               "origin": "TYO",
-              "price": 62291,
-              "departureAt": "2026-11-18T08:50:00+09:00",
-              "returnAt": "2026-11-22T14:45:00+08:00"
+              "price": 69473,
+              "departureAt": "2026-11-25T02:15:00+09:00",
+              "returnAt": "2026-11-30T20:00:00+08:00"
             },
             {
               "group": "Southern Asia",
@@ -500,7 +526,7 @@
               "cityName": "Sharjah",
               "countryName": "United Arab Emirates",
               "origin": "TYO",
-              "price": 160274,
+              "price": 160339,
               "departureAt": "2026-11-26T08:50:00+09:00",
               "returnAt": "2026-11-27T23:55:00+04:00"
             },
