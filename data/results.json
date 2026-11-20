@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T15:35:24.266Z",
+  "generatedAt": "2026-11-20T00:31:14.702Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -82,7 +82,7 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 200379,
+          "price": 200054,
           "airline": "QR",
           "alliance": "oneworld",
           "departureAt": "2026-11-20T21:55:00+09:00",
@@ -166,7 +166,7 @@
           "cityName": "Baku",
           "countryName": "Azerbaijan",
           "origin": "TYO",
-          "price": 200379,
+          "price": 200054,
           "airline": "QR",
           "alliance": "oneworld",
           "departureAt": "2026-11-20T21:55:00+09:00",
@@ -234,7 +234,7 @@
               "cityName": "Baku",
               "countryName": "Azerbaijan",
               "origin": "TYO",
-              "price": 200379,
+              "price": 200054,
               "departureAt": "2026-11-20T21:55:00+09:00",
               "returnAt": "2026-11-27T14:35:00+04:00"
             },
@@ -259,6 +259,22 @@
       "groupBy": "subregion",
       "airlines": [
         {
+          "airline": "FM",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "HRB",
+              "cityName": "Harbin",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 70874,
+              "departureAt": "2026-11-20T17:10:00+09:00",
+              "returnAt": "2026-11-30T09:55:00+08:00"
+            }
+          ]
+        },
+        {
           "airline": "MF",
           "airlineName": null,
           "groupResults": [
@@ -271,6 +287,16 @@
               "price": 74393,
               "departureAt": "2026-11-23T15:30:00+09:00",
               "returnAt": "2026-11-27T17:30:00+08:00"
+            },
+            {
+              "group": "Australia and New Zealand",
+              "destination": "MEL",
+              "cityName": "Melbourne",
+              "countryName": "Australia",
+              "origin": "TYO",
+              "price": 145391,
+              "departureAt": "2026-11-20T14:55:00+09:00",
+              "returnAt": "2026-11-27T12:35:00+11:00"
             }
           ]
         },
@@ -408,7 +434,7 @@
               "cityName": "Omsk",
               "countryName": "Russia",
               "origin": "TYO",
-              "price": 170326,
+              "price": 170050,
               "departureAt": "2026-11-25T21:00:00+09:00",
               "returnAt": "2026-11-30T10:00:00+06:00"
             }
@@ -469,22 +495,12 @@
               "returnAt": "2026-11-30T20:00:00+08:00"
             },
             {
-              "group": "Australia and New Zealand",
-              "destination": "MEL",
-              "cityName": "Melbourne",
-              "countryName": "Australia",
-              "origin": "TYO",
-              "price": 140431,
-              "departureAt": "2026-11-20T02:15:00+09:00",
-              "returnAt": "2026-11-27T22:35:00+11:00"
-            },
-            {
               "group": "Southern Europe",
               "destination": "LCA",
               "cityName": "Larnaca",
               "countryName": "Cyprus",
               "origin": "TYO",
-              "price": 149266,
+              "price": 149024,
               "departureAt": "2026-11-26T08:50:00+09:00",
               "returnAt": "2026-11-30T18:20:00+02:00"
             },
