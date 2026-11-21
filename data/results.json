@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T06:46:07.281Z",
+  "generatedAt": "2026-11-21T18:59:42.535Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -166,23 +166,13 @@
           "groupResults": [
             {
               "group": "North America",
-              "destination": "LGB",
-              "cityName": "Long Beach",
-              "countryName": "United States",
+              "destination": "MEX",
+              "cityName": "Mexico City",
+              "countryName": "Mexico",
               "origin": "TYO",
-              "price": 230826,
-              "departureAt": "2026-11-21T21:20:00+09:00",
-              "returnAt": "2026-11-28T09:30:00-08:00"
-            },
-            {
-              "group": "Polynesia",
-              "destination": "BOB",
-              "cityName": "Bora Bora",
-              "countryName": "French Polynesia",
-              "origin": "TYO",
-              "price": 403457,
-              "departureAt": "2026-11-21T20:05:00+09:00",
-              "returnAt": "2026-11-28T13:05:00-10:00"
+              "price": 255861,
+              "departureAt": "2026-11-22T21:20:00+09:00",
+              "returnAt": "2026-11-30T08:00:00-06:00"
             }
           ]
         },
@@ -230,6 +220,16 @@
           "airline": "KE",
           "airlineName": null,
           "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "BJS",
+              "cityName": "Beijing",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 69201,
+              "departureAt": "2026-11-24T20:40:00+09:00",
+              "returnAt": "2026-11-26T10:40:00+08:00"
+            },
             {
               "group": "Central Europe",
               "destination": "VIE",
@@ -320,29 +320,13 @@
           "groupResults": [
             {
               "group": "North America",
-              "destination": "BWI",
-              "cityName": "Baltimore",
+              "destination": "NYC",
+              "cityName": "New York",
               "countryName": "United States",
               "origin": "TYO",
-              "price": 233617,
-              "departureAt": "2026-11-23T18:45:00+09:00",
-              "returnAt": "2026-11-26T11:10:00-05:00"
-            }
-          ]
-        },
-        {
-          "airline": "BR",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "North America",
-              "destination": "LAX",
-              "cityName": "Los Angeles",
-              "countryName": "United States",
-              "origin": "TYO",
-              "price": 199544,
-              "departureAt": "2026-11-21T20:20:00+09:00",
-              "returnAt": "2026-11-28T23:59:00-08:00"
+              "price": 158213,
+              "departureAt": "2026-11-24T18:15:00+09:00",
+              "returnAt": "2026-11-30T15:30:00-05:00"
             }
           ]
         }
