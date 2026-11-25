@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T22:14:50.025Z",
+  "generatedAt": "2026-11-25T08:03:14.223Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -128,22 +128,6 @@
           ]
         },
         {
-          "airline": "MF",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "CAN",
-              "cityName": "Guangzhou",
-              "countryName": "China",
-              "origin": "TYO",
-              "price": 80861,
-              "departureAt": "2026-11-27T15:30:00+09:00",
-              "returnAt": "2026-11-29T16:25:00+08:00"
-            }
-          ]
-        },
-        {
           "airline": "KE",
           "airlineName": null,
           "groupResults": [
@@ -156,6 +140,22 @@
               "price": 69201,
               "departureAt": "2026-11-25T20:40:00+09:00",
               "returnAt": "2026-11-27T18:55:00+08:00"
+            }
+          ]
+        },
+        {
+          "airline": "MF",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "CAN",
+              "cityName": "Guangzhou",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 80861,
+              "departureAt": "2026-11-27T15:30:00+09:00",
+              "returnAt": "2026-11-29T16:25:00+08:00"
             }
           ]
         }
