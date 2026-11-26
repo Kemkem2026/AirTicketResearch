@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T21:30:32.219Z",
+  "generatedAt": "2026-11-26T07:54:12.433Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -27,7 +27,19 @@
       "alliances": [
         "oneworld"
       ],
-      "results": []
+      "results": [
+        {
+          "destination": "LCA",
+          "cityName": "Larnaca",
+          "countryName": "Cyprus",
+          "origin": "TYO",
+          "price": 205431,
+          "airline": "QR",
+          "alliance": "oneworld",
+          "departureAt": "2026-11-26T16:55:00+09:00",
+          "returnAt": "2026-11-30T12:30:00+02:00"
+        }
+      ]
     },
     {
       "label": "西アジア(中東)x 全連合",
@@ -92,7 +104,24 @@
       "mode": "alliance",
       "alliance": "oneworld",
       "groupBy": "subregion",
-      "airlines": []
+      "airlines": [
+        {
+          "airline": "QR",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Southern Europe",
+              "destination": "LCA",
+              "cityName": "Larnaca",
+              "countryName": "Cyprus",
+              "origin": "TYO",
+              "price": 205431,
+              "departureAt": "2026-11-26T16:55:00+09:00",
+              "returnAt": "2026-11-30T12:30:00+02:00"
+            }
+          ]
+        }
+      ]
     },
     {
       "label": "SkyTeam加盟の海外航空会社(往復)",
@@ -100,6 +129,22 @@
       "alliance": "skyteam",
       "groupBy": "subregion",
       "airlines": [
+        {
+          "airline": "MF",
+          "airlineName": null,
+          "groupResults": [
+            {
+              "group": "Eastern Asia",
+              "destination": "CAN",
+              "cityName": "Guangzhou",
+              "countryName": "China",
+              "origin": "TYO",
+              "price": 80861,
+              "departureAt": "2026-11-27T15:30:00+09:00",
+              "returnAt": "2026-11-29T16:25:00+08:00"
+            }
+          ]
+        },
         {
           "airline": "FM",
           "airlineName": null,
@@ -131,22 +176,6 @@
               "returnAt": "2026-11-28T10:40:00+08:00"
             }
           ]
-        },
-        {
-          "airline": "MF",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "CAN",
-              "cityName": "Guangzhou",
-              "countryName": "China",
-              "origin": "TYO",
-              "price": 80861,
-              "departureAt": "2026-11-27T15:30:00+09:00",
-              "returnAt": "2026-11-29T16:25:00+08:00"
-            }
-          ]
         }
       ]
     },
@@ -162,40 +191,7 @@
       "mode": "airlines",
       "alliance": null,
       "groupBy": "subregion",
-      "airlines": [
-        {
-          "airline": "3U",
-          "airlineName": "四川航空",
-          "groupResults": [
-            {
-              "group": "Eastern Europe",
-              "destination": "LED",
-              "cityName": "Saint Petersburg",
-              "countryName": "Russia",
-              "origin": "TYO",
-              "price": 186610,
-              "departureAt": "2026-11-26T16:40:00+09:00",
-              "returnAt": "2026-11-28T22:30:00+03:00"
-            }
-          ]
-        },
-        {
-          "airline": "TR",
-          "airlineName": "スクート",
-          "groupResults": [
-            {
-              "group": "Southern Europe",
-              "destination": "LCA",
-              "cityName": "Larnaca",
-              "countryName": "Cyprus",
-              "origin": "TYO",
-              "price": 143612,
-              "departureAt": "2026-11-26T08:50:00+09:00",
-              "returnAt": "2026-11-30T18:20:00+02:00"
-            }
-          ]
-        }
-      ]
+      "airlines": []
     }
   ],
   "homeCarrierScopes": [
