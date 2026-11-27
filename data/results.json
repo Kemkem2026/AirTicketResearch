@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T21:18:00.739Z",
+  "generatedAt": "2026-11-27T07:54:35.214Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -71,19 +71,7 @@
         "staralliance",
         "other"
       ],
-      "results": [
-        {
-          "destination": "TAS",
-          "cityName": "Tashkent",
-          "countryName": "Uzbekistan",
-          "origin": "TYO",
-          "price": 299320,
-          "airline": "HY",
-          "alliance": "other",
-          "departureAt": "2026-11-27T11:05:00+09:00",
-          "returnAt": "2026-11-27T22:30:00+05:00"
-        }
-      ]
+      "results": []
     }
   ],
   "carrierScopes": [
@@ -99,25 +87,32 @@
       "mode": "alliance",
       "alliance": "skyteam",
       "groupBy": "subregion",
+      "airlines": []
+    },
+    {
+      "label": "Star Alliance加盟の海外航空会社(往復)",
+      "mode": "alliance",
+      "alliance": "staralliance",
+      "groupBy": "subregion",
       "airlines": [
         {
-          "airline": "MF",
+          "airline": "UA",
           "airlineName": null,
           "groupResults": [
             {
               "group": "Eastern Asia",
-              "destination": "CAN",
-              "cityName": "Guangzhou",
-              "countryName": "China",
+              "destination": "KHH",
+              "cityName": "Kaohsiung",
+              "countryName": "Taiwan",
               "origin": "TYO",
-              "price": 80861,
-              "departureAt": "2026-11-27T15:30:00+09:00",
-              "returnAt": "2026-11-29T16:25:00+08:00"
+              "price": 66313,
+              "departureAt": "2026-11-27T17:55:00+09:00",
+              "returnAt": "2026-11-29T11:30:00+08:00"
             }
           ]
         },
         {
-          "airline": "FM",
+          "airline": "ZH",
           "airlineName": null,
           "groupResults": [
             {
@@ -126,20 +121,13 @@
               "cityName": "Shenzhen",
               "countryName": "China",
               "origin": "TYO",
-              "price": 86541,
-              "departureAt": "2026-11-27T13:30:00+09:00",
-              "returnAt": "2026-11-29T23:05:00+08:00"
+              "price": 158344,
+              "departureAt": "2026-11-27T19:00:00+09:00",
+              "returnAt": "2026-11-29T12:40:00+08:00"
             }
           ]
         }
       ]
-    },
-    {
-      "label": "Star Alliance加盟の海外航空会社(往復)",
-      "mode": "alliance",
-      "alliance": "staralliance",
-      "groupBy": "subregion",
-      "airlines": []
     },
     {
       "label": "独立系・LCC等(エミレーツ/中国系/AirAsia系/スクート)",
