@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-27T07:54:35.214Z",
+  "generatedAt": "2026-11-27T20:59:22.345Z",
   "currency": "jpy",
   "origins": [
     "TYO"
@@ -71,7 +71,19 @@
         "staralliance",
         "other"
       ],
-      "results": []
+      "results": [
+        {
+          "destination": "TAS",
+          "cityName": "Tashkent",
+          "countryName": "Uzbekistan",
+          "origin": "TYO",
+          "price": 211568,
+          "airline": "MM",
+          "alliance": "other",
+          "departureAt": "2026-11-30T01:55:00+09:00",
+          "returnAt": "2026-11-30T22:00:00+05:00"
+        }
+      ]
     }
   ],
   "carrierScopes": [
@@ -94,40 +106,7 @@
       "mode": "alliance",
       "alliance": "staralliance",
       "groupBy": "subregion",
-      "airlines": [
-        {
-          "airline": "UA",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "KHH",
-              "cityName": "Kaohsiung",
-              "countryName": "Taiwan",
-              "origin": "TYO",
-              "price": 66313,
-              "departureAt": "2026-11-27T17:55:00+09:00",
-              "returnAt": "2026-11-29T11:30:00+08:00"
-            }
-          ]
-        },
-        {
-          "airline": "ZH",
-          "airlineName": null,
-          "groupResults": [
-            {
-              "group": "Eastern Asia",
-              "destination": "SZX",
-              "cityName": "Shenzhen",
-              "countryName": "China",
-              "origin": "TYO",
-              "price": 158344,
-              "departureAt": "2026-11-27T19:00:00+09:00",
-              "returnAt": "2026-11-29T12:40:00+08:00"
-            }
-          ]
-        }
-      ]
+      "airlines": []
     },
     {
       "label": "独立系・LCC等(エミレーツ/中国系/AirAsia系/スクート)",
